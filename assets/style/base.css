@@ -1,6 +1,41 @@
 /* Header */
 
+header {
+	text-align: center;
+}
+main {
+	text-align: center;
+}
+.major-title {
+	padding: 2% 0 1% 0;
+	margin: 4% 0 4% 0;
+	border-bottom: 1px black solid;
+}
+.minor-title {
+	padding: 0 0 4% 0;
+	margin: 0 0 0 0;
+	border-bottom: 1px black solid;
+	text-align:left;
+}
+#recipe-title.major-title {
+	margin-bottom: 0;
+}
+#recipe-z.minor-title {
+	border-bottom: 0;
+}
 
+.ingredient-input {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.about_photo img{
+	border: 1px solid black;
+	height: auto;		/*photo will auto adjust height based on image width*/
+	max-width: 100%;
+}
+
+/* Header - Hamburger button */
 	#header {
 		padding: 8em 0 0.1em 0 ;
 	}
@@ -307,3 +342,4 @@ body.is-menu-visible #menu {
     transform: scale(1.0) rotate(0deg);
     opacity: 1;
   }
+
