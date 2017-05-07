@@ -5,22 +5,35 @@
         <meta charset="utf-8" />
 
         <!-- Bootstrap -->
-        <script src="assets/jquery/jquery-3.2.1.min.js"></script>
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <script src="assets/bootstrap/js/bootstrap.js"></script>
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/style/base.css" />
     </head>
 
     <body>
+      <div id="wrapper">
         <!-- Header -->
-        <header>
-
+        <header id="header">
+            <div class="inner">
+                <nav>
+                  <ul>
+                    <li><a href="#menu">Menu</a></li>
+                  </ul>
+                </nav>
+            </div>
         </header>
 
         <!-- Navigation Bar -->
-        <nav>
+        <nav id="menu">
+            <div class="row">
+              <h2>Menu</h2>
+  						<ul>
+  							<li><a href="index.html">Home</a></li>
+  							<li><a href="recipes.html">Recipes</a></li>
+  							<li><a href="about.html">Tempus etiam</a></li>
+  						</ul>
+            </div>
 
         </nav>
 
@@ -28,5 +41,12 @@
         <footer>
 
         </footer>
+      </div>
+
+      <!-- Scripts -->
+			<script src="assets/js/base.js"></script>
+      <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+      <script src="assets/bootstrap/js/bootstrap.js"></script>
+
     </body>
 </html>
