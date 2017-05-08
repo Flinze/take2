@@ -1,3 +1,7 @@
+<head>
+  <link rel="stylesheet" href="assets/style/nav.css" />
+</head>
+
 <!-- Header -->
 <header class="col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4" id="header">
   <div class="inner">
