@@ -18,14 +18,7 @@
 		<div id="wrapper" class="container">
 
 			<!-- Header -->
-			<header class="col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4">
-				placeholder logo
-			</header>
-
-			<!-- Navigation Bar -->
-			<nav class="col-1 col-offset-11">
-
-			</nav>
+      <?php include('header.php') ?>
 
 			<!-- Main Content -->
 			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
@@ -55,9 +48,8 @@
 			</main>
 
 			<!-- Footer -->
-			<footer>
+      <?php include('footer.php'); ?>
 
-			</footer>
 		</div>
     </body>
 </html>
