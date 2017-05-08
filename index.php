@@ -16,33 +16,8 @@
 		<!-- Wrapper -->
 		<div id="wrapper" class="container">
 
-			<!-- Header -->
-			<header class="col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4" id="header">
-        <div class="inner">
-          <!-- Logo -->
-				    placeholder logo
-
-          <!-- Nav -->
-            <nav>
-              <ul>
-                <li><a href="#menu">Menu</a></li>
-              </ul>
-            </nav>
-        </div>
-			</header>
-
-			<!-- Navigation Bar -->
-			<nav class="col-1 col-offset-11">
-        <nav id="menu">
-          <h2>Menu</h2>
-        	  <ul>
-        			<li><a href="index.html">Home</a></li>
-        			<li><a href="recipes.html">Recipes</a></li>
-        			<li><a href="about.html">About</a></li>
-              <li><a href="affiliated-apps.html">Affiliated Apps</a></li>
-        		</ul>
-         </nav>
-			</nav>
+      <!-- Header and Navigation Bar -->
+      <?php include('header.php'); ?>
 
 			<!-- Main Content -->
 			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
@@ -84,9 +59,8 @@
 			</main>
 
 			<!-- Footer -->
-			<footer>
+      <?php include('footer.php'); ?>
 
-			</footer>
 		</div>
 
       <!-- Scripts -->
