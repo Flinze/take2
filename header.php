@@ -1,15 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="en">
-<head>
   <link rel="stylesheet" href="assets/style/nav.css">
   <meta charset="utf-8">
-
+  <title>-</title>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/style/base.css" />
-</head>
+
 
 <!-- Header -->
 <header class="col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4" id="header">

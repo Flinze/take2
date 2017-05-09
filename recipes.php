@@ -1,25 +1,14 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <title>Take2 - Recipes</title>
-        <meta charset="utf-8" />
+  <head>
+    <title>Take2 - Recipes</title>
+    <meta charset="utf-8" />
 
-        <!-- Bootstrap -->
-        <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/style/recipes.css"/>
+  </head>
 
-        <!-- Alpha Scrollbar -->
-        <script src="assets/js/recipes.scrollbar.js"></script>
-
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="assets/style/base.css" />
-        <link rel="stylesheet" href="assets/style/recipes.css"/>
-
-    </head>
-
-    <body>
+  <body>
 		<!-- Wrapper -->
 		<div id="wrapper" class="container">
 
@@ -149,6 +138,9 @@
 			<!-- Footer -->
       <?php include('footer.php'); ?>
 
+      <!-- Alpha Scrollbar Script -->
+      <script src="assets/js/recipes.scrollbar.js"></script>
+
 		</div>
-    </body>
+  </body>
 </html>
