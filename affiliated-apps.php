@@ -8,7 +8,7 @@
   <body>
 		<!-- Wrapper -->
 		<div id="wrapper" class="container-fluid">
-        
+
   			<!-- Header -->
         <?php include('header.php') ?>
 
@@ -18,14 +18,9 @@
         <!-- Main Content -->
         <main class="col-xs-12 col-lg-8 col-lg-offset-2">
 
-  				<div class="major-title">
-  					Affiliated Apps
-  				</div>
-
-
-      				<div class="major-title">
-      					Affiliated Apps <i class="fa fa-addresscard"></i>
-      				</div>
+      			<div class="major-title">
+      				Affiliated Apps <i class="fa fa-addresscard"></i>
+      			</div>
 
               <!-- Affiliated apps content -->
               <div class="row">
@@ -41,8 +36,6 @@
 
                 </div>
               </div>
-            </div>
-          </div>
 
           <div class="row">
             <div class="col-xs-8 col-xs-offset-2">
@@ -76,6 +69,5 @@
 
 
       </div>
-		</div>
   </body>
 </html>
