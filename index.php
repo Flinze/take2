@@ -1,29 +1,22 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Take2 - Home</title>
-        <meta charset="utf-8" />
-
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-
-        <!-- Cute Icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="assets/style/base.css" />
-    </head>
-
-    <body>
-
+  <head>
+    <meta charset="utf-8">
+    <title>Take2 - Home</title>
+  </head>
+  
+  <body>
 		<!-- Wrapper -->
-		<div id="wrapper" class="container">
+		<div id="wrapper" class="container-fluid">
 
+      <!-- Cute Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
       <!-- Header and Navigation Bar -->
       <?php include('header.php'); ?>
 
 			<!-- Main Content -->
-			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
+			<main class="col-xs-12 col-lg-8 col-lg-offset-2">
 
 				<!-- Ingredient header-->
 				<div class="major-title">
@@ -64,7 +57,6 @@
 			<!-- Footer -->
       <?php include('footer.php'); ?>
 
-		</div>
-
-    </body>
+    </div>
+  </body>
 </html>
