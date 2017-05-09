@@ -2,6 +2,15 @@
 
 header {
 	text-align: center;
+	background-color: #96e2d3;
+	border-top: 0.2em solid #4abdac;
+	border-bottom: 0.2em solid #4abdac;
+	height: 0.3em;
+}
+#header {
+	padding:0;
+	margin:0;
+	width: 100%;
 }
 main {
 	text-align: center;
@@ -10,12 +19,19 @@ main {
 	padding: 2% 0 1% 0;
 	margin: 4% 0 4% 0;
 	border-bottom: 1px black solid;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-weight: bold;
+	font-size: 2em;
 }
 .minor-title {
 	padding: 0 0 4% 0;
 	margin: 0 0 0 0;
 	border-bottom: 1px black solid;
 	text-align:left;
+}
+.logo{
+	margin: 0;
+	padding: 0;
 }
 #recipe-title.major-title {
 	margin-bottom: 0;

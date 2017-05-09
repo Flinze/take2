@@ -7,6 +7,9 @@
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
+        <!-- Cute Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/style/base.css" />
     </head>
@@ -24,7 +27,7 @@
 
 				<!-- Ingredient header-->
 				<div class="major-title">
-					Ingredients
+					Ingredients<i class="fa fa-cutlery">
 				</div>
 
 					<!-- Ingredient input -->
@@ -53,7 +56,7 @@
 
 				<!-- Dishes Header -->
 				<div class="major-title">
-					Dishes
+					Dishes <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
 				</div>
 
 			</main>

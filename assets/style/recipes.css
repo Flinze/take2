@@ -5,7 +5,9 @@ body, html, .main{
 
 #scollbar_list {
 list-style-type:none;
-float: right;
+position:fixed;
+top: 100px;
+right:20px;
 }
 
 #scollbar_list li a{
