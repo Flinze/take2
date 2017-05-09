@@ -3,14 +3,21 @@
 header {
 	text-align: center;
 	background-color: #96e2d3;
+	width:100%;
 	border-top: 0.2em solid #4abdac;
 	border-bottom: 0.2em solid #4abdac;
-	height: 0.3em;
+	overflow:visible;
 }
 #header {
 	padding:0;
 	margin:0;
 	width: 100%;
+}
+.inner {
+	display:inline;
+}
+#take2-logo{
+	padding: 0.5em 0;
 }
 main {
 	text-align: center;

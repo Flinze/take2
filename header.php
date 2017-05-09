@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Header -->
-<header class="col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4" id="header">
-  <div class="inner">
+<header class="container" id="header">
+  <div class="inner col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4">
     <!-- Logo -->
-    <div class="logo">
+    <div id="take2-logo">
       <img src="img/take2-logo-s.png" alt="Take2 Logo">
     </div>
 

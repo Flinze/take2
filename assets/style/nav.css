@@ -1,6 +1,6 @@
 /* Header - Hamburger button */
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		/*padding: 8em 0 0.1em 0 ;*/
 	}
 
 		#header .logo {
@@ -16,7 +16,7 @@
 		}
 
 			#header .logo > * {
-				display: inline-block;
+				display: inline;
 				vertical-align: middle;
 			}
 
@@ -272,36 +272,36 @@
       }
 
         #menu > .close:before, #menu > .close:after {
-          background-size: 1.5em 1.5em;
+			background-size: 1.5em 1.5em;
         }
 
   }
 
 body.is-menu-visible #wrapper {
-  -moz-pointer-events: none;
-  -webkit-pointer-events: none;
-  -ms-pointer-events: none;
-  pointer-events: none;
-  cursor: default;
-  opacity: 0.25;
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	cursor: default;
+	opacity: 0.25;
 }
 
 body.is-menu-visible #menu {
-  -moz-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-  visibility: visible;
+	-moz-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+	visibility: visible;
 }
 
-  body.is-menu-visible #menu > * {
-    opacity: 1;
-  }
+body.is-menu-visible #menu > * {
+	opacity: 1;
+}
 
-  body.is-menu-visible #menu .close {
-    -moz-transform: scale(1.0) rotate(0deg);
-    -webkit-transform: scale(1.0) rotate(0deg);
-    -ms-transform: scale(1.0) rotate(0deg);
-    transform: scale(1.0) rotate(0deg);
-    opacity: 1;
-  }
+body.is-menu-visible #menu .close {
+	-moz-transform: scale(1.0) rotate(0deg);
+	-webkit-transform: scale(1.0) rotate(0deg);
+	-ms-transform: scale(1.0) rotate(0deg);
+	transform: scale(1.0) rotate(0deg);
+	opacity: 1;
+}

@@ -17,7 +17,7 @@
 
 				<!-- Ingredient header-->
 				<div class="major-title">
-					Ingredients
+					Ingredients <i class="fa fa-shopping-basket"></i>
 				</div>
 
 					<!-- Ingredient input -->
@@ -46,7 +46,7 @@
 
 				<!-- Dishes Header -->
 				<div class="major-title">
-					Dishes <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					Dishes <i class="fa fa-cutlery"></i>
 				</div>
 
 			</main>
