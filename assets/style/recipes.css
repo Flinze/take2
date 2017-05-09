@@ -1,0 +1,13 @@
+/* scrollbar*/
+body, html, .main{
+    height: auto;
+}
+
+#scollbar_list {
+list-style-type:none;
+float: right;
+}
+
+#scollbar_list li a{
+text-decoration:none;
+}

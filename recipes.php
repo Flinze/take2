@@ -9,8 +9,14 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <script src="assets/bootstrap/js/bootstrap.js"></script>
 
+        <!-- Alpha Scrollbar -->
+        <script src="assets/js/recipes.scrollbar.js"></script>
+
+
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/style/base.css" />
+        <link rel="stylesheet" href="assets/style/recipes.css"/>
+
     </head>
 
     <body>
@@ -19,6 +25,38 @@
 
 			<!-- Header -->
       <?php include('header.php') ?>
+
+			<!-- Scroll Bar -->
+			<div class="col-1 col-offset-11">
+        <ul id="scollbar_list">
+            <li><a href="#recipe-a">a</a></li>
+            <li><a href="#recipe-b">b</a></li>
+            <li><a href="#recipe-c">c</a></li>
+            <li><a href="#recipe-d">d</a></li>
+            <li><a href="#recipe-e">e</a></li>
+            <li><a href="#recipe-f">f</a></li>
+            <li><a href="#recipe-g">g</a></li>
+            <li><a href="#recipe-h">h</a></li>
+            <li><a href="#recipe-i">i</a></li>
+            <li><a href="#recipe-j">j</a></li>
+            <li><a href="#recipe-k">k</a></li>
+            <li><a href="#recipe-l">l</a></li>
+            <li><a href="#recipe-m">m</a></li>
+            <li><a href="#recipe-n">n</a></li>
+            <li><a href="#recipe-o">o</a></li>
+            <li><a href="#recipe-p">p</a></li>
+            <li><a href="#recipe-q">q</a></li>
+            <li><a href="#recipe-r">r</a></li>
+            <li><a href="#recipe-s">s</a></li>
+            <li><a href="#recipe-t">t</a></li>
+            <li><a href="#recipe-u">u</a></li>
+            <li><a href="#recipe-v">v</a></li>
+            <li><a href="#recipe-w">w</a></li>
+            <li><a href="#recipe-x">x</a></li>
+            <li><a href="#recipe-y">y</a></li>
+            <li><a href="#recipe-z">z</a></li>
+          </ul>
+			</div>
 
 			<!-- Main Content -->
 			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
@@ -110,7 +148,7 @@
 
 			<!-- Footer -->
       <?php include('footer.php'); ?>
-      
+
 		</div>
     </body>
 </html>
