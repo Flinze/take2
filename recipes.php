@@ -3,16 +3,13 @@
   <head>
     <title>Take2 - Recipes</title>
     <meta charset="utf-8" />
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/style/recipes.css"/>
   </head>
 
   <body>
 		<!-- Wrapper -->
 		<div id="wrapper" class="container">
 
-			<!-- Header -->
+			<!-- Header and navigation bar -->
       <?php include('header.php') ?>
 
 			<!-- Scroll Bar -->
