@@ -2,13 +2,16 @@
   <link rel="stylesheet" href="assets/style/nav.css">
   <meta charset="utf-8">
   <title>-</title>
-  
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/style/base.css">
   <link rel="stylesheet" href="assets/style/recipes.css">
+
+  <!-- Cute Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Header -->
 <header class="col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4" id="header">

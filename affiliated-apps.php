@@ -12,14 +12,11 @@
   			<!-- Header -->
         <?php include('header.php') ?>
 
-        <!-- Cute Icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
         <!-- Main Content -->
         <main class="col-xs-12 col-lg-8 col-lg-offset-2">
 
       			<div class="major-title">
-      				Affiliated Apps <i class="fa fa-addresscard"></i>
+      				Affiliated Apps
       			</div>
 
               <!-- Affiliated apps content -->

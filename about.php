@@ -11,7 +11,7 @@
 
   		<!-- Header and Navigation bar -->
       <?php include('header.php'); ?>
-      
+
         <!-- Cute Icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -27,9 +27,10 @@
   				<img src="img/about/friends.jpg" alt="Group Photo">
   			</div>
 
-  			<div class="major-title">
-  				The Flock Project
-  			</div>
+        <div class="major-title">
+					<i class="fa fa-male"></i><i class="fa fa-male">The Flock Project
+          </i><i class="fa fa-female"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
+				</div>
 
   			<p>
   			One Two Three
@@ -40,12 +41,7 @@
   			One Two Three
   			</p>
 
-
   		</main>
-				<div class="major-title">
-					<i class="fa fa-male"></i><i class="fa fa-male">The Flock Project
-          </i><i class="fa fa-female"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
-				</div>
 
   		<!-- Footer -->
       <?php include('footer.php'); ?>
