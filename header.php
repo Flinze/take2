@@ -1,5 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="assets/style/nav.css" />
+  <link rel="stylesheet" href="assets/style/nav.css">
+  <meta charset="utf-8">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/style/base.css" />
 </head>
 
 <!-- Header -->

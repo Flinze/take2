@@ -1,15 +1,6 @@
-<!DOCTYPE HTML>
-<html lang="en">
-    <head>
-        <title>Take2 - Home</title>
-        <meta charset="utf-8" />
-
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="assets/style/base.css" />
-    </head>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Take2 - Home</title>
 
     <body>
 
