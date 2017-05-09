@@ -4,15 +4,18 @@
     <title>Take2 - Recipes</title>
     <meta charset="utf-8" />
   </head>
-
+  
   <body>
 		<!-- Wrapper -->
-		<div id="wrapper" class="container">
+		<div id="wrapper" class="container-fluid">
+  
+      <!-- Cute Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 			<!-- Header and navigation bar -->
       <?php include('header.php') ?>
 
-			<!-- Scroll Bar -->
+      <!-- Scroll Bar -->
 			<div class="col-1 col-offset-11">
         <ul id="scollbar_list">
             <li><a href="#recipe-a">a</a></li>
@@ -45,10 +48,10 @@
 			</div>
 
 			<!-- Main Content -->
-			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
+			<main class="col-xs-12 col-lg-8 col-lg-offset-2">
 
 				<div class="major-title" id="recipe-title">
-					Recipes
+					Recipes <i class="fa fa-spoon"></i>
 				</div>
 
 				<div id="recipe-a" class="minor-title">
