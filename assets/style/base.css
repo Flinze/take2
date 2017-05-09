@@ -34,3 +34,8 @@ main {
 	height: auto;		/*photo will auto adjust height based on image width*/
 	max-width: 100%;
 }
+
+/* Footer */
+#footer-links {
+	list-style-type: none;
+}
