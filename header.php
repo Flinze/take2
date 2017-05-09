@@ -17,7 +17,7 @@
     <!-- Logo -->
       placeholder logo
 
-    <!-- Nav -->
+    <!-- Navigation Menu -->
       <nav>
         <ul>
           <li><a href="#menu">Menu</a></li>
@@ -26,7 +26,7 @@
   </div>
 </header>
 
-<!-- Navigation Bar -->
+<!-- Navigation Sidebar -->
 <nav class="col-1 col-offset-11">
   <nav id="menu">
     <h2>Menu</h2>
