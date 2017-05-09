@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <script src="assets/bootstrap/js/bootstrap.js"></script>
 
+        <!-- Cute Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/style/base.css" />
     </head>
@@ -26,7 +29,7 @@
 
 
       				<div class="major-title">
-      					Affiliated Apps
+      					Affiliated Apps <i class="fa fa-addresscard"></i>
       				</div>
 
               <!-- Affiliated apps content -->

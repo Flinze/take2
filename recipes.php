@@ -12,6 +12,8 @@
         <!-- Alpha Scrollbar -->
         <script src="assets/js/recipes.scrollbar.js"></script>
 
+        <!-- Cute Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/style/base.css" />
@@ -26,7 +28,7 @@
 			<!-- Header -->
       <?php include('header.php') ?>
 
-			<!-- Scroll Bar -->
+      <!-- Scroll Bar -->
 			<div class="col-1 col-offset-11">
         <ul id="scollbar_list">
             <li><a href="#recipe-a">a</a></li>
@@ -62,7 +64,7 @@
 			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
 
 				<div class="major-title" id="recipe-title">
-					Recipes
+					Recipes <i class="fa fa-spoon"></i>
 				</div>
 
 				<div id="recipe-a" class="minor-title">

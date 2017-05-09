@@ -6,7 +6,9 @@
 <header class="col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4" id="header">
   <div class="inner">
     <!-- Logo -->
-      placeholder logo
+    <div class="logo">
+      <img src="img/take2-logo-s.png" alt="Take2 Logo">
+    </div>
 
     <!-- Nav -->
       <nav>
