@@ -25,7 +25,7 @@
         <div class="container">
           <select class='form-control' id='dropFirst' data-placeholder='Enter first ingredient'>
             <option></option>
-            <option id='Avocadof' value = "Avocado">Avocado</option>
+            <option id = 'Avocadof' value = "Avocado">Avocado</option>
             <option id = 'Bananasf'value = "Bananas">Bananas</option>
             <option id = "Beeff" value = "Beef">Beef</option>
             <option id = "Breadf" value = "Bread">Bread</option>
@@ -40,7 +40,7 @@
         <div class="container">
           <select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient'>
             <option></option>
-            <option id='Avocado' value = "Avocado">Avocado</option>
+            <option id = 'Avocado' value = "Avocado">Avocado</option>
             <option id = 'Bananas'value = "Bananas">Bananas</option>
             <option id = "Beef" value = "Beef">Beef</option>
             <option id = "Bread" value = "Bread">Bread</option>
@@ -59,11 +59,18 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" href="#howtouse">(can collapse, need to pretty it up) >How to use</a>
+            <a id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
           </h4>
         </div>
-        <div id="howtouse" class="panel-collapse collapse in">
-          PICTURE INFO READMORE LINK
+        <div id="how-to-use-box" class="panel-collapse collapse in container">
+			<div id="how-to-use-inner" class="">
+				<ol>
+					<li>Enter two different ingredients in the form above</li>
+					<li>Browse the list of dishes below</li>
+					<li>More details are provided for each dish by clicking on their respective name</li>
+					<li>Users may also browse all dishes <a href="recipes.php">here</a>
+				</ol>
+			</div>
         </div>
       </div>
 
