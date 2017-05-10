@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
   <link rel="stylesheet" href="assets/style/nav.css">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>-</title>
 
   <!-- Bootstrap -->
@@ -15,10 +16,10 @@
 
 <!-- Header -->
 <header class="container" id="header">
-  <div class="inner col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4">
+  <div class="inner">
     <!-- Logo -->
     <div id="take2-logo">
-      <img src="img/take2-logo-s.png" alt="Take2 Logo">
+      <img src="img/take2-logo-s.png" alt="Take2Logo">
     </div>
 
     <!-- Navigation Menu -->
@@ -31,7 +32,7 @@
 </header>
 
 <!-- Navigation Sidebar -->
-<nav class="col-1 col-offset-11">
+<nav class="">
   <nav id="menu">
     <h2>Menu</h2>
       <ul>
