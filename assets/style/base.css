@@ -21,6 +21,14 @@ header {
 }
 
 /* Body */
+html, body {
+	height: 100%;
+}
+
+a {
+	color: #F7B733;
+}
+
 main {
 	text-align: center;
 }
@@ -60,8 +68,6 @@ main {
 	max-width: 100%;
 }
 
-
-
 .container {
 	width: 100%;
 	margin-left: auto;
@@ -76,9 +82,18 @@ main {
 	margin-right: auto;
 }
 
-
-
 /* Footer */
-#footer-links {
+.footer-links {
 	list-style-type: none;
+}
+
+.footer-links img {
+	float:left;
+	width:42px;
+	height:42px;
+	display: inline-block;
+}
+
+footer {
+	height: 100%;
 }
