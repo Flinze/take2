@@ -35,7 +35,7 @@ function listDishes() {
                 .click(function() {
                     if (!($(this).has('p').length)){
                         $(this).append('<p>Suspendisse ac elementum lorem. Vestibulum fermentum rutrum nisl. Etiam faucibus ut purus et tempor. Nulla bibendum rutrum libero vitae condimentum. Donec euismod et est euismod luctus. Donec commodo magna ut dapibus imperdiet. Vivamus quis lectus eu odio tincidunt elementum.</p>').show('slow');
-                        $(this).append('<p><a href="#pagetwo">Continue to Recipe</a></p>').show('slow');
+                        $(this).append('<p><a href="#recipe">Continue to Recipe</a></p>').show('slow');
                         $(this).find('a').click(function(event){
                             event.stopPropagation();
                         });

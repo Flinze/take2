@@ -7,7 +7,7 @@
 
 <body>
   <!-- Wrapper -->
-  <div id="wrapper" class="container-fluid">
+  <div id="wrapper" class="container-fluid" data-role="page">
 
     <!-- Header and Navigation Bar -->
     <?php include('header.php'); ?>
@@ -80,5 +80,7 @@
     <?php include('footer.php'); ?>
 
   </div>
+
+ 
 </body>
 </html>
