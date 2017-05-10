@@ -60,6 +60,24 @@ main {
 	max-width: 100%;
 }
 
+
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dropFirst .dropSecond{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
 /* Footer */
 #footer-links {
 	list-style-type: none;
