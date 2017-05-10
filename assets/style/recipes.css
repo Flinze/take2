@@ -6,8 +6,13 @@ body, html, .main{
 #scollbar_list {
 list-style-type:none;
 position:fixed;
-top: 100px;
-right:20px;
+top: 85px;
+right:45px;
+}
+
+#scollbar_list li {
+border: 1px solid #337ab7;
+padding:3px;
 }
 
 #scollbar_list li a{
