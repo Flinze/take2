@@ -7,6 +7,12 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
+
+  <!-- Form -->
+  <link rel='stylesheet' href='assets/style/select2-bootstrap.css'>
+  <link rel='stylesheet' href='assets/style/select2.css'>
+
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/style/base.css">
   <link rel="stylesheet" href="assets/style/recipes.css">
