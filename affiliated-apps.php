@@ -13,7 +13,7 @@
         <?php include('header.php') ?>
 
         <!-- Main Content -->
-        <main class="col-xs-12 col-lg-8 col-lg-offset-2">
+			<main class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
 
       			<div class="major-title">
       				Affiliated Apps
@@ -21,6 +21,7 @@
 
               <!-- Affiliated apps content -->
               <div class="row">
+
                 <div class="col-xs-8 col-xs-offset-2">
                   <div class="logo-container ">
 						         <p class="affiliated-logostyle">
@@ -35,8 +36,10 @@
 							               </div>
 						             </div>
 					          </div>
+
                   </div>
               </div>
+
 
               <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
@@ -54,8 +57,8 @@
                          </div>
                     </div>
                   </div>
-              </div>
 
+              </div>
 
               <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
@@ -74,6 +77,7 @@
                     </div>
                   </div>
               </div>
+    </main>
   			<!-- Footer -->
         <?php include('footer.php'); ?>
 

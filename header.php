@@ -1,10 +1,17 @@
 <!DOCTYPE HTML>
   <link rel="stylesheet" href="assets/style/nav.css">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>-</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+
+
+  <!-- Form -->
+  <link rel='stylesheet' href='assets/style/select2-bootstrap.css'>
+  <link rel='stylesheet' href='assets/style/select2.css'>
+
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/style/base.css">
@@ -16,10 +23,12 @@
 
 <!-- Header -->
 <header class="container" id="header">
-  <div class="inner col-xs-8 col-lg-4 col-xs-offset-2 col-lg-offset-4">
+  <div class="inner">
     <!-- Logo -->
     <div id="take2-logo">
-      <img src="img/take2-logo-s.png" alt="Take2 Logo">
+		<a href="index.php">
+			<img src="img/take2-logo-s.png" alt="Take2Logo">
+		</a>
     </div>
 
     <!-- Navigation Menu -->
@@ -32,7 +41,7 @@
 </header>
 
 <!-- Navigation Sidebar -->
-<nav class="col-1 col-offset-11">
+<nav class="">
   <nav id="menu">
     <h2>Menu</h2>
       <ul>

@@ -19,6 +19,8 @@ header {
 #take2-logo{
 	padding: 0.5em 0;
 }
+
+/* Body */
 main {
 	text-align: center;
 }
@@ -57,6 +59,41 @@ main {
 	height: auto;		/*photo will auto adjust height based on image width*/
 	max-width: 100%;
 }
+a#how-to-use-toggle {
+    text-decoration: none !important;
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+#how-to-use-box{
+	padding:0;
+}
+#how-to-use-inner{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+	text-align:left;
+	padding-left:0;
+}
+#how-to-use-inner ol{
+	padding-right:1em;
+	margin:0;
+}
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dropFirst .dropSecond{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 
 /* Footer */
 #footer-links {

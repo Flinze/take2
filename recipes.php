@@ -45,7 +45,8 @@
 			</div>
 
 			<!-- Main Content -->
-			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
+
+			<main class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
 
 				<div class="major-title" id="recipe-title">
 					Recipes <i class="fa fa-spoon"></i>
