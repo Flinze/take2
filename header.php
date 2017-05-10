@@ -9,6 +9,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/style/base.css">
   <link rel="stylesheet" href="assets/style/recipes.css">
+  <link rel="stylesheet" href="assets/style/affiliated-apps.css"
 
   <!-- Cute Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

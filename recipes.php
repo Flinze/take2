@@ -8,44 +8,44 @@
   <body>
 		<!-- Wrapper -->
 		<div id="wrapper" class="container-fluid">
-      
+
 			<!-- Header and navigation bar -->
       <?php include('header.php') ?>
 
       <!-- Scroll Bar -->
 			<div class="col-1 col-offset-11">
         <ul id="scollbar_list">
-            <li><a href="#recipe-a">a</a></li>
-            <li><a href="#recipe-b">b</a></li>
-            <li><a href="#recipe-c">c</a></li>
-            <li><a href="#recipe-d">d</a></li>
-            <li><a href="#recipe-e">e</a></li>
-            <li><a href="#recipe-f">f</a></li>
-            <li><a href="#recipe-g">g</a></li>
-            <li><a href="#recipe-h">h</a></li>
-            <li><a href="#recipe-i">i</a></li>
-            <li><a href="#recipe-j">j</a></li>
-            <li><a href="#recipe-k">k</a></li>
-            <li><a href="#recipe-l">l</a></li>
-            <li><a href="#recipe-m">m</a></li>
-            <li><a href="#recipe-n">n</a></li>
-            <li><a href="#recipe-o">o</a></li>
-            <li><a href="#recipe-p">p</a></li>
-            <li><a href="#recipe-q">q</a></li>
-            <li><a href="#recipe-r">r</a></li>
-            <li><a href="#recipe-s">s</a></li>
-            <li><a href="#recipe-t">t</a></li>
-            <li><a href="#recipe-u">u</a></li>
-            <li><a href="#recipe-v">v</a></li>
-            <li><a href="#recipe-w">w</a></li>
-            <li><a href="#recipe-x">x</a></li>
-            <li><a href="#recipe-y">y</a></li>
-            <li><a href="#recipe-z">z</a></li>
+            <li><a href="#recipe-a">A</a></li>
+            <li><a href="#recipe-b">B</a></li>
+            <li><a href="#recipe-c">C</a></li>
+            <li><a href="#recipe-d">D</a></li>
+            <li><a href="#recipe-e">E</a></li>
+            <li><a href="#recipe-f">F</a></li>
+            <li><a href="#recipe-g">G</a></li>
+            <li><a href="#recipe-h">H</a></li>
+            <li><a href="#recipe-i">I</a></li>
+            <li><a href="#recipe-j">J</a></li>
+            <li><a href="#recipe-k">K</a></li>
+            <li><a href="#recipe-l">L</a></li>
+            <li><a href="#recipe-m">M</a></li>
+            <li><a href="#recipe-n">N</a></li>
+            <li><a href="#recipe-o">O</a></li>
+            <li><a href="#recipe-p">P</a></li>
+            <li><a href="#recipe-q">Q</a></li>
+            <li><a href="#recipe-r">R</a></li>
+            <li><a href="#recipe-s">S</a></li>
+            <li><a href="#recipe-t">T</a></li>
+            <li><a href="#recipe-u">U</a></li>
+            <li><a href="#recipe-v">V</a></li>
+            <li><a href="#recipe-w">W</a></li>
+            <li><a href="#recipe-x">X</a></li>
+            <li><a href="#recipe-y">Y</a></li>
+            <li><a href="#recipe-z">Z</a></li>
           </ul>
 			</div>
 
 			<!-- Main Content -->
-			<main class="col-xs-12 col-lg-8 col-lg-offset-2">
+			<main class="col-xs-10 col-lg-8 col-xs-offset-1 col-lg-offset-2">
 
 				<div class="major-title" id="recipe-title">
 					Recipes <i class="fa fa-spoon"></i>
