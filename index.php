@@ -59,11 +59,17 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use">How To Use</a>
+            <a id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
           </h4>
         </div>
-        <div id="how-to-use" class="panel-collapse collapse in">
-          PICTURE INFO READMORE LINK
+        <div id="how-to-use-box" class="panel-collapse collapse in container">
+			<div id="how-to-use-inner" class="">
+				<ol>
+					<li>Enter two different ingredients in the form above</li>
+					<li>View the list of dishes below</li>
+					<li>Each dish can be further expanded by clicking</li>
+				</ol>
+			</div>
         </div>
       </div>
 
