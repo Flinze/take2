@@ -16,6 +16,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/style/base.css">
   <link rel="stylesheet" href="assets/style/recipes.css">
+  <link rel="stylesheet" href="assets/style/jquery.mobile-1.4.5.min.css">
 
   <!-- Cute Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

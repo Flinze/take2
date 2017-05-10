@@ -21,35 +21,35 @@
       </div>
 
       <!-- Ingredient input -->
-      <form>
+      <form data-role="none">
         <div class="container">
-          <select class='form-control' id='dropFirst' data-placeholder='Enter first ingredient'>
+          <select class='form-control' id='dropFirst' data-placeholder='Enter first ingredient' data-role="none" onchange="pullValues()">
             <option></option>
-            <option id='Avocadof' value = "Avocado">Avocado</option>
-            <option id = 'Bananasf'value = "Bananas">Bananas</option>
-            <option id = "Beeff" value = "Beef">Beef</option>
-            <option id = "Breadf" value = "Bread">Bread</option>
-            <option id = "Cheesef" value = "Cheese">Cheese</option>
-            <option id = "Chickenf" value = "Chicken">Chicken</option>
-            <option id = "Eggf" value = "Egg">Egg</option>
-            <option id = "Lettucef" value = "Lettuce">Lettuce</option>
-            <option id = "Potatoesf" value = "Potatoes">Potatoes</option>
-            <option id = "Tomatoesf" value = "Tomatoes">Tomatoes</option>
+            <option id = 'Avocadof' value="avocado">Avocado</option>
+            <option id='Bananasf'value="bananas">Bananas</option>
+            <option id="Beeff" value="beef">Beef</option>
+            <option id="Breadf" value="bread">Bread</option>
+            <option id="Cheesef" value="cheese">Cheese</option>
+            <option id="Chickenf" value="chicken">Chicken</option>
+            <option id="Eggf" value="egg">Egg</option>
+            <option id="Lettucef" value="lettuce">Lettuce</option>
+            <option id="Potatoesf" value="potatoes">Potatoes</option>
+            <option id="Tomatoesf" value="tomatoes">Tomatoes</option>
           </select>
         </div>
         <div class="container">
-          <select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient'>
+          <select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient' data-role="none" onchange="pullValues()">
             <option></option>
-            <option id='Avocado' value = "Avocado">Avocado</option>
-            <option id = 'Bananas'value = "Bananas">Bananas</option>
-            <option id = "Beef" value = "Beef">Beef</option>
-            <option id = "Bread" value = "Bread">Bread</option>
-            <option id = "Cheese" value = "Cheese">Cheese</option>
-            <option id = "Chicken" value = "Chicken">Chicken</option>
-            <option id = "Egg" value = "Egg">Egg</option>
-            <option id = "Lettuce" value = "Lettuce">Lettuce</option>
-            <option id = "Potatoes" value = "Potatoes">Potatoes</option>
-            <option id = "Tomatoes" value = "Tomatoes">Tomatoes</option>
+            <option id='Avocado' value="avocado">Avocado</option>
+            <option id='Bananas'value="bananas">Bananas</option>
+            <option id="Beef" value="beef">Beef</option>
+            <option id="Bread" value="bread">Bread</option>
+            <option id="Cheese" value="cheese">Cheese</option>
+            <option id="Chicken" value="chicken">Chicken</option>
+            <option id="Egg" value="egg">Egg</option>
+            <option id="Lettuce" value="lettuce">Lettuce</option>
+            <option id="Potatoes" value="potatoes">Potatoes</option>
+            <option id="Tomatoes" value="tomatoes">Tomatoes</option>
           </select>
         </div>
 
@@ -70,6 +70,8 @@
       <!-- Dishes Header -->
       <div class="major-title">
         Dishes <i class="fa fa-cutlery"></i>
+      </div>
+      <div class="container" id="dishes">
       </div>
 
     </main>
