@@ -70,13 +70,14 @@ a#how-to-use-toggle {
 }
 #how-to-use-inner{
     display:inline-block;
-    margin-left: auto;
-    margin-right: auto;
-	text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+	text-align:left;
 	padding-left:0;
 }
 #how-to-use-inner ol{
-	margin:o;
+	padding-right:1em;
+	margin:0;
 }
 .container {
 	width: 100%;

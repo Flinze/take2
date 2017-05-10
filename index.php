@@ -66,8 +66,9 @@
 			<div id="how-to-use-inner" class="">
 				<ol>
 					<li>Enter two different ingredients in the form above</li>
-					<li>View the list of dishes below</li>
-					<li>Each dish can be further expanded by clicking</li>
+					<li>Browse the list of dishes below</li>
+					<li>More details are provided for each dish by clicking on their respective name</li>
+					<li>Users may also browse all dishes <a href="recipes.php">here</a>
 				</ol>
 			</div>
         </div>
