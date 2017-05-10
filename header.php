@@ -19,7 +19,9 @@
   <div class="inner">
     <!-- Logo -->
     <div id="take2-logo">
-      <img src="img/take2-logo-s.png" alt="Take2Logo">
+		<a href="index.php">
+			<img src="img/take2-logo-s.png" alt="Take2Logo">
+		</a>
     </div>
 
     <!-- Navigation Menu -->
