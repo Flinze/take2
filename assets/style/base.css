@@ -82,13 +82,28 @@ main {
     border-width: 3px;
     border-style: solid;
     border-color: #f7b733;
+	color: #666666;
+	height: 74px;
     background-color: #f7b733;
-    border-radius: 25px;
+    border-radius: 20px;
     text-align: center;
-    margin: 3px;
+    margin: 10px;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+}
+
+.dishDivs img {
+	height: 200px;
+	border-radius: 20px;
+}
+
+.innerDish {
+	width: 97%;
+	background-color: #fad385;
+	border-radius: 20px;
+	margin: 10px auto;
+	padding: 10px;
 }
 
 /* Recipe */

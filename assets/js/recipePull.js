@@ -34,13 +34,15 @@ function listDishes() {
                 .html('<h2>' + dishes[i].title + '</h2>')
                 .click(function() {
                     if (!($(this).has('p').length)){
-                        $(this).append('<p>Suspendisse ac elementum lorem. Vestibulum fermentum rutrum nisl. Etiam faucibus ut purus et tempor. Nulla bibendum rutrum libero vitae condimentum. Donec euismod et est euismod luctus. Donec commodo magna ut dapibus imperdiet. Vivamus quis lectus eu odio tincidunt elementum.</p>').show('slow');
-                        $(this).append('<p><a href="#recipe">Continue to Recipe</a></p>').show('slow');
+                        $('<p><img src="img/placeholder/friedchicken.jpg" alt="Fried Chicken">').hide().appendTo(this).fadeIn(1000);
+                        $('<div class="innerDish"><p>Suspendisse ac elementum lorem. Vestibulum fermentum rutrum nisl. Etiam faucibus ut purus et tempor. Nulla bibendum rutrum libero vitae condimentum. Donec euismod et est euismod luctus. Donec commodo magna ut dapibus imperdiet. Vivamus quis lectus eu odio tincidunt elementum.</p></div>').hide().appendTo(this).fadeIn(1000);
+                        $('<p><a href="recipe-page.php" class="btn btn-info">Continue to Recipe</a></p>').hide().appendTo(this).fadeIn(1000);
                         $(this).find('a').click(function(event){
                             event.stopPropagation();
                         });
                     } else {
                         $(this).find('p').remove();
+                        $(this).find('div').remove();
                     }
 
                     var elem = $(this),
