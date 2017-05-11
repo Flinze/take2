@@ -1,7 +1,7 @@
 /* scrollbar*/
 #scrollbar-container {
 	position:fixed;
-	top: 90px;
+	top: 95px;
 	right:10px;
     height: 100%;
 	z-index:1000;

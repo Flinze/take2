@@ -34,7 +34,7 @@
 						<div class="caption-text">
 							<h3 class="title">Freshness</h3>
 							<p class="app-description">An informative app that provides food preservation methods to help food stay as fresh as possible</p>
-							<a class="glyphicon glyphicon-plus" href="https://freshness.000webhostapp.com/index.html">INFO</a>
+							<a class="btn btn-info" href="https://freshness.000webhostapp.com/index.html">View Page</a>
 						</div>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 						<div class="caption-text">
 							<h3 class="title">F2E</h3>
 							<p class="app-description">A food-sharing app that allows users to connect and easily share leftover ingredients and meals</p>
-							<a class="glyphicon glyphicon-plus" href="http://students.bcitdev.com/A01005177/eugene/main.html">INFO</a>
+							<a class="btn btn-info" href="http://students.bcitdev.com/A01005177/eugene/main.html">View Page</a>
 						</div>
 					</div>
 				</div>
@@ -70,7 +70,7 @@
 						<div class="caption-text">
 							<h3 class="title">EcoList</h3>
 							<p class="app-description">A grocery list and meal planning app that suggests recipes and tracks expiration dates.</p>
-							<a class="glyphicon glyphicon-plus" href="http://www.eco-list.ca">INFO</a>
+							<a class="btn btn-info" href="http://www.eco-list.ca">View Page</a>
 						</div>
 					</div>
 				</div>
@@ -88,7 +88,7 @@
 						<div class="caption-text">
 							<h3 class="title">Wasted</h3>
 							<p class="app-description">A website to teach people about the life expectancy of their food. This website will also have a user-contributed section on tips to preserve food. (Currently for vegetables only)</p>
-							<a class="glyphicon glyphicon-plus" href="http://students.bcitdev.com/A00989687/forAffiliates/WASTED.html">INFO</a>
+							<a class="btn btn-info" href="http://students.bcitdev.com/A00989687/forAffiliates/WASTED.html">View Page</a>
 						</div>
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 						<div class="caption-text">
 							<h3 class="title">Fuber</h3>
 							<p class="app-description">A food-sharing app that allows users to connect and easily share leftover ingredients and meals</p>
-							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
+							<a class="btn btn-info" href="#">View Page</a>
 						</div>
 					</div>
 				</div>
@@ -124,7 +124,7 @@
 						<div class="caption-text">
 							<h3 class="title">Grocery Buddy</h3>
 							<p class="app-description">Your new best friend for planning what food to buy and making sure you use it. Plan your shopping trips by creating, organizing, and saving grocery lists.</p>
-							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
+							<a class="btn btn-info" href="#">View Page</a>
 						</div>
 					</div>
 				</div>
