@@ -69,7 +69,7 @@
 					<li>Enter two different ingredients in the form above</li>
 					<li>Browse the list of dishes below</li>
 					<li>More details are provided for each dish by clicking on their respective name</li>
-					<li>Users may also browse all dishes <a href="recipes.php">here</a>
+					<li>Users may also browse all dishes <a href="recipes.php">here</a></li>
 				</ol>
 			</div>
         </div>
@@ -82,13 +82,11 @@
       <div class="container" id="dishes">
       </div>
 
-    </main>
+	</main>
+	
+		<!-- Footer -->
+		<?php include('footer.php'); ?>
 
-    <!-- Footer -->
-    <?php include('footer.php'); ?>
-
-  </div>
-
- 
+	</div> <!-- Wrapper -->
 </body>
 </html>
