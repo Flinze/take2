@@ -1,8 +1,9 @@
 <!-- Footer -->
 <footer>
+    <div class="container">
     <div class="footer">
     <div class="row">
-        <div class="col-lg-offset-4 col-lg-4 col-xs-offset-1 col-xs-10">
+        <div class="col-lg-offset-5 col-lg-4 col-xs-offset-1 col-xs-10">
           <ul class="footer-links">
             <li><a href="index.php"><img class="icon" src="img/footer/home.png" alt="home page"></a></li>
             <li><a href="recipes.php"><img class ="icon" src="img/footer/recipes.png" alt="recipes page"></a></li>
@@ -19,6 +20,7 @@
          </div>
       </div>
     </div>
+</div>
 </div>
 </footer>
 
