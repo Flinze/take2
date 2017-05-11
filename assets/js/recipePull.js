@@ -31,7 +31,7 @@ function listDishes() {
         for(var i = 0; i < dishes.length; i++) {
             d = document.createElement('div');
             $(d).addClass('dishDivs')
-                .html('<h2>' + dishes[i].title + '</h2>')
+                .html('<span id="dishTitle"><h2>' + dishes[i].title + '</h2></span>')
                 .click(function() {
                     if (!($(this).has('p').length)){
                         $('<p><img src="img/placeholder/friedchicken.jpg" alt="Fried Chicken">').hide().appendTo(this).fadeIn(1000);
