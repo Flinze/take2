@@ -32,7 +32,7 @@
 
 		#header nav {
 			position: fixed;
-			right: 1em;
+			right: 0.8em;
 			top: 1.5em;
 			z-index: 10000;
 		}
