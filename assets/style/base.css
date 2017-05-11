@@ -59,6 +59,18 @@ main {
 	height: auto;		/*photo will auto adjust height based on image width*/
 	max-width: 100%;
 }
+
+
+.form-control .select2-container {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  display: table;
+  table-layout: fixed;
+}
+  
 a#how-to-use-toggle {
     text-decoration: none !important;
     display:inline-block;
@@ -87,10 +99,10 @@ a#how-to-use-toggle {
 	margin-bottom: 20px;
 }
 
-.dropFirst .dropSecond{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+@media screen and (max-width: 767px) {
+.select2 {
+width: 100% !important;
+}
 }
 
 /* Style for generated dish divisions */
@@ -142,6 +154,7 @@ a#how-to-use-toggle {
 	display: block;
 	text-align: left;
 }
+
 
 
 

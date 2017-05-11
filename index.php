@@ -37,6 +37,7 @@
             <option id="Tomatoesf" value="tomatoes">Tomatoes</option>
           </select>
         </div>
+        <br>
         <div class="container">
           <select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient' data-role="none" onchange="pullValues()">
             <option></option>
@@ -54,7 +55,9 @@
           </select>
         </div>
 
+
       </form>
+      <br>
 
       <!-- How to use collapse box-->
       <div class="panel panel-default">
