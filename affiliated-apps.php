@@ -20,13 +20,13 @@
 		</div>
 
 		<!-- Affiliated apps content -->
-		
+
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="logo-container">
-				
+
 					<!-- Affiliated-app Logo -->
 					<img src="img/affiliated-apps/freshness_logo.png" class="img-responsive" alt="freshness">
-					
+
 					<!-- Affiliated-app Logo Slider -->
 					<div class="caption">
 						<div class="blur">
@@ -34,23 +34,77 @@
 						<div class="caption-text">
 							<h3 class="title">Freshness</h3>
 							<p class="app-description">An informative app that provides food preservation methods to help food stay as fresh as possible</p>
-							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
+							<a class="glyphicon glyphicon-plus" href="https://freshness.000webhostapp.com/index.html">INFO</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="logo-container">
-				
+
 					<!-- Affiliated-app Logo -->
 					<img src="img/affiliated-apps/F2E_logo.png" class="img-responsive" alt="F2E">
-					
+
 					<!-- Affiliated-app Logo Slider -->
 					<div class="caption">
 						<div class="blur">
 						</div>
 						<div class="caption-text">
 							<h3 class="title">F2E</h3>
+							<p class="app-description">A food-sharing app that allows users to connect and easily share leftover ingredients and meals</p>
+							<a class="glyphicon glyphicon-plus" href="http://students.bcitdev.com/A01005177/eugene/main.html">INFO</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="logo-container">
+
+					<!-- Affiliated-app Logo -->
+					<img src="img/affiliated-apps/Eco_logo.png" class="img-responsive" alt="Eco">
+
+					<!-- Affiliated-app Logo Slider -->
+					<div class="caption">
+						<div class="blur">
+						</div>
+						<div class="caption-text">
+							<h3 class="title">EcoList</h3>
+							<p class="app-description">A grocery list and meal planning app that suggests recipes and tracks expiration dates.</p>
+							<a class="glyphicon glyphicon-plus" href="http://www.eco-list.ca">INFO</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="logo-container">
+
+					<!-- Affiliated-app Logo -->
+					<img src="img/affiliated-apps/wasted_logo.png" class="img-responsive" alt="Wasted">
+
+					<!-- Affiliated-app Logo Slider -->
+					<div class="caption">
+						<div class="blur">
+						</div>
+						<div class="caption-text">
+							<h3 class="title">Wasted</h3>
+							<p class="app-description">A website to teach people about the life expectancy of their food. This website will also have a user-contributed section on tips to preserve food. (Currently for vegetables only)</p>
+							<a class="glyphicon glyphicon-plus" href="http://students.bcitdev.com/A00989687/forAffiliates/WASTED.html">INFO</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="logo-container">
+
+					<!-- Affiliated-app Logo -->
+					<img src="img/affiliated-apps/fuber_logo.png" class="img-responsive" alt="fuber">
+
+					<!-- Affiliated-app Logo Slider -->
+					<div class="caption">
+						<div class="blur">
+						</div>
+						<div class="caption-text">
+							<h3 class="title">Fuber</h3>
 							<p class="app-description">A food-sharing app that allows users to connect and easily share leftover ingredients and meals</p>
 							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
 						</div>
@@ -59,79 +113,25 @@
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 				<div class="logo-container">
-				
+
 					<!-- Affiliated-app Logo -->
-					<img src="img/affiliated-apps/Eco_logo.png" class="img-responsive" alt="Eco-Logo">
-					
+					<img src="img/affiliated-apps/grocery_buddy.png" class="img-responsive" alt="Grocery Buddy">
+
 					<!-- Affiliated-app Logo Slider -->
 					<div class="caption">
 						<div class="blur">
 						</div>
 						<div class="caption-text">
-							<h3 class="title">EcoList</h3>
-							<p class="app-description">A grocery list and meal planning app that suggests recipes and tracks expiration dates.</p>
+							<h3 class="title">Grocery Buddy</h3>
+							<p class="app-description">Your new best friend for planning what food to buy and making sure you use it. Plan your shopping trips by creating, organizing, and saving grocery lists.</p>
 							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-				<div class="logo-container">
-				
-					<!-- Affiliated-app Logo -->
-					<img src="img/affiliated-apps/freshness_logo.png" class="img-responsive" alt="freshness">
-					
-					<!-- Affiliated-app Logo Slider -->
-					<div class="caption">
-						<div class="blur">
-						</div>
-						<div class="caption-text">
-							<h3 class="title">Freshness</h3>
-							<p class="app-description">An informative app that provides food preservation methods to help food stay as fresh as possible</p>
-							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-				<div class="logo-container">
-				
-					<!-- Affiliated-app Logo -->
-					<img src="img/affiliated-apps/F2E_logo.png" class="img-responsive" alt="F2E">
-					
-					<!-- Affiliated-app Logo Slider -->
-					<div class="caption">
-						<div class="blur">
-						</div>
-						<div class="caption-text">
-							<h3 class="title">F2E</h3>
-							<p class="app-description">A food-sharing app that allows users to connect and easily share leftover ingredients and meals</p>
-							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-				<div class="logo-container">
-				
-					<!-- Affiliated-app Logo -->
-					<img src="img/affiliated-apps/Eco_logo.png" class="img-responsive" alt="Eco-Logo">
-					
-					<!-- Affiliated-app Logo Slider -->
-					<div class="caption">
-						<div class="blur">
-						</div>
-						<div class="caption-text">
-							<h3 class="title">EcoList</h3>
-							<p class="app-description">A grocery list and meal planning app that suggests recipes and tracks expiration dates.</p>
-							<a class="glyphicon glyphicon-plus" href="#">INFO</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		
+
 	</main>
-	
+
 		<!-- Footer -->
 		<?php include('footer.php'); ?>
 
