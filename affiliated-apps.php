@@ -22,10 +22,10 @@
               <!-- Affiliated apps content -->
               <div class="row">
 
-                <div class="col-xs-8 col-xs-offset-2">
+                <div class="col-xs-12">
                   <div class="logo-container ">
 						         <p class="affiliated-logostyle">
-							          <img src="img/affiliated-apps/freshness_logo.png" class="img-responsive" alt="freshness">
+							          <img src="img/affiliated-apps/freshness_logo.png" class="img-responsive" alt="freshness" style="padding-top:50px">
 						          </p>
 						            <div class="caption">
 							             <div class="blur"></div>
@@ -42,10 +42,10 @@
 
 
               <div class="row">
-                <div class="col-xs-8 col-xs-offset-2">
+                <div class="col-xs-12">
                   <div class="logo-container ">
                      <p class="affiliated-logostyle" >
-                        <img src="img/affiliated-apps/F2E_logo.png" class="img-responsive" alt="F2E">
+                        <img src="img/affiliated-apps/F2E_logo.png" class="img-responsive" alt="F2E" style="padding-top:40px">
                       </p>
                         <div class="caption">
                            <div class="blur"></div>
@@ -61,7 +61,7 @@
               </div>
 
               <div class="row">
-                <div class="col-xs-8 col-xs-offset-2">
+                <div class="col-xs-12">
                   <div class="logo-container ">
                      <p class="affiliated-logostyle">
                         <img src="img/affiliated-apps/Eco_logo.png" class="img-responsive" alt="">
