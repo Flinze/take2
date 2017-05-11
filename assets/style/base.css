@@ -104,8 +104,6 @@ a#how-to-use-toggle {
 
 }
 #how-to-use-inner ol{
-
-	margin: 20px;
 }
 .container {
 	width: 100%;
@@ -129,7 +127,6 @@ width: 100% !important;
     border-color: #f7b733;
 	color: #666666;
 	height: 95px;
-	line-height: 95px;
     background-color: #f7b733;
     border-radius: 20px;
     text-align: center;
@@ -191,7 +188,7 @@ footer {
 	bottom:0;
 	background-color: rgb(254,165,99);
 	clear: both;
-	color: #DFDCE3;
+	color: #666666;
     position: absolute;
 	text-align: center;
 	width:100%;
