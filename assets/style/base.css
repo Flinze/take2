@@ -91,8 +91,11 @@ html, body {
 }
 
 /* Footer */
-.footer-links {
+ul.footer-links {
 	list-style-type: none;
+	display:inline-block;
+	margin:0;
+	padding:0;
 }
 
 footer {
@@ -101,13 +104,16 @@ footer {
 	background-color: #FC4A1A;
 	clear: both;
 	color: #DFDCE3;
+    position: relative;
+	text-align: center;
+}
+.footer-links li{
+	display:inline;
 }
 
 .icon {
-	float:left;
-	width:150px;
-	height:150px;
-	display: inline-block;
+	width:60px;
+	height:60px;
 	text-align: center;
 }
 
@@ -115,7 +121,9 @@ footer {
 	text-align: center;
 }
 
+
 /* desktop */
+/* 
 @media only screen and (min-width: 1141px) {
 
     .icon {
@@ -124,8 +132,10 @@ footer {
 			}
 
 }
+*/
 
 /* mobile */
+/*
 @media only screen and (max-width: 767px) {
 
     .icon {
@@ -133,3 +143,4 @@ footer {
         width: 60px;
 			}
 }
+*/

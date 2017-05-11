@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
-	<div class="row">
-		<div class="col-4 col-offset-4">
+	<div class="container">
+		<div class="row">
 			<ul class="footer-links">
 				<li><a href="index.php"><img class="icon" src="img/footer/home.png" alt="home page"></a></li>
 				<li><a href="recipes.php"><img class ="icon" src="img/footer/recipes.png" alt="recipes page"></a></li>
@@ -9,11 +9,11 @@
 				<li><a href="affiliated-apps.php"><img class="icon" src="img/footer/affiliated_apps.png" alt="affiliated apps page"></a></li>
 			</ul>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="footer-info">
-		Take2 | Designed by TEAM
+		<div class="row">
+			<div class="footer-info">
+			Take2 | Designed by TEAM
+			</div>
 		</div>
 	</div>
 </footer>
