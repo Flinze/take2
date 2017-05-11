@@ -112,7 +112,8 @@ width: 100% !important;
     border-style: solid;
     border-color: #f7b733;
 	color: #666666;
-	height: 74px;
+	height: 95px;
+	line-height: 95px;
     background-color: #f7b733;
     border-radius: 20px;
     text-align: center;
@@ -127,12 +128,19 @@ width: 100% !important;
 	border-radius: 20px;
 }
 
+.dishTitle {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
 .innerDish {
 	width: 97%;
 	background-color: #fad385;
 	border-radius: 20px;
 	margin: 10px auto;
 	padding: 10px;
+	line-height: normal;
 }
 
 /* Recipe */
