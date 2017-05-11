@@ -15,6 +15,7 @@
   		<!-- Main Content -->
 			<main class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
 
+
   			<div class="major-title">
   				About Us
   			</div>
@@ -23,10 +24,10 @@
   				<img src="img/about/friends.jpg" alt="Group Photo">
   			</div>
 
-            <div class="major-title">
+        <div class="major-title">
 					<i class="fa fa-male"></i><i class="fa fa-male">The Flock Project
-                    </i><i class="fa fa-female"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
-			</div>
+          </i><i class="fa fa-female"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
+				</div>
 
   			<p>
   			One Two Three
@@ -40,9 +41,8 @@
   		</main>
 
   		<!-- Footer -->
-        <footer>
-            <?php include('footer.php'); ?>
-        </footer>
+      <?php include('footer.php'); ?>
+
     </div>
   </body>
 </html>
