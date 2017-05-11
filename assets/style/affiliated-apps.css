@@ -56,5 +56,6 @@
   }
 .app-description {
   text-align: left;
-  padding: 0 60px;
+  padding: 0 15px;
+  font-size: smaller;
 }
