@@ -66,6 +66,9 @@ function pullValues() {
         while (d.hasChildNodes()) {
             d.removeChild(d.childNodes[0]);
         }
+
+        // TODO: How-to collapse 
+
         // Calls list dishes function to add new divs to dishes div
         listDishes();
     };
