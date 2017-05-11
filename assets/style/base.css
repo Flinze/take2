@@ -23,19 +23,15 @@ header {
 /* Body */
 main {
 	height: 100%;
+	text-align: center;
+	min-height: 100%;
 }
 
 html, body {
 	height: 100%;
+	min-height: 100%;
 }
 
-a {
-	color: #F7B733;
-}
-
-main {
-	text-align: center;
-}
 .major-title {
 	padding: 2% 0 1% 0;
 	margin: 4% 0 4% 0;
@@ -93,6 +89,14 @@ main {
 
 footer {
 	height: 100%;
+	clear: both;
+}
+
+.footer {
+	background-color: #FC4A1A;
+	height: 100%;
+	clear: both;
+	color: #DFDCE3;
 }
 
 .icon {
@@ -100,6 +104,10 @@ footer {
 	width:150px;
 	height:150px;
 	display: inline-block;
+	text-align: center;
+}
+
+.footer-info {
 	text-align: center;
 }
 

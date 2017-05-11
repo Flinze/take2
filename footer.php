@@ -1,5 +1,6 @@
 <!-- Footer -->
 <footer>
+    <div class="footer">
     <div class="row">
         <div class="col-lg-offset-4 col-lg-4 col-xs-offset-1 col-xs-10">
           <ul class="footer-links">
@@ -12,10 +13,13 @@
     </div>
 
     <div class="row">
-      <div class="col-xs-offset-3 col-xs-6 ">
-        Take2 | Designed by TEAM
+      <div class="col-xs-12">
+         <div class="footer-info">
+             Take2 | Designed by TEAM
+         </div>
       </div>
     </div>
+</div>
 </footer>
 
 <!-- Scripts -->
