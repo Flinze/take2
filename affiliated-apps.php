@@ -59,12 +59,12 @@
               </div>
             </div>
           </div>
-  			</main>
+
 
   			<!-- Footer -->
         <?php include('footer.php'); ?>
 
-
-      </div>
+        </main>
+     </div>
   </body>
 </html>

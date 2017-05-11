@@ -21,6 +21,10 @@ header {
 }
 
 /* Body */
+main {
+	height: 100%;
+}
+
 html, body {
 	height: 100%;
 }
@@ -87,13 +91,33 @@ main {
 	list-style-type: none;
 }
 
-.footer-links img {
-	float:left;
-	width:42px;
-	height:42px;
-	display: inline-block;
-}
-
 footer {
 	height: 100%;
+}
+
+.icon {
+	float:left;
+	width:150px;
+	height:150px;
+	display: inline-block;
+	text-align: center;
+}
+
+/* desktop */
+@media only screen and (min-width: 1141px) {
+
+    .icon {
+        height:50px;
+        width:50px;
+			}
+
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+
+    .icon {
+        height: 60px;
+        width: 60px;
+			}
 }
