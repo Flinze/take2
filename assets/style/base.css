@@ -21,6 +21,10 @@ header {
 }
 
 /* Body */
+#wrapper {
+	min-height: 100%;
+}
+
 main {
 	height: 100%;
 	text-align: center;
@@ -30,6 +34,7 @@ main {
 html, body {
 	height: 100%;
 	min-height: 100%;
+	margin: 0;
 }
 
 .major-title {
