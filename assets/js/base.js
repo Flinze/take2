@@ -84,11 +84,11 @@
 								.css('overflow-y', 'auto');
 
 				});
-				
+
 /*		Causing errors, removed to see what happens.
 			// Fix: Placeholder polyfill.
 				$form.placeholder();
-*/
+
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
@@ -97,7 +97,7 @@
 					skel.breakpoint('medium').active
 				);
 			});
-
+*/
 		// Menu.
 			var $menu = $('#menu');
 
