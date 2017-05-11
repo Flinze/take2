@@ -1,26 +1,20 @@
 <!-- Footer -->
-<div class="container">
-  <div class="row">
-    <div>
+<footer class="nav navbar-static-bottom">
+	<div class="row">
+		<ul class="footer-links">
+			<li class="footer-icon"><a href="index.php"><img class="icon" src="img/footer/home.png" alt="home page"></a></li>
+			<li class="footer-icon"><a href="recipes.php"><img class ="icon" src="img/footer/recipes.png" alt="recipes page"></a></li>
+			<li class="footer-icon"><a href="about.php"><img class="icon" src="img/footer/aboutus.png" alt="about us page"></a></li>
+			<li class="footer-icon"><a href="affiliated-apps.php"><img class="icon" src="img/footer/affiliated_apps.png" alt="affiliated apps page"></a></li>
+		</ul>
+	</div>
 
-      <div class="col-xs-offset-2 col-xs-2">
-        <ul id="footer-links">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="recipes.php">Recipes</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="affiliated-apps.php">Affiliated Apps</a></li>
-        </ul>
-      </div>
-
-
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-offset-4 col-xs-8 ">
-      Copyright &copy; 2017 Take2 | Designed by TEAM
-    </div>
-  </div>
-</div>
+	<div class="row">
+		<div class="footer-info">
+		Take2 | Designed by TEAM
+		</div>
+	</div>
+</footer>
 
 <!-- Scripts -->
 <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
