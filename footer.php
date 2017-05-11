@@ -1,27 +1,21 @@
 <!-- Footer -->
 <footer>
-    <div class="container">
-    <div class="footer">
-    <div class="row">
-        <div class="col-lg-offset-5 col-lg-4 col-xs-offset-1 col-xs-10">
-          <ul class="footer-links">
-            <li><a href="index.php"><img class="icon" src="img/footer/home.png" alt="home page"></a></li>
-            <li><a href="recipes.php"><img class ="icon" src="img/footer/recipes.png" alt="recipes page"></a></li>
-            <li><a href="about.php"><img class="icon" src="img/footer/aboutus.png" alt="about us page"></a></li>
-            <li><a href="affiliated-apps.php"><img class="icon" src="img/footer/affiliated_apps.png" alt="affiliated apps page"></a></li>
-          </ul>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-4 col-offset-4">
+			<ul class="footer-links">
+				<li><a href="index.php"><img class="icon" src="img/footer/home.png" alt="home page"></a></li>
+				<li><a href="recipes.php"><img class ="icon" src="img/footer/recipes.png" alt="recipes page"></a></li>
+				<li><a href="about.php"><img class="icon" src="img/footer/aboutus.png" alt="about us page"></a></li>
+				<li><a href="affiliated-apps.php"><img class="icon" src="img/footer/affiliated_apps.png" alt="affiliated apps page"></a></li>
+			</ul>
+		</div>
+	</div>
 
-    <div class="row">
-      <div class="col-xs-12">
-         <div class="footer-info">
-             Take2 | Designed by TEAM
-         </div>
-      </div>
-    </div>
-</div>
-</div>
+	<div class="row">
+		<div class="footer-info">
+		Take2 | Designed by TEAM
+		</div>
+	</div>
 </footer>
 
 <!-- Scripts -->
