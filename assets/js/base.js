@@ -11,92 +11,94 @@
 	$(function() {
 
 		var	$window = $(window),
-		$body = $('body');
+			$body = $('body');
 
 		// Disable animations/transitions until the page has loaded.
-		$body.addClass('is-loading');
+			$body.addClass('is-loading');
 
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-loading');
-			}, 100);
-		});
-
-		// Touch?
-		if (skel.vars.mobile)
-		$body.addClass('is-touch');
-
-		// Forms.
-		var $form = $('form');
-
-		// Auto-resizing textareas.
-		$form.find('textarea').each(function() {
-
-			var $this = $(this),
-			$wrapper = $('<div class="textarea-wrapper"></div>'),
-			$submits = $this.find('input[type="submit"]');
-
-			$this
-			.wrap($wrapper)
-			.attr('rows', 1)
-			.css('overflow', 'hidden')
-			.css('resize', 'none')
-			.on('keydown', function(event) {
-
-				if (event.keyCode == 13
-					&&	event.ctrlKey) {
-
-						event.preventDefault();
-						event.stopPropagation();
-
-						$(this).blur();
-
-					}
-
-				})
-				.on('blur focus', function() {
-					$this.val($.trim($this.val()));
-				})
-				.on('input blur focus --init', function() {
-
-					$wrapper
-					.css('height', $this.height());
-
-					$this
-					.css('height', 'auto')
-					.css('height', $this.prop('scrollHeight') + 'px');
-
-				})
-				.on('keyup', function(event) {
-
-					if (event.keyCode == 9)
-					$this
-					.select();
-
-				})
-				.triggerHandler('--init');
-
-				// Fix.
-				if (skel.vars.browser == 'ie'
-				||	skel.vars.mobile)
-				$this
-				.css('max-height', '10em')
-				.css('overflow-y', 'auto');
-
+			$window.on('load', function() {
+				window.setTimeout(function() {
+					$body.removeClass('is-loading');
+				}, 100);
 			});
 
+		// Touch?
+			if (skel.vars.mobile)
+				$body.addClass('is-touch');
+
+		// Forms.
+			var $form = $('form');
+
+			// Auto-resizing textareas.
+				$form.find('textarea').each(function() {
+
+					var $this = $(this),
+						$wrapper = $('<div class="textarea-wrapper"></div>'),
+						$submits = $this.find('input[type="submit"]');
+
+					$this
+						.wrap($wrapper)
+						.attr('rows', 1)
+						.css('overflow', 'hidden')
+						.css('resize', 'none')
+						.on('keydown', function(event) {
+
+							if (event.keyCode == 13
+							&&	event.ctrlKey) {
+
+								event.preventDefault();
+								event.stopPropagation();
+
+								$(this).blur();
+
+							}
+
+						})
+						.on('blur focus', function() {
+							$this.val($.trim($this.val()));
+						})
+						.on('input blur focus --init', function() {
+
+							$wrapper
+								.css('height', $this.height());
+
+							$this
+								.css('height', 'auto')
+								.css('height', $this.prop('scrollHeight') + 'px');
+
+						})
+						.on('keyup', function(event) {
+
+							if (event.keyCode == 9)
+								$this
+									.select();
+
+						})
+						.triggerHandler('--init');
+
+					// Fix.
+						if (skel.vars.browser == 'ie'
+						||	skel.vars.mobile)
+							$this
+								.css('max-height', '10em')
+								.css('overflow-y', 'auto');
+
+				});
+
+/*		Causing errors, removed to see what happens.
 			// Fix: Placeholder polyfill.
+				$form.placeholder();
 
 
-			// Prioritize "important" elements on medium.
+		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
 				$.prioritize(
 					'.important\\28 medium\\29',
 					skel.breakpoint('medium').active
 				);
 			});
-
-			// Menu.
+*/
+		// Menu.
 			var $menu = $('#menu');
 
 			$menu.wrapInner('<div class="inner"></div>');
@@ -106,7 +108,7 @@
 			$menu._lock = function() {
 
 				if ($menu._locked)
-				return false;
+					return false;
 
 				$menu._locked = true;
 
@@ -121,94 +123,74 @@
 			$menu._show = function() {
 
 				if ($menu._lock())
-				$body.addClass('is-menu-visible');
+					$body.addClass('is-menu-visible');
 
 			};
 
 			$menu._hide = function() {
 
 				if ($menu._lock())
-				$body.removeClass('is-menu-visible');
+					$body.removeClass('is-menu-visible');
 
 			};
 
 			$menu._toggle = function() {
 
 				if ($menu._lock())
-				$body.toggleClass('is-menu-visible');
+					$body.toggleClass('is-menu-visible');
 
 			};
 
 			$menu
-			.appendTo($body)
-			.on('click', function(event) {
-				event.stopPropagation();
-			})
-			.on('click', 'a', function(event) {
+				.appendTo($body)
+				.on('click', function(event) {
+					event.stopPropagation();
+				})
+				.on('click', 'a', function(event) {
 
-				var href = $(this).attr('href');
+					var href = $(this).attr('href');
 
-				event.preventDefault();
-				event.stopPropagation();
+					event.preventDefault();
+					event.stopPropagation();
 
-				// Hide.
-				$menu._hide();
+					// Hide.
+						$menu._hide();
 
-				// Redirect.
-				if (href == '#menu')
-				return;
+					// Redirect.
+						if (href == '#menu')
+							return;
 
-				window.setTimeout(function() {
-					window.location.href = href;
-				}, 350);
+						window.setTimeout(function() {
+							window.location.href = href;
+						}, 350);
 
-			})
-			.append('<a class="close" href="#menu">Close</a>');
+				})
+				.append('<a class="close" href="#menu">Close</a>');
 
 			$body
-			.on('click', 'a[href="#menu"]', function(event) {
+				.on('click', 'a[href="#menu"]', function(event) {
 
-				event.stopPropagation();
-				event.preventDefault();
+					event.stopPropagation();
+					event.preventDefault();
 
-				// Toggle.
-				$menu._toggle();
+					// Toggle.
+						$menu._toggle();
 
-			})
-			.on('click', function(event) {
+				})
+				.on('click', function(event) {
 
-				// Hide.
-				$menu._hide();
+					// Hide.
+						$menu._hide();
 
-			})
-			.on('keydown', function(event) {
+				})
+				.on('keydown', function(event) {
 
-				// Hide on escape.
-				if (event.keyCode == 27)
-				$menu._hide();
+					// Hide on escape.
+						if (event.keyCode == 27)
+							$menu._hide();
 
-			});
-
-			//Form
-			function matchStart (term, text) {
-				if (text.toUpperCase().indexOf(term.toUpperCase()) == 0) {
-					return true;
-				}
-
-				return false;
-			}
-
-			$.fn.select2.amd.require(['select2/compat/matcher'], function(oldMatcher){
-				$('.dropFirst').select2({
-					matcher: oldMatcher(matchStart),
-					placeholder: 'Enter first ingredient'
 				});
-				$('.dropSecond').select2({
-					matcher: oldMatcher(matchStart),
-					placeholder: 'Enter second ingredient'
-				});
-			});
 
-		});
+	});
 
-	})(jQuery);
+})(jQuery)
