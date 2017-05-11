@@ -1,19 +1,15 @@
 <!-- Footer -->
 <footer class="nav navbar-static-bottom">
-	<div class="row">
 		<ul class="footer-links">
 			<li class="footer-icon"><a href="index.php"><img class="icon" src="img/footer/home.png" alt="home page"></a></li>
 			<li class="footer-icon"><a href="recipes.php"><img class ="icon" src="img/footer/recipes.png" alt="recipes page"></a></li>
 			<li class="footer-icon"><a href="about.php"><img class="icon" src="img/footer/aboutus.png" alt="about us page"></a></li>
 			<li class="footer-icon"><a href="affiliated-apps.php"><img class="icon" src="img/footer/affiliated_apps.png" alt="affiliated apps page"></a></li>
 		</ul>
-	</div>
 
-	<div class="row">
 		<div class="footer-info">
 		Take2 | Designed by TEAM
 		</div>
-	</div>
 </footer>
 
 <!-- Scripts -->
