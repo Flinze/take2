@@ -56,39 +56,41 @@
 
 
       </form>
-      
+
 
       <!-- How to use collapse box-->
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
-          </h4>
+      <div class='panel-group'>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a for='collapseOne' id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
+            </h4>
+          </div>
+          <div id="how-to-use-box" class="panel-collapse collapse">
+            <div id="how-to-use-inner" class="">
+              <ol>
+                <li>Enter two different ingredients in the form above</li>
+                <li>Browse the list of dishes below</li>
+                <li>More details are provided for each dish by clicking on their respective name</li>
+                <li>Users may also browse all dishes <a href="recipes.php">here</a></li>
+              </ol>
+            </div>
+          </div>
         </div>
-        <div id="how-to-use-box" class="panel-collapse collapse in container">
-			<div id="how-to-use-inner" class="">
-				<ol>
-					<li>Enter two different ingredients in the form above</li>
-					<li>Browse the list of dishes below</li>
-					<li>More details are provided for each dish by clicking on their respective name</li>
-					<li>Users may also browse all dishes <a href="recipes.php">here</a></li>
-				</ol>
-			</div>
+      </div>
+
+        <!-- Dishes Header -->
+        <div class="major-title">
+          Dishes <i class="fa fa-cutlery"></i>
         </div>
-      </div>
+        <div class="container" id="dishes">
+        </div>
 
-      <!-- Dishes Header -->
-      <div class="major-title">
-        Dishes <i class="fa fa-cutlery"></i>
-      </div>
-      <div class="container" id="dishes">
-      </div>
+      </main>
 
-	</main>
+      <!-- Footer -->
+      <?php include('footer.php'); ?>
 
-		<!-- Footer -->
-		<?php include('footer.php'); ?>
-
-	</div> <!-- Wrapper -->
-</body>
-</html>
+    </div> <!-- Wrapper -->
+  </body>
+  </html>

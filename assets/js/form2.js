@@ -1,5 +1,7 @@
 var holder = '';
 var holder2 = '';
+var firstInput = false;
+var secondInput = false;
 var arr = ['Avocado', 'Bananas', 'Beef', 'Bread', 'Cheese', 'Chicken', 'Egg',
 'Lettuce', 'Potatoes', 'Tomatoes']
 
@@ -9,6 +11,7 @@ var arr = ['Avocado', 'Bananas', 'Beef', 'Bread', 'Cheese', 'Chicken', 'Egg',
 
 $('#dropFirst').on('select2:select', function(event) {
   var e = event;
+  firstInput = true;
   if(holder != e.params.data.text){
     console.log(e.params.data);
     $('#dropSecond').select2('destroy');
@@ -16,6 +19,7 @@ $('#dropFirst').on('select2:select', function(event) {
     nullSecond(e);
     holder = e.params.data.text;
   }
+  hideHowTo();
 });
 
 function nullSecond(evt){
@@ -35,6 +39,8 @@ function nullSecond(evt){
 
 $('#dropSecond').on('select2:select', function(event) {
   var e = event;
+  secondInput = true;
+
   if(holder2 != e.params.data.text){
     console.log(e.params.data);
     $('#dropFirst').select2('destroy');
@@ -42,6 +48,7 @@ $('#dropSecond').on('select2:select', function(event) {
     nullFirst(e);
     holder2 = e.params.data.text;
   }
+  hideHowTo();
 });
 
 function nullFirst(evt){
@@ -94,4 +101,12 @@ function createNewSecond(){
       matcher: oldMatcher(matchStart),
     });
   });
+}
+
+function hideHowTo(){
+  if(firstInput && secondInput){
+    $('.collapse').css('transition-duration', '0.9s');
+    $('.collapse').collapse();
+
+  }
 }
