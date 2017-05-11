@@ -186,9 +186,9 @@ ul.footer-links {
 
 footer {
 	bottom:0;
-	background-color: #666666;
+	background-color: rgb(254,165,99);
 	clear: both;
-	color: #DFDCE3;
+	color: #666666;
     position: absolute;
 	text-align: center;
 	width:100%;
