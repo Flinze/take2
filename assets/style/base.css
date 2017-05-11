@@ -42,7 +42,7 @@ main {
 }
 
 .major-title {
-	padding: 2% 0 1% 0;
+
 	margin: 4% 0 4% 0;
 	border-bottom: 1px black solid;
 	font-family: "Helvetica Neue", Helvetica, Arial;
@@ -77,6 +77,36 @@ main {
 	max-width: 100%;
 }
 
+.form-control .select2-container {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  display: table;
+  table-layout: fixed;
+}
+
+a#how-to-use-toggle {
+    text-decoration: none !important;
+    display:inline-block;
+    width:100%;
+
+}
+#how-to-use-box{
+
+}
+#how-to-use-inner{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+	text-align:left;
+
+}
+#how-to-use-inner ol{
+
+	margin: 20px;
+}
 .container {
 	width: 100%;
 	margin-left: auto;
@@ -85,10 +115,68 @@ main {
 	margin-bottom: 20px;
 }
 
-.dropFirst .dropSecond{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+@media screen and (max-width: 767px) {
+.select2 {
+width: 100% !important;
+}
+}
+
+/* Style for generated dish divisions */
+.dishDivs {
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f7b733;
+	color: #666666;
+	height: 95px;
+	line-height: 95px;
+    background-color: #f7b733;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.dishDivs img {
+	height: 200px;
+	border-radius: 20px;
+}
+
+.dishTitle {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.innerDish {
+	width: 97%;
+	background-color: #fad385;
+	border-radius: 20px;
+	margin: 10px auto;
+	padding: 10px;
+	line-height: normal;
+}
+
+/* Recipe */
+.recipe-ingredient-list ul {
+	list-style-type: none;
+	float: left;
+	font-size: 1em;
+}
+.minor-title-recipe {
+	padding: 2% 0 1% 0;
+	margin: 4% 0 4% 0;
+	border-bottom: 1px black solid;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+.recipe-directions-list {
+	list-style-type: none;
+	display: block;
+	text-align: left;
 }
 
 /* Footer */

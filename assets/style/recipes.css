@@ -4,8 +4,24 @@ list-style-type:none;
 position:fixed;
 top: 100px;
 right:20px;
+
+#scollbar-list {
+	list-style-type:none;
+	position:fixed;
+	text-align:center;
+	display:inline-block;
+	padding-top:0.5em;
+	right:0.5em;
+    height: 100vh;
+    overflow: auto;
 }
 
-#scollbar_list li a{
-text-decoration:none;
+#scollbar-list div {
+	border: 1px solid #337ab7;
+	padding:1px 2px;
+	font-size:0.8em;
+}
+
+#scollbar-list div a{
+	text-decoration:none;
 }

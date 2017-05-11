@@ -7,7 +7,7 @@
 
 <body>
   <!-- Wrapper -->
-  <div id="wrapper" class="container-fluid">
+  <div id="wrapper" class="container-fluid" data-role="page">
 
     <!-- Header and Navigation Bar -->
     <?php include('header.php'); ?>
@@ -21,62 +21,76 @@
       </div>
 
       <!-- Ingredient input -->
-      <form>
+      <form data-role="none">
         <div class="container">
-          <select class='form-control' id='dropFirst' data-placeholder='Enter first ingredient'>
+          <select class='form-control' id='dropFirst' data-placeholder='Enter first ingredient' data-role="none" onchange="pullValues()">
             <option></option>
-            <option id='Avocadof' value = "Avocado">Avocado</option>
-            <option id = 'Bananasf'value = "Bananas">Bananas</option>
-            <option id = "Beeff" value = "Beef">Beef</option>
-            <option id = "Breadf" value = "Bread">Bread</option>
-            <option id = "Cheesef" value = "Cheese">Cheese</option>
-            <option id = "Chickenf" value = "Chicken">Chicken</option>
-            <option id = "Eggf" value = "Egg">Egg</option>
-            <option id = "Lettucef" value = "Lettuce">Lettuce</option>
-            <option id = "Potatoesf" value = "Potatoes">Potatoes</option>
-            <option id = "Tomatoesf" value = "Tomatoes">Tomatoes</option>
+            <option id ='Avocadof' value="avocado">Avocado</option>
+            <option id='Bananasf'value="bananas">Bananas</option>
+            <option id="Beeff" value="beef">Beef</option>
+            <option id="Breadf" value="bread">Bread</option>
+            <option id="Cheesef" value="cheese">Cheese</option>
+            <option id="Chickenf" value="chicken">Chicken</option>
+            <option id="Eggf" value="egg">Egg</option>
+            <option id="Lettucef" value="lettuce">Lettuce</option>
+            <option id="Potatoesf" value="potatoes">Potatoes</option>
+            <option id="Tomatoesf" value="tomatoes">Tomatoes</option>
           </select>
         </div>
         <div class="container">
-          <select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient'>
+          <select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient' data-role="none" onchange="pullValues()">
             <option></option>
-            <option id='Avocado' value = "Avocado">Avocado</option>
-            <option id = 'Bananas'value = "Bananas">Bananas</option>
-            <option id = "Beef" value = "Beef">Beef</option>
-            <option id = "Bread" value = "Bread">Bread</option>
-            <option id = "Cheese" value = "Cheese">Cheese</option>
-            <option id = "Chicken" value = "Chicken">Chicken</option>
-            <option id = "Egg" value = "Egg">Egg</option>
-            <option id = "Lettuce" value = "Lettuce">Lettuce</option>
-            <option id = "Potatoes" value = "Potatoes">Potatoes</option>
-            <option id = "Tomatoes" value = "Tomatoes">Tomatoes</option>
+            <option id='Avocado' value="avocado">Avocado</option>
+            <option id='Bananas'value="bananas">Bananas</option>
+            <option id="Beef" value="beef">Beef</option>
+            <option id="Bread" value="bread">Bread</option>
+            <option id="Cheese" value="cheese">Cheese</option>
+            <option id="Chicken" value="chicken">Chicken</option>
+            <option id="Egg" value="egg">Egg</option>
+            <option id="Lettuce" value="lettuce">Lettuce</option>
+            <option id="Potatoes" value="potatoes">Potatoes</option>
+            <option id="Tomatoes" value="tomatoes">Tomatoes</option>
+
           </select>
         </div>
+
 
       </form>
 
+
       <!-- How to use collapse box-->
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#howtouse">(can collapse, need to pretty it up) >How to use</a>
-          </h4>
-        </div>
-        <div id="howtouse" class="panel-collapse collapse in">
-          PICTURE INFO READMORE LINK
+      <div class='panel-group'>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a for='collapseOne' id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
+            </h4>
+          </div>
+          <div id="how-to-use-box" class="panel-collapse collapse">
+            <div id="how-to-use-inner" class="">
+              <ol>
+                <li>Enter two different ingredients in the form above</li>
+                <li>Browse the list of dishes below</li>
+                <li>More details are provided for each dish by clicking on their respective name</li>
+                <li>Users may also browse all dishes <a href="recipes.php">here</a></li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Dishes Header -->
-      <div class="major-title">
-        Dishes <i class="fa fa-cutlery"></i>
-      </div>
+        <!-- Dishes Header -->
+        <div class="major-title">
+          Dishes <i class="fa fa-cutlery"></i>
+        </div>
+        <div class="container" id="dishes">
+        </div>
 
-    </main>
+      </main>
 
-    <!-- Footer -->
-    <?php include('footer.php'); ?>
+      <!-- Footer -->
+      <?php include('footer.php'); ?>
 
-</div>
-</body>
-</html>
+    </div> <!-- Wrapper -->
+  </body>
+  </html>

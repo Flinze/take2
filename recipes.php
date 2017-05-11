@@ -2,49 +2,50 @@
 <html lang="en">
   <head>
     <title>Take2 - Recipes</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
   </head>
 
   <body>
 		<!-- Wrapper -->
 		<div id="wrapper" class="container-fluid">
-      
-			<!-- Header and navigation bar -->
-      <?php include('header.php') ?>
 
-      <!-- Scroll Bar -->
-			<div class="col-1 col-offset-11">
-        <ul id="scollbar_list">
-            <li><a href="#recipe-a">a</a></li>
-            <li><a href="#recipe-b">b</a></li>
-            <li><a href="#recipe-c">c</a></li>
-            <li><a href="#recipe-d">d</a></li>
-            <li><a href="#recipe-e">e</a></li>
-            <li><a href="#recipe-f">f</a></li>
-            <li><a href="#recipe-g">g</a></li>
-            <li><a href="#recipe-h">h</a></li>
-            <li><a href="#recipe-i">i</a></li>
-            <li><a href="#recipe-j">j</a></li>
-            <li><a href="#recipe-k">k</a></li>
-            <li><a href="#recipe-l">l</a></li>
-            <li><a href="#recipe-m">m</a></li>
-            <li><a href="#recipe-n">n</a></li>
-            <li><a href="#recipe-o">o</a></li>
-            <li><a href="#recipe-p">p</a></li>
-            <li><a href="#recipe-q">q</a></li>
-            <li><a href="#recipe-r">r</a></li>
-            <li><a href="#recipe-s">s</a></li>
-            <li><a href="#recipe-t">t</a></li>
-            <li><a href="#recipe-u">u</a></li>
-            <li><a href="#recipe-v">v</a></li>
-            <li><a href="#recipe-w">w</a></li>
-            <li><a href="#recipe-x">x</a></li>
-            <li><a href="#recipe-y">y</a></li>
-            <li><a href="#recipe-z">z</a></li>
-          </ul>
+			<!-- Header and navigation bar -->
+			<?php include('header.php') ?>
+
+			<!-- Scroll Bar -->
+			<div id="scrollbar-container" class="col-1 col-offset-11">
+				<div id="scollbar-list">
+					<div><a href="#recipe-a">A</a></div>
+					<div><a href="#recipe-b">B</a></div>
+					<div><a href="#recipe-c">C</a></div>
+					<div><a href="#recipe-d">D</a></div>
+					<div><a href="#recipe-e">E</a></div>
+					<div><a href="#recipe-f">F</a></div>
+					<div><a href="#recipe-g">G</a></div>
+					<div><a href="#recipe-h">H</a></div>
+					<div><a href="#recipe-i">I</a></div>
+					<div><a href="#recipe-j">J</a></div>
+					<div><a href="#recipe-k">K</a></div>
+					<div><a href="#recipe-l">L</a></div>
+					<div><a href="#recipe-m">M</a></div>
+					<div><a href="#recipe-n">N</a></div>
+					<div><a href="#recipe-o">O</a></div>
+					<div><a href="#recipe-p">P</a></div>
+					<div><a href="#recipe-q">Q</a></div>
+					<div><a href="#recipe-r">R</a></div>
+					<div><a href="#recipe-s">S</a></div>
+					<div><a href="#recipe-t">T</a></div>
+					<div><a href="#recipe-u">U</a></div>
+					<div><a href="#recipe-v">V</a></div>
+					<div><a href="#recipe-w">W</a></div>
+					<div><a href="#recipe-x">X</a></div>
+					<div><a href="#recipe-y">Y</a></div>
+					<div><a href="#recipe-z">Z</a></div>
+				</div>
 			</div>
 
 			<!-- Main Content -->
+
 			<main class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
 
 				<div class="major-title" id="recipe-title">
