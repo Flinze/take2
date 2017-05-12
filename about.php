@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <title>Take2 - About</title>
-    <meta charset="utf-8" />
-  </head>
+<head>
+	<title>Take2 - About</title>
+	<meta charset="utf-8" />
+</head>
 
   <body>
     <!-- Wrapper -->
