@@ -25,7 +25,7 @@ main {
 	text-align: center;
 }
 .major-title {
-	
+
 	margin: 4% 0 4% 0;
 	border-bottom: 1px black solid;
 	font-family: "Helvetica Neue", Helvetica, Arial;
@@ -88,8 +88,11 @@ a#how-to-use-toggle {
 
 }
 #how-to-use-inner ol{
+<<<<<<< HEAD
 
 	margin:0;
+=======
+>>>>>>> aa713f9465b6b542da721a4ad97ed8680ebcd45a
 }
 .container {
 	width: 100%;
@@ -112,7 +115,11 @@ width: 100% !important;
     border-style: solid;
     border-color: #f7b733;
 	color: #666666;
+<<<<<<< HEAD
 	height: 74px;
+=======
+	height: 95px;
+>>>>>>> aa713f9465b6b542da721a4ad97ed8680ebcd45a
     background-color: #f7b733;
     border-radius: 20px;
     text-align: center;
@@ -155,6 +162,48 @@ width: 100% !important;
 	text-align: left;
 }
 
+<<<<<<< HEAD
+=======
+/* Footer */
+ul.footer-links {
+	list-style-type: none;
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+footer {
+	bottom:0;
+	background-color: rgb(254,165,99);
+	clear: both;
+	color: #666666;
+    position: absolute;
+	text-align: center;
+	width:100%;
+	height:100px;
+}
+li.footer-icon{
+	display:inline-block;
+	margin:0.5em;
+	width:50px;
+	height:50px;
+}
+.icon {
+	width:100%;
+	height:100%;
+	text-align: center;
+}
+
+.footer-info {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+
+/* desktop */
+/*
+@media only screen and (min-width: 1141px) {
+>>>>>>> aa713f9465b6b542da721a4ad97ed8680ebcd45a
 
 
 
