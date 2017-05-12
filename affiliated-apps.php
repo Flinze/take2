@@ -87,7 +87,7 @@
 						</div>
 						<div class="caption-text">
 							<h3 class="title">Wasted</h3>
-							<p class="app-description">A website to teach people about the life expectancy of their food. This website will also have a user-contributed section on tips to preserve food. (Currently for vegetables only)</p>
+							<p class="app-description">Web app that tracks what food you have on hand and reminds you when it's about to go bad. Users update a list of on hand items with  their expiry dates and app pushes a reminder.</p>
 							<a class="btn btn-info" href="http://students.bcitdev.com/A00989687/forAffiliates/WASTED.html">View Page</a>
 						</div>
 					</div>
@@ -105,8 +105,8 @@
 						</div>
 						<div class="caption-text">
 							<h3 class="title">Fuber</h3>
-							<p class="app-description">A food-sharing app that allows users to connect and easily share leftover ingredients and meals</p>
-							<a class="btn btn-info" href="#">View Page</a>
+							<p class="app-description">A QR code scanner will scan a user's grocery store reciept and suggest them recepies to use with their food.</p>
+							<a class="btn btn-info" href="http://162.221.205.237/">View Page</a>
 						</div>
 					</div>
 				</div>
