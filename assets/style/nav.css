@@ -32,8 +32,8 @@
 
 		#header nav {
 			position: fixed;
-			right: 0.8em;
-			top: 1.5em;
+			right: 0.8em; /* How far the NAV Burger is from the right*/
+			top: 1.5em; /* How far the NAV Burger is from the top*/
 			z-index: 10000;
 		}
 
@@ -59,7 +59,7 @@
 					#header nav ul li a {
 						display: block;
 						position: relative;
-						height: 2.5em;
+						height: 2.5em;						/*Size height of the nav burger*/
 						line-height: 3em;
 						padding: 0 1.5em;
 						background-color: rgba(255, 255, 255, 0.5);
@@ -73,7 +73,7 @@
 
 					#header nav ul li a[href="#menu"] {
 						-webkit-tap-highlight-color: transparent;
-						width: 3em;
+						width: 3em;							/*Size width of the nav burger*/
 						text-indent: 4em;
 						font-size: 1em;
 						overflow: hidden;

@@ -21,12 +21,7 @@ header {
 }
 
 /* Body */
-html{
-	min-height: 100%;
-	height: 100%;
-}
-
-body{
+html, body{
 	min-height: 100%;
 	height: 100%;
 }
@@ -93,17 +88,11 @@ a#how-to-use-toggle {
     width:100%;
 
 }
-#how-to-use-box{
-
-}
 #how-to-use-inner{
     display:inline-block;
     margin-left:auto;
     margin-right:auto;
 	text-align:left;
-
-}
-#how-to-use-inner ol{
 }
 .container {
 	width: 100%;
@@ -115,7 +104,7 @@ a#how-to-use-toggle {
 
 @media screen and (max-width: 767px) {
 .select2 {
-width: 100% !important;
+	width: 100% !important;
 }
 }
 
