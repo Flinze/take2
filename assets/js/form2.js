@@ -8,7 +8,7 @@ var arr = ['Avocado', 'Bananas', 'Beef', 'Bread', 'Cheese', 'Chicken', 'Egg',
 
 
 
-
+//Handles event of first ingredient being selected
 $('#dropFirst').on('select2:select', function(event) {
   var e = event;
   firstInput = true;
@@ -22,6 +22,8 @@ $('#dropFirst').on('select2:select', function(event) {
   hideHowTo();
 });
 
+//Function to null only selected element (from first
+//dropdown) in the seconnd dropdown list
 function nullSecond(evt){
   console.log(evt.params.data.text);
 
@@ -37,20 +39,26 @@ function nullSecond(evt){
 
 }
 
+//Handles event of second ingredient being selected
 $('#dropSecond').on('select2:select', function(event) {
   var e = event;
   secondInput = true;
 
   if(holder2 != e.params.data.text){
     console.log(e.params.data);
+    //destroy previous list to prevent duplicates
     $('#dropFirst').select2('destroy');
+    //create new list from destroyed
     createNewFirst();
+    //redirect to helper function
     nullFirst(e);
     holder2 = e.params.data.text;
   }
   hideHowTo();
 });
 
+//Function to null only selected element (from second
+//dropdown) in the first dropdown list
 function nullFirst(evt){
   console.log(evt.params.data.text);
 
