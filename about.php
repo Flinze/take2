@@ -43,6 +43,6 @@
   		<!-- Footer -->
       <?php include('footer.php'); ?>
 
-    </div>
-  </body>
+	</div> <!-- Wrapper -->
+</body>
 </html>

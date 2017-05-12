@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Take2 - About</title>
+	<title>Take2 - Affiliated Apps</title>
 	<meta charset="utf-8">
 </head>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <title>Take2 - Recipes</title>
+    <title>Take2 - Recipe List</title>
     <meta charset="utf-8">
   </head>
 
@@ -133,12 +133,12 @@
 
 			</main>
 
-			<!-- Footer -->
-      <?php include('footer.php'); ?>
+		<!-- Footer -->
+		<?php include('footer.php'); ?>
 
-      <!-- Alpha Scrollbar Script -->
-      <script src="assets/js/recipes.scrollbar.js"></script>
+		<!-- Alpha Scrollbar Script -->
+		<script src="assets/js/recipes.scrollbar.js"></script>
 
-		</div>
-  </body>
+	</div> <!-- Wrapper -->
+</body>
 </html>
