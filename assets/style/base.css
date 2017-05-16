@@ -19,6 +19,10 @@ header {
 #take2-logo{
 	padding: 0.5em 0;
 }
+.nav-logo {
+	width: 145px;
+	height: 126px;
+}
 
 /* Body */
 html, body{
