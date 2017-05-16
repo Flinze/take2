@@ -307,3 +307,10 @@ body.is-menu-visible #menu .close {
 	transform: scale(1.0) rotate(0deg);
 	opacity: 1;
 }
+
+.swipe-area {
+	position: absolute;
+	width: 50px;
+	right: 0;
+	height: 100%;
+}

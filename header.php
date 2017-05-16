@@ -21,6 +21,7 @@
 
 <!-- Header -->
 <header class="container" id="header">
+  <div class="swipe-area"></div>
   <div class="inner">
     <!-- Logo -->
     <div id="take2-logo">
@@ -34,7 +35,7 @@
         <ul>
           <li><a href="#menu">Menu</a></li>
         </ul>
-      </nav>
+    </nav>
   </div>
 </header>
 
