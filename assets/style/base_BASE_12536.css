@@ -19,17 +19,8 @@ header {
 #take2-logo{
 	padding: 0.5em 0;
 }
-.nav-logo {
-	width: 145px;
-	height: 126px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 /* Body */
-<<<<<<< HEAD
-=======
 html, body{
 	min-height: 100%;
 	height: 100%;
@@ -38,10 +29,13 @@ html, body{
 	min-height: 100%;
 	position:relative;
 }
->>>>>>> e571b400b0a6eff388cb58889179b0df136b3ea4
 main {
+	height: 100%;
+	min-height: 100%;
 	text-align: center;
+	margin-bottom:100px;
 }
+
 .major-title {
 
 	margin: 4% 0 4% 0;
@@ -78,7 +72,6 @@ main {
 	max-width: 100%;
 }
 
-
 .form-control .select2-container {
   position: relative;
   z-index: 2;
@@ -100,17 +93,6 @@ a#how-to-use-toggle {
     margin-left:auto;
     margin-right:auto;
 	text-align:left;
-<<<<<<< HEAD
-
-}
-#how-to-use-inner ol{
-<<<<<<< HEAD
-
-	margin:0;
-=======
->>>>>>> aa713f9465b6b542da721a4ad97ed8680ebcd45a
-=======
->>>>>>> e571b400b0a6eff388cb58889179b0df136b3ea4
 }
 .container {
 	width: 100%;
@@ -133,15 +115,7 @@ a#how-to-use-toggle {
     border-style: solid;
     border-color: #f7b733;
 	color: #666666;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	height: 74px;
-=======
-	height: 95px;
->>>>>>> aa713f9465b6b542da721a4ad97ed8680ebcd45a
-=======
 	min-height: 0px;
->>>>>>> e571b400b0a6eff388cb58889179b0df136b3ea4
     background-color: #f7b733;
     border-radius: 15px;
     text-align: center;
@@ -156,12 +130,19 @@ a#how-to-use-toggle {
 	border-radius: 15px;
 }
 
+.dishTitle {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
 .innerDish {
 	width: 97%;
 	background-color: #fad385;
 	border-radius: 20px;
 	margin: 10px auto;
 	padding: 10px;
+	line-height: normal;
 }
 
 /* Recipe */
@@ -184,29 +165,6 @@ a#how-to-use-toggle {
 	text-align: left;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-/* Contact */
-fieldset {
-	text-align: left;
-	padding-left: 20px;
-}
-
-.text-field {
-	border: 1px solid #d3d3d3;
-	border-radius: 5px;
-}
-
-#comment {
-	width: 100%;
-}
-
-.error {
-	color: red;
-}
->>>>>>> 4e69cb9396158995b49ea76a480dc53e0018a38a
 /* Footer */
 ul.footer-links {
 	list-style-type: none;
@@ -246,15 +204,22 @@ li.footer-icon{
 /* desktop */
 /*
 @media only screen and (min-width: 1141px) {
->>>>>>> aa713f9465b6b542da721a4ad97ed8680ebcd45a
 
+    .icon {
+        height:50px;
+        width:50px;
+			}
 
-
-/* Footer */
-#footer-links {
-	list-style-type: none;
 }
-<<<<<<< HEAD
-=======
 */
->>>>>>> e571b400b0a6eff388cb58889179b0df136b3ea4
+
+/* mobile */
+/*
+@media only screen and (max-width: 767px) {
+
+    .icon {
+        height: 60px;
+        width: 60px;
+			}
+}
+*/

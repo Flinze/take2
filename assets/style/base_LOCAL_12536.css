@@ -19,13 +19,6 @@ header {
 #take2-logo{
 	padding: 0.5em 0;
 }
-.nav-logo {
-	width: 145px;
-	height: 126px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 /* Body */
 <<<<<<< HEAD
@@ -185,28 +178,7 @@ a#how-to-use-toggle {
 }
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
-/* Contact */
-fieldset {
-	text-align: left;
-	padding-left: 20px;
-}
-
-.text-field {
-	border: 1px solid #d3d3d3;
-	border-radius: 5px;
-}
-
-#comment {
-	width: 100%;
-}
-
-.error {
-	color: red;
-}
->>>>>>> 4e69cb9396158995b49ea76a480dc53e0018a38a
 /* Footer */
 ul.footer-links {
 	list-style-type: none;

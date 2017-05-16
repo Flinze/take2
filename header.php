@@ -14,7 +14,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/style/base.css">
   <link rel="stylesheet" href="assets/style/recipes.css">
-  <link rel="stylesheet" href="assets/style/affiliated-apps.css"
+  <link rel="stylesheet" href="assets/style/affiliated-apps.css">
 
   <!-- Cute Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,6 +41,7 @@
 <!-- Navigation Sidebar -->
 <nav class="">
   <nav id="menu">
+    <img class="nav-logo" src="img/take2-logo-1.png" alt="take2 logo">
     <h2>Menu</h2>
       <ul>
         <li><a href="index.php">Home</a></li>
