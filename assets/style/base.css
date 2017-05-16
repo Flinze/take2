@@ -165,6 +165,23 @@ a#how-to-use-toggle {
 	text-align: left;
 }
 
+/* Contact */
+fieldset {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.text-field {
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+}
+
+#comment {
+	width: 100%;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+}
+
 /* Footer */
 ul.footer-links {
 	list-style-type: none;
