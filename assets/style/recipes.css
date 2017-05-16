@@ -1,7 +1,7 @@
 /* Scrollbar */
 #scrollbar-container {
 	position:fixed;
-	top: 95px; /*How far a-z scroll is from top*/
+	top: 78px; /*How far a-z scroll is from top*/
 	right:10px;
     height: 100%;
 	z-index:1000; /*A-Z scroll will be overtop of the footer*/
