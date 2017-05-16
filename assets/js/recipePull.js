@@ -83,7 +83,7 @@ function recipeContentIndex(x, dishNumber) {
         x.find('button').click(function(event){
             $('#recipe-modal').modal('show');
             event.stopPropagation(); // Prevents the div from shrinking when the user clicks through to the recipe page
-            populateRecipeModal(dishNumber + 1);
+            populateRecipeModal(ing1, ing2, dishNumber + 1);
         });
     } else {
         // If the dish division has information appended to it, will remove the information from the division
@@ -96,9 +96,9 @@ function recipeContentIndex(x, dishNumber) {
     x.height(currentHeight).animate({height: autoHeight}, "slow");
 }
 
-function populateRecipeModal(recipeID) {
-    var dblocation = ing1 + "-" + ing2 + recipeID
-    var recipeRef = firebase.database().ref('ingredients/' + ing1 + '/' + ing2 + '/' + dblocation);
+function populateRecipeModal(i1, i2, recipeID) {
+    var dblocation = i1 + "-" + i2 + recipeID
+    var recipeRef = firebase.database().ref('ingredients/' + i1 + '/' + i2 + '/' + dblocation);
 
     recipeRef.once('value', function(snapshot){
         var obj = snapshot.val();
