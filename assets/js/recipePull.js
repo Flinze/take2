@@ -15,9 +15,10 @@ var ing2;
 var dishes = [];
 var dishImages = [];
 
-function listDishes() {
+function listDishes(ingx, ingy) {
     // Finds the correct location of the data based off of user input variables
-    var recipeRef = firebase.database().ref('ingredients/' + ing1 + '/' + ing2)
+    var recipeRef = firebase.database().ref('ingredients/' + ingx + '/' + ingy);
+
 
     // Pulls a snapshot of all the recipes for the ingredient combination,
     // iterates through each recipe and assigns each to a value in the array
@@ -41,7 +42,7 @@ function listDishes() {
                 .html('<span id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span>')
                 .attr("id", i + 1) // SET NUMBERED ID for pulling database recipes
                 .click(function() {
-                    recipeContentIndex($(this), ($(this).attr("id") - 1))  // Adds onclick functionality to each dish division
+                    recipeContentIndex($(this), ($(this).attr('id') - 1))  // Adds onclick functionality to each dish division
                 })
                 .appendTo($('#dishes')).hide().fadeIn(1500);
             $(window.dishImages[i]).appendTo(d);
@@ -66,25 +67,23 @@ function pullValues() {
             d.removeChild(d.childNodes[0]);
         }
         // Calls list dishes function to add new divs to dishes div
-        listDishes();
+        listDishes(ing1, ing2);
     };
 }
 
 
-function recipeContentIndex(x, num) {
+function recipeContentIndex(x, dishNumber) {
     var currentHeight = x.height()
     if (!(x.has('p').length)){ // Checks whether dishes have already been loaded onto the page
         // Appends dish picture, dish description and button directing to recipe page to each dish division on click
         // Currently holding placeholder information -- to be updated upon implementation of backend functionality
-        // $('<img src="' + window.dishImages[num].img + '" alt="' + window.dishes[num].title + '" class="img-responsive">').appendTo(x);
-        // $(window.dishImages[num]).appendTo(x);
         x.find('img').removeClass('hidden');
-        console.log(num);
-        $('<div class="innerDish"><p>' +  window.dishes[num].desc + '</p></div>').appendTo(x);
+        $('<div class="innerDish"><p>' +  window.dishes[dishNumber].desc + '</p></div>').appendTo(x);
         $('<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#recipe-modal">Continue to Recipe</button></p>').appendTo(x);
         x.find('button').click(function(event){
             $('#recipe-modal').modal('show');
             event.stopPropagation(); // Prevents the div from shrinking when the user clicks through to the recipe page
+            populateRecipeModal(dishNumber + 1);
         });
     } else {
         // If the dish division has information appended to it, will remove the information from the division
@@ -95,4 +94,38 @@ function recipeContentIndex(x, num) {
     // Dynamically adjusts and animates the height of a dish div based on whatever content it contains
     var autoHeight = x.css('height', 'auto').height() + 1;
     x.height(currentHeight).animate({height: autoHeight}, "slow");
+}
+
+function populateRecipeModal(recipeID) {
+    var dblocation = ing1 + "-" + ing2 + recipeID
+    var recipeRef = firebase.database().ref('ingredients/' + ing1 + '/' + ing2 + '/' + dblocation);
+
+    recipeRef.once('value', function(snapshot){
+        var obj = snapshot.val();
+        $('.modal-title').text(obj.title);
+        $(".about_photo > img").attr("src", obj.img);
+
+        var dir = document.createElement('ul');
+        if($('.recipe-directions-list').has('ul').length){
+            $('.recipe-directions-list').find('ul').remove();
+        }
+        for (var i = 0; i < obj.directions.length; i++) {
+            var d = document.createElement('li');
+            $(d).text(obj.directions[i]);
+            $(d).appendTo($(dir))
+        }
+        $(dir).appendTo($('.recipe-directions-list'));
+
+        var ingred = document.createElement('ul');
+        if($('.recipe-ingredient-list').has('ul').length){
+            $('.recipe-ingredient-list').find('ul').remove();
+        }
+        for (var i = 0; i < obj.ing.length; i++){
+            var d = document.createElement('li');
+            $(d).text(obj.ing[i]);
+            $(d).appendTo($(ingred));
+        }
+        $(ingred).appendTo($('.recipe-ingredient-list'));
+    })
+
 }
