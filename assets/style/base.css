@@ -178,10 +178,11 @@ fieldset {
 
 #comment {
 	width: 100%;
-	border: 1px solid #d3d3d3;
-	border-radius: 5px;
 }
 
+.error {
+	color: red;
+}
 /* Footer */
 ul.footer-links {
 	list-style-type: none;

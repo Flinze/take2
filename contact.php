@@ -3,81 +3,6 @@
 <head>
     <title>Take2 - Contact</title>
     <meta charset="utf-8" />
-
-    <style>
-			div.error {
-				display:block;
-				border: 1px solid #F9B9B2;
-				background-color: #FFDFDF;
-			}
-		</style>
-
-    <script>
-
-      function getElement(id){
-        var element = document.getElementById(id);
-        if ( element == null )
-          alert ( 'Programmer error: ' + id + ' does not exist.' );
-        return element;
-      }
-
-      // testing if first and last name contain one or more characters
-    function testText(id) {
-        return (!(getElement(id).value.match(/.+/)));
-      }
-
-      // test if email ends in .ca .com .org
-      function testEmail(id) {
-        return (!(getElement(id).value.match(/.ca$|.com$|.org$/i)));
-      }
-
-
-      function formValidation() {
-        var result = true;
-
-
-
-        if(!(getElement('firstname').value.match(/.+/))) {
-          getElement('firstname-error').innerHTML = "Please enter a first name";
-          result = false;
-        }
-        else {
-          getElement('firstname-error').innerHTML = '';
-          result = true;
-        }
-
-
-        if(testText('lastname')) {
-          getElement('lastname-error').innerHTML = "Please enter a last name";
-          result = result && false;
-        }
-        else {
-          getElement('lastname-error').innerHTML = '';
-          result = result && true;
-        }
-
-        if(testEmail('email')) {
-          getElement('email-error').innerHTML = "Please enter an email";
-          result = result && false;
-        }
-        else {
-          getElement('email-error').innerHTML = '';
-          result = result && true;
-        }
-
-      //validating message
-      if(getElement('comment').value == '') {
-        getElement('comment-error').innerHTML = "Please enter a message";
-        result = result && false;
-      }
-      else {
-        getElement('comment-error').innerHTML = '';
-        result = result && true;
-      }
-      return result;
-}
-    </script>
-
 </head>
 
 <body>
@@ -95,38 +20,39 @@
 			Contact Us
 		</div>
 
+    <!-- form -->
 	   <form method="post" onsubmit="return formValidation()" action="contact-submit.php">
        <fieldset>
          <div id="firstname-container">
           <label for="firstname">First Name:</label>
           <input type="text" name="firstname" class="text-field" id="firstname">
-          <div id="firstname-error"></div>
+          <div id="firstname-error" class="error"></div>
         </div> <br>
 
         <div id="lastname-container">
           <label for="lastname">Last Name:</label>
           <input type="text" name="lastname" class="text-field" id="lastname">
-          <div id="lastname-error"></div>
+          <div id="lastname-error" class="error"></div>
         </div> <br>
 
          <div id="email-container">
           <label for="email">Email:</label>
           <input type="text" name="email" class="text-field" id="email">
-          <div id="email-error"></div>
+          <div id="email-error" class="error"></div>
         </div> <br>
 
         <div id="comment-container">
          <label for="comment">Comment:</label>
-         <textarea name="comment" rows="5" class="text-field" id="comment"> </textarea>
-         <div id="comment-error"></div>
+         <textarea name="comment" rows="5" class="form-control" class="text-field" id="comment"> </textarea>
+         <div id="comment-error" class="error"o></div>
        </div> <br>
 
          <input type="submit" value="Submit">
      </fieldset>
      </form>
 
-
-
+     <!-- form validation -->
+     <script src="assets/js/contact.js"></script>
 	</main>
 
 
