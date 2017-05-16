@@ -90,11 +90,97 @@
 			<div class="container" id="dishes">
 			</div>
 
+
+
 		</main>
 
 		<!-- Footer -->
 		<?php include('footer.php'); ?>
 
 	</div> <!-- Wrapper -->
+    <!-- Recipe Modal -->
+    <div id="recipe-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Dish Name</h4>
+                </div>
+                <div class="modal-body">
+                    <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
+
+                        <!-- Recipe Picture -->
+                        <div class="about_photo">
+                            <img src="img/placeholder/friedchicken.jpg" alt="Group Photo">
+                        </div>
+
+                        <!-- Ingredients and Prep Time -->
+                        <div class="minor-title-recipe">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    Ingredients
+                                </div>
+                                <div class="col-xs-offset-4 col-xs-4">
+                                    Prep. Time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ingredient List -->
+                        <div class="row">
+                            <div class="recipe-ingredient-list">
+                                <ul>
+                                    <li>
+                                        Ingredient 1
+                                    </li>
+                                    <li>
+                                        Ingredient 2
+                                    </li>
+                                    <li>
+                                        Ingredient 3
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Ingredients and Prep Time -->
+                        <div class="minor-title-recipe">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    Directions
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Directions -->
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-xs-10">
+                                <div class="recipe-directions-list">
+                                    <ul>
+                                        <li>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </li>
+                                        <li>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </li>
+                                        <li>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <!--</main>-->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- Recipe Modal -->
+
 </body>
 </html>

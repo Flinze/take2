@@ -23,7 +23,8 @@ function listDishes() {
     recipeRef.once('value', function(snapshot){
         var index = 0;
         snapshot.forEach(function(childSnapshot){
-            dishes[index] = childSnapshot.val()
+            dishes[index] = childSnapshot.val();
+            console.log(dishes[index]);
             index++;
         })
 
@@ -33,27 +34,9 @@ function listDishes() {
             d = document.createElement('div');
             $(d).addClass('dishDivs')
                 .html('<span id="dishTitle"><h2>' + dishes[i].title + '</h2></span>')
-                .click(function() { // Adds onclick functionality to each dish division
-                    if (!($(this).has('p').length)){ // Checks whether dishes have already been loaded onto the page
-                        // Appends dish picture, dish description and button directing to recipe page to each dish division on click
-                        // Currently holding placeholder information -- to be updated upon implementation of backend functionality
-                        $('<p><img src="img/placeholder/friedchicken.jpg" alt="Fried Chicken">').hide().appendTo(this).fadeIn(1000);
-                        $('<div class="innerDish"><p>Suspendisse ac elementum lorem. Vestibulum fermentum rutrum nisl. Etiam faucibus ut purus et tempor. Nulla bibendum rutrum libero vitae condimentum. Donec euismod et est euismod luctus. Donec commodo magna ut dapibus imperdiet. Vivamus quis lectus eu odio tincidunt elementum.</p></div>').hide().appendTo(this).fadeIn(1000);
-                        $('<p><a href="recipe-page.php" class="btn btn-info">Continue to Recipe</a></p>').hide().appendTo(this).fadeIn(1000);
-                        $(this).find('a').click(function(event){
-                            event.stopPropagation(); // Prevents the div from shrinking when the user clicks through to the recipe page
-                        });
-                    } else {
-                        // If the dish division has information appended to it, will remove the information from the division
-                        $(this).find('p').remove();
-                        $(this).find('div').remove();
-                    }
-
-                    // Dynamically adjusts and animates the height of a dish div based on whatever content it contains
-                    var elem = $(this),
-                        currentHeight = elem.height(),
-                        autoHeight = elem.css('height', 'auto').height();
-                    elem.height(currentHeight).animate({height: autoHeight}, "slow");
+                .attr("id", i + 1) // SET NUMBERED ID for pulling database recipes
+                .click(function() {
+                    recipeContentIndex($(this), ($(this).attr("id") - 1))  // Adds onclick functionality to each dish division
                 })
                 .appendTo($('#dishes')).hide().fadeIn(1500);
 
@@ -77,10 +60,32 @@ function pullValues() {
         while (d.hasChildNodes()) {
             d.removeChild(d.childNodes[0]);
         }
-
-        // TODO: How-to collapse
-
         // Calls list dishes function to add new divs to dishes div
         listDishes();
     };
+}
+
+
+function recipeContentIndex(x, num) {
+    if (!(x.has('p').length)){ // Checks whether dishes have already been loaded onto the page
+        // Appends dish picture, dish description and button directing to recipe page to each dish division on click
+        // Currently holding placeholder information -- to be updated upon implementation of backend functionality
+        $('<p><img src="img/placeholder/friedchicken.jpg" alt="Fried Chicken"></p>').hide().appendTo(x).fadeIn(1000);
+        console.log(num);
+        $('<div class="innerDish"><p>' +  window.dishes[num].desc + '</p></div>').hide().appendTo(x).fadeIn(1000);
+        $('<p><button type="button" class="btn btn-info" data-toggle="modal" data-target="#recipe-modal">Continue to Recipe</button></p>').hide().appendTo(x).fadeIn(1000);
+        x.find('button').click(function(event){
+            $('#recipe-modal').modal('show');
+            event.stopPropagation(); // Prevents the div from shrinking when the user clicks through to the recipe page
+        });
+    } else {
+        // If the dish division has information appended to it, will remove the information from the division
+        x.find('p').remove();
+        x.find('div').remove();
+    }
+    // Dynamically adjusts and animates the height of a dish div based on whatever content it contains
+    var elem = x,
+        currentHeight = elem.height(),
+        autoHeight = elem.css('height', 'auto').height();
+    elem.height(currentHeight).animate({height: autoHeight}, "slow");
 }
