@@ -115,19 +115,19 @@ a#how-to-use-toggle {
     border-style: solid;
     border-color: #f7b733;
 	color: #666666;
-	height: 95px;
+	min-height: 0px;
     background-color: #f7b733;
-    border-radius: 20px;
+    border-radius: 15px;
     text-align: center;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+	padding: 3px;
 }
 
 .dishDivs img {
-	height: 200px;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 .dishTitle {
