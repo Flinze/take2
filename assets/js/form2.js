@@ -1,7 +1,11 @@
+//holder to see if ingredient value is null or not
 var holder = '';
 var holder2 = '';
+//boolean placeholder representing user input status
 var firstInput = false;
 var secondInput = false;
+
+//hard coded array for current available ingredients 
 var arr = ['Avocado', 'Bananas', 'Beef', 'Bread', 'Cheese', 'Chicken', 'Egg',
 'Lettuce', 'Potatoes', 'Tomatoes']
 
@@ -111,6 +115,7 @@ function createNewSecond(){
   });
 }
 
+//function
 function hideHowTo(){
   if(firstInput && secondInput){
     $('.collapse').css('transition-duration', '0.9s');
