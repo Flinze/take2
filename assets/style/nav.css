@@ -145,7 +145,7 @@
   height: 100%;
   -webkit-overflow-scrolling: touch;
   /* Background color for the menu*/
-  background: #FC4A1A;
+  background: rgb(252,191,109);
   color: #ffffff;
   cursor: default;
   visibility: hidden;

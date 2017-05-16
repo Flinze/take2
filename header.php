@@ -41,7 +41,6 @@
 <!-- Navigation Sidebar -->
 <nav class="">
   <nav id="menu">
-    <img class="nav-logo" src="img/take2-logo-1.png" alt="take2 logo">
     <h2>Menu</h2>
       <ul>
         <li><a href="index.php">Home</a></li>
@@ -49,5 +48,6 @@
         <li><a href="about.php">About</a></li>
         <li><a href="affiliated-apps.php">Affiliated Apps</a></li>
       </ul>
+      <img class="nav-logo" src="img/take2-logo-1.png" alt="take2 logo">
    </nav>
 </nav>
