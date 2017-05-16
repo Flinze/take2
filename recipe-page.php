@@ -91,9 +91,9 @@
         </div>
   		</main>
 
-  		<!-- Footer -->
-      <?php include('footer.php'); ?>
+		<!-- Footer -->
+		<?php include('footer.php'); ?>
 
-    </div>
-  </body>
+	</div> <!-- Wrapper -->
+</body>
 </html>
