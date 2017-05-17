@@ -191,20 +191,20 @@
 
 				});
 
+			$(".swipe-area").swipe({
+			    swipeStatus:function(event, phase, direction, distance, duration, fingers)
+			        {
+			            if (phase=="move" && direction =="left") {
+							$body.addClass('is-menu-visible');
+							return false;
+			            }
+			            if (phase=="move" && direction =="right") {
+							$body.removeClass('is-menu-visible');
+							return false;
+			            }
+			        }
+			});
+
 	});
 
 })(jQuery)
-
-	$(".swipe-area").swipe({
-	    swipeStatus:function(event, phase, direction, distance, duration, fingers)
-	        {
-	            if (phase=="move" && direction =="left") {
-	                 $("nav#menu").addClass("is-menu-visible");
-	                 return false;
-	            }
-	            if (phase=="move" && direction =="right") {
-	                 $("nav#menu").removeClass("is-menu-visible");
-	                 return false;
-	            }
-	        }
-	});
