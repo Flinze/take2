@@ -3,6 +3,46 @@
 <head>
 	<title>Take2 - Recipe List</title>
 	<meta charset="utf-8">
+    <script>
+        function recipeListModal(x){
+            var ingArr = x.split("-");
+            var id = x.slice(x.length - 1, x.length);
+            ingArr[1] = ingArr[1].substr(0, (ingArr[1].length - 1));
+
+            populateRecipeModal(ingArr[0], ingArr[1], id);
+            $('#recipe-modal').modal('show');
+        }
+
+        function filter(restriction){
+            restriction = restriction.toLowerCase();
+            $('.recList').hide();
+            $(("." +restriction)).show();
+        }
+
+        function recipeFilter(){
+            var restr = $(":checked");
+            var sift = ""
+            for (var i = 0; i < restr.length; i++){
+                sift += "." + restr[i].name;
+            }
+            console.log(sift);
+            $('.recList').hide();
+            $('.recList').filter(sift).show();
+
+        }
+    </script>
+    <style>
+        .recList {
+            border: 3px solid black;
+            text-align: center;
+            width: 85%;
+            margin: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 8px;
+
+        }
+    </style>
 </head>
 
 <body>
@@ -50,12 +90,39 @@
 			<div class="major-title" id="recipe-title">
 				Recipes <i class="fa fa-spoon"></i>
 			</div>
+            <div>
+                <h4>Filter</h4>
+                <div class="btn-group btn-group-justified" onclick="recipeFilter()">
+<!--                    <a onclick="filter($(this).text())" class="btn btn-primary">Gluten-Free</a>-->
+<!--                    <a onclick="filter($(this).text())" class="btn btn-primary">Vegetarian</a>-->
+<!--                    <a onclick="filter($(this).text())" class="btn btn-primary">Recipe Restriction #3</a>-->
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="gluten-free" value="">
+                        <h5>Gluten-Free</h5>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="vegetarian" value="">
+                        <h5>Vegetarian</h5>
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="checkbox" name="lactose" value="">
+                        <h5>Lactose Intolerant</h5>
+                    </label>
+                </div>
+                <hr>
+            </div>
 
 			<div id="recipe-a" class="minor-title">
 			A
+                <div id="avocado-bananas2" class="recList gluten-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado and Banana Yogurt</h5></div>
+                <div id="avocado-bananas1" class="recList vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Banana Pudding</h5></div>
+                <div id="avocado-bananas4" class="recList gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Smoothie</h5></div>
+
+
 			</div>
 			<div id="recipe-b" class="minor-title">
 			B
+                <div id="avocado-bananas3" class="recList gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Avocado Bread</h5></div>
 			</div>
 			<div id="recipe-c" class="minor-title">
 			C
@@ -139,5 +206,66 @@
 		<script src="assets/js/recipes.scrollbar.js"></script>
 
 	</div> <!-- Wrapper -->
+
+    <!-- Recipe Modal -->
+    <div id="recipe-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Dish Name</h4>
+                </div>
+                <div class="modal-body">
+                    <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
+
+                    <!-- Recipe Picture -->
+                    <div class="about_photo">
+                        <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
+                    </div>
+
+                    <!-- Ingredients and Prep Time -->
+                    <div class="minor-title-recipe">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                Ingredients
+                            </div>
+                            <div class="col-xs-offset-4 col-xs-4">
+                                Prep. Time
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ingredient List -->
+                    <div class="row">
+                        <div class="recipe-ingredient-list">
+                        </div>
+                    </div>
+
+                    <!-- Ingredients and Prep Time -->
+                    <div class="minor-title-recipe">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                Directions
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Directions -->
+                    <div class="row">
+                        <div class="col-xs-offset-1 col-xs-10">
+                            <div class="recipe-directions-list">
+                            </div>
+                        </div>
+                    </div>
+                    <!--</main>-->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- Recipe Modal -->
 </body>
 </html>
