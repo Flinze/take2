@@ -39,7 +39,7 @@ function listDishes(ingx, ingy) {
         for(var i = 0; i < dishes.length; i++) {
             d = document.createElement('div');
             $(d).addClass('dishDivs')
-                .html('<span id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span>')
+                .html('<span class="dishTitles" id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span>')
                 .attr("id", i + 1) // SET NUMBERED ID for pulling database recipes
                 .click(function() {
                     recipeContentIndex($(this), ($(this).attr('id') - 1))  // Adds onclick functionality to each dish division
@@ -92,7 +92,7 @@ function recipeContentIndex(x, dishNumber) {
         x.find('div').remove();
     }
     // Dynamically adjusts and animates the height of a dish div based on whatever content it contains
-    var autoHeight = x.css('height', 'auto').height() + 1;
+    var autoHeight = x.css('height', 'auto').height() + 10;
     x.height(currentHeight).animate({height: autoHeight}, "slow");
 }
 
