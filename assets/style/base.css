@@ -41,10 +41,11 @@ main {
 	min-height: 100%;
 	text-align: center;
 	margin-bottom:100px;
+	background: url("../../img/take2-logo-translucent2.png") no-repeat center fixed;
+    background-size: 75%;
 }
 
 .major-title {
-
 	margin: 4% 0 4% 0;
 	border-bottom: 1px black solid;
 	font-family: "Helvetica Neue", Helvetica, Arial;
