@@ -195,16 +195,16 @@
 
 })(jQuery)
 
-$(".swipe-area").swipe({
-    swipeStatus:function(event, phase, direction, distance, duration, fingers)
-        {
-            if (phase=="move" && direction =="left") {
-                 $("#menu").addClass("body.is-menu-visible #menu");
-                 return false;
-            }
-            if (phase=="move" && direction =="right") {
-                 $("#menu").removeClass("body.is-menu-visible #menu");
-                 return false;
-            }
-        }
-});
+	$(".swipe-area").swipe({
+	    swipeStatus:function(event, phase, direction, distance, duration, fingers)
+	        {
+	            if (phase=="move" && direction =="left") {
+	                 $("nav#menu").addClass("is-menu-visible");
+	                 return false;
+	            }
+	            if (phase=="move" && direction =="right") {
+	                 $("nav#menu").removeClass("is-menu-visible");
+	                 return false;
+	            }
+	        }
+	});
