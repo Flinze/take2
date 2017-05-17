@@ -25,24 +25,6 @@
 				<div class="logo-container">
 
 					<!-- Affiliated-app Logo -->
-					<img src="img/affiliated-apps/F2E_logo.png" class="img-responsive" alt="F2E">
-
-					<!-- Affiliated-app Logo Slider -->
-					<div class="caption">
-						<div class="blur">
-						</div>
-						<div class="caption-text">
-							<h3 class="title">F2E</h3>
-							<p class="app-description">A food-sharing app that allows users to connect and easily share leftover ingredients and meals</p>
-							<a class="btn btn-info" href="http://students.bcitdev.com/A01005177/eugene/main.html">View Page</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-				<div class="logo-container">
-
-					<!-- Affiliated-app Logo -->
 					<img src="img/affiliated-apps/fuber_logo.png" class="img-responsive" alt="fuber">
 
 					<!-- Affiliated-app Logo Slider -->
@@ -51,7 +33,9 @@
 						</div>
 						<div class="caption-text">
 							<h3 class="title">Fuber</h3>
-							<p class="app-description">A QR code scanner will scan a user's grocery store reciept and suggest them recepies to use with their food.</p>
+							<p class="app-description">Fuber is a web app that generates a virtual fridge using a QR scanner found on grocery receipts. Fuber can manage all of your food, and track their expiration dates. It is able to generated recipes using the ingredients in your fridge.
+							<br><br>Group 3
+							<br>Irvin Durana - Joy Gomi - Paul Kim - Jay Lin - Shiv Randhawa</p>
 							<a class="btn btn-info" href="http://162.221.205.237/">View Page</a>
 						</div>
 					</div>
@@ -69,8 +53,30 @@
 						</div>
 						<div class="caption-text">
 							<h3 class="title">Grocery Buddy</h3>
-							<p class="app-description">Your new best friend for planning what food to buy and making sure you use it. Plan your shopping trips by creating, organizing, and saving grocery lists.</p>
-							<a class="btn btn-info" href="#">View Page</a>
+							<p class="app-description">Grocery Buddy is your new best friend for planning what food to buy and making sure you use it. Grocery Buddy tracks your shopping list and keeps track of how much of a food product you have, and the item's current shelf life represented as an expiration bar. Users can create shopping lists ahead of time and check them off as they shop, the items will be tracked in their virtual fridge page.
+							<br><br>Group 25, the Ecoders
+							<br>Raly Tan - Toni He - Carlo Mendoza - Kevin Chow - Patrick Charles-Lundaahl</p>
+							<a class="btn btn-info" href="https://grocerybuddy-fe337.firebaseapp.com/">View Page</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="logo-container">
+
+					<!-- Affiliated-app Logo -->
+					<img src="img/affiliated-apps/F2E_logo.png" class="img-responsive" alt="F2E">
+
+					<!-- Affiliated-app Logo Slider -->
+					<div class="caption">
+						<div class="blur">
+						</div>
+						<div class="caption-text">
+							<h3 class="title">F2E</h3>
+							<p class="app-description">F2E is a food-sharing app that allows users to connect to one another using Facebook. Users can post any excess food such as ingredients, or meals to share with others.
+							<br><br>Group 34
+							<br></p>
+							<a class="btn btn-info" href="http://students.bcitdev.com/A01005177/eugene/main.html">View Page</a>
 						</div>
 					</div>
 				</div>
