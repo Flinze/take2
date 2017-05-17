@@ -19,7 +19,6 @@ function listDishes(ingx, ingy) {
     // Finds the correct location of the data based off of user input variables
     var recipeRef = firebase.database().ref('ingredients/' + ingx + '/' + ingy);
 
-
     // Pulls a snapshot of all the recipes for the ingredient combination,
     // iterates through each recipe and assigns each to a value in the array
     recipeRef.once('value', function(snapshot){
@@ -66,8 +65,17 @@ function pullValues() {
         while (d.hasChildNodes()) {
             d.removeChild(d.childNodes[0]);
         }
+
         // Calls list dishes function to add new divs to dishes div
-        listDishes(ing1, ing2);
+        var recipeRef = firebase.database().ref('ingredients/' + ing1 + '/' + ing2);
+        recipeRef.once('value', function(snapshot){
+            if(snapshot.val() == null) {
+                listDishes(ing2, ing1);
+            } else {
+                listDishes(ing1, ing2);
+            }
+        })
+
     };
 }
 
