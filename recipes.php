@@ -27,7 +27,12 @@
             }
             console.log(sift);
             $('.recList').hide();
-            $('.recList').filter(sift).show();
+            if (restr.length == 0) {
+                $('.recList').show();
+            } else {
+                $('.recList').filter(sift).show();
+            }
+
 
         }
     </script>
