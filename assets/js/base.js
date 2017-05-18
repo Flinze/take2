@@ -191,19 +191,23 @@
 
 				});
 
+			/* Swipe left to open menu bar */
 			$(".swipe-area").swipe({
-			    swipeStatus:function(event, phase, direction, distance, duration, fingers)
-			        {
-			            if (phase=="move" && direction =="left") {
-							$body.addClass('is-menu-visible');
-							return false;
-			            }
-			            if (phase=="move" && direction =="right") {
-							$body.removeClass('is-menu-visible');
-							return false;
-			            }
-			        }
+			    swipeStatus:function(event, phase, direction, distance, duration, fingers) {
+		            if (phase=="move" && direction =="left") {
+						$body.addClass('is-menu-visible');
+		            }
+		        }
 			});
+
+			$("body").swipe( {
+	        	//Single swipe handler for right swipes
+		        swipeStatus:function(event, phase, direction, distance, duration, fingerCount) {
+		            if (phase=="move" && direction =="right") {
+						$menu._hide();
+		            }
+		        }
+	      	});
 
 	});
 
