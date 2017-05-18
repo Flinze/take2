@@ -194,3 +194,21 @@
 	});
 
 })(jQuery)
+
+var presses;
+
+function switchSecretPage() {
+	presses = 0;
+		$(".nav-logo").click(function() {
+			presses++;
+			if (presses >=3) {
+				$(".nav-logo").off();
+				$(".nav-logo").wrap($('<a>',{
+					href: 'easteregg-game.php'}));
+			}
+		});
+	}
+
+$(document).ready(function() {
+	switchSecretPage();
+});

@@ -79,7 +79,7 @@ game = new function (){
 
   function titleScreen() {
     if (infoScreenChange) {
-      info.innerHTML = '<p>Your strawberry shortcake recipe requires strawberries! Catch as many strawberries as possible while avoiding the cockroach.</p> <p>Tap <span class="red">HERE </span> to start. </p>';
+      info.innerHTML = '<p>Your strawberry shortcake recipe requires strawberries! Catch as many strawberries as possible while avoiding the cockroaches.</p> <p>Tap <span class="red">HERE </span> to start. </p>';
       infoScreenChange = false;
     }
   }
