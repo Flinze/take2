@@ -21,12 +21,12 @@
 
 function easterWin() {
 	var elem = document.createElement('img');
-	
+
 	elem.src = "img/seagull-egg.jpg";
 	elem.setAttribute('height', '100%');
 	elem.setAttribute('width', '100%');
 	elem.setAttribute('alt', 'Seagull-egg');
-	
+
 	document.getElementById('recipe-title').appendChild(elem);
 }
 
@@ -44,11 +44,11 @@ function easterWin() {
 		$('#scrollbar-container')
 			.off('click', '[data-tile]')
 			.off('mousedown', '[data-tile]');
-			
+
 		$('[data-action=start]').removeClass('active');
-			
+
 		$('[data-tile]').removeClass('active');
-			
+
 	}
 
 	function registerClick(e) {

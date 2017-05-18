@@ -21,7 +21,7 @@
 		</div>
 
 		<div class="about_photo">
-			<img id="team-photo" src="img/about/friends.jpg" alt="Group Photo" onclick="imageChange()">
+			<img id="team-photo" src="img/about/group.jpg" alt="Group Photo" onclick="imageChange()">
 		</div>
 
 		<div class="major-title">
