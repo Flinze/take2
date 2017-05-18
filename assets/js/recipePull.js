@@ -100,7 +100,7 @@ function recipeContentIndex(x, dishNumber) {
         // If the dish division has information appended to it, will remove the information from the division
         x.find('p').remove();
         x.find('img').addClass('hidden');
-        x.find('div').remove();
+        x.find('.innerDish').remove();
     }
     // Dynamically adjusts and animates the height of a dish div based on whatever content it contains
     var autoHeight = x.css('height', 'auto').height() + 10;
