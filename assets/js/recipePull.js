@@ -1,11 +1,11 @@
-// Initialize Firebase and connects to current test database
+// Initialize Firebase and connects to database
 var config = {
-    apiKey: "AIzaSyADQwUkVDPsqWZR6WG8mx0955TBa0Av0rM",
-    authDomain: "testerino-ccc07.firebaseapp.com",
-    databaseURL: "https://testerino-ccc07.firebaseio.com",
-    projectId: "testerino-ccc07",
-    storageBucket: "testerino-ccc07.appspot.com",
-    messagingSenderId: "362691293717"
+    apiKey: "AIzaSyBbrUKY5WuARy-zIlCRSlz3GAP8LPK8wpM",
+    authDomain: "take2-dce1d.firebaseapp.com",
+    databaseURL: "https://take2-dce1d.firebaseio.com",
+    projectId: "take2-dce1d",
+    storageBucket: "take2-dce1d.appspot.com",
+    messagingSenderId: "835789629323"
 };
 firebase.initializeApp(config);
 
