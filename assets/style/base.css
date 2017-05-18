@@ -35,14 +35,14 @@ html, body{
 #wrapper {
 	min-height: 100%;
 	position:relative;
+	background: url("../../img/take2-logo-translucent2.png") no-repeat center fixed;
+    background-size: 75%;
 }
 main {
 	height: 100%;
 	min-height: 100%;
 	text-align: center;
 	margin-bottom:100px;
-	background: url("../../img/take2-logo-translucent2.png") no-repeat center fixed;
-    background-size: 75%;
 }
 
 .major-title {
