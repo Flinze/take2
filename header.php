@@ -41,7 +41,9 @@
 <!-- Navigation Sidebar -->
 <nav class="">
   <nav id="menu">
-    <img class="nav-logo" src="img/take2-logo-1.png" alt="take2 logo">
+    <div id="nav-logo-container">
+      <img class="nav-logo" src="img/take2-logo-1.png" alt="take2 logo">
+    </div>
     <h2>Menu</h2>
       <ul>
         <li><a href="index.php">Home</a></li>
