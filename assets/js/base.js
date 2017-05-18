@@ -209,19 +209,19 @@ function switchSecretPage() {
 			}
 		});
 	}
+	$(document).ready(function() {
+		switchSecretPage();
+	});
 
-$(document).ready(function() {
-	switchSecretPage();
+	var clicks;
 
-var clicks;
+	function imageChange() {
+		clicks++;
+	  	if (clicks >= 10) {
+	      $("#team-photo").attr("src", "img/easteregg.jpg");
+	  	}
+	 }
 
-function imageChange() {
-	clicks++;
-  	if (clicks >= 10) {
-      $("#team-photo").attr("src", "img/easteregg.jpg");
-  	}
- }
-
-$(document).ready(function() {
-    clicks = 0;
-});
+	$(document).ready(function() {
+	    clicks = 0;
+	});
