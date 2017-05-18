@@ -21,7 +21,7 @@
 		</div>
 
 		<div class="about_photo">
-			<img src="img/about/friends.jpg" alt="Group Photo">
+			<img id="team-photo" src="img/about/friends.jpg" alt="Group Photo" onclick="imageChange()">
 		</div>
 
 		<div class="major-title">
@@ -37,7 +37,16 @@
 		One Two Three
 		One Two Three
 		</p>
-
+		<div class="vid-title-container">
+			<div class="major-title">
+				30 Second Pitch
+			</div>
+			<p> Oh, you're still here! You must have a lot of spare time. Well then, take a look at our 30 second pitch.</p>
+			<div class="vid-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-hQLBQn9Lw" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<br>
+		</div>
 	</main>
 
 	<!-- Footer -->
