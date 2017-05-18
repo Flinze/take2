@@ -14,32 +14,32 @@
 
 		<!-- Scroll Bar -->
 		<div id="scrollbar-container" class="col-1 col-offset-11">
-			<div class="scrollbox"><a href="#recipe-a">A</a></div>
-			<div class="scrollbox"><a href="#recipe-b">B</a></div>
-			<div class="scrollbox"><a href="#recipe-c">C</a></div>
-			<div class="scrollbox"><a href="#recipe-d">D</a></div>
-			<div class="scrollbox"><a href="#recipe-e">E</a></div>
-			<div class="scrollbox"><a href="#recipe-f">F</a></div>
-			<div class="scrollbox"><a href="#recipe-g">G</a></div>
-			<div class="scrollbox"><a href="#recipe-h">H</a></div>
-			<div class="scrollbox"><a href="#recipe-i">I</a></div>
-			<div class="scrollbox"><a href="#recipe-j">J</a></div>
-			<div class="scrollbox"><a href="#recipe-k">K</a></div>
-			<div class="scrollbox"><a href="#recipe-l">L</a></div>
-			<div class="scrollbox"><a href="#recipe-m">M</a></div>
-			<div class="scrollbox"><a href="#recipe-n">N</a></div>
-			<div class="scrollbox"><a href="#recipe-o">O</a></div>
-			<div class="scrollbox"><a href="#recipe-p">P</a></div>
-			<div class="scrollbox"><a href="#recipe-q">Q</a></div>
-			<div class="scrollbox"><a href="#recipe-r">R</a></div>
-			<div class="scrollbox"><a href="#recipe-s">S</a></div>
-			<div class="scrollbox"><a href="#recipe-t">T</a></div>
-			<div class="scrollbox"><a href="#recipe-u">U</a></div>
-			<div class="scrollbox"><a href="#recipe-v">V</a></div>
-			<div class="scrollbox"><a href="#recipe-w">W</a></div>
-			<div class="scrollbox"><a href="#recipe-x">X</a></div>
-			<div class="scrollbox"><a href="#recipe-y">Y</a></div>
-			<div class="scrollbox"><a href="#recipe-z">Z</a></div>
+			<div class="scrollbox"><a data-tile="1" href="#recipe-a">A</a></div>
+			<div class="scrollbox"><a data-action="start" href="#recipe-b">B</a></div>
+			<div class="scrollbox"><a data-tile="3" href="#recipe-c">C</a></div>
+			<div class="scrollbox"><a data-tile="4" href="#recipe-d">D</a></div>
+			<div class="scrollbox"><a data-tile="5" href="#recipe-e">E</a></div>
+			<div class="scrollbox"><a data-tile="6" href="#recipe-f">F</a></div>
+			<div class="scrollbox"><a data-tile="7" href="#recipe-g">G</a></div>
+			<div class="scrollbox"><a data-tile="8" href="#recipe-h">H</a></div>
+			<div class="scrollbox"><a data-tile="9" href="#recipe-i">I</a></div>
+			<div class="scrollbox"><a data-tile="10" href="#recipe-j">J</a></div>
+			<div class="scrollbox"><a data-tile="11" href="#recipe-k">K</a></div>
+			<div class="scrollbox"><a data-tile="12" href="#recipe-l">L</a></div>
+			<div class="scrollbox"><a data-tile="13" href="#recipe-m">M</a></div>
+			<div class="scrollbox"><a data-tile="14" href="#recipe-n">N</a></div>
+			<div class="scrollbox"><a data-tile="15" href="#recipe-o">O</a></div>
+			<div class="scrollbox"><a data-tile="16" href="#recipe-p">P</a></div>
+			<div class="scrollbox"><a data-tile="17" href="#recipe-q">Q</a></div>
+			<div class="scrollbox"><a data-tile="18" href="#recipe-r">R</a></div>
+			<div class="scrollbox"><a data-tile="19" href="#recipe-s">S</a></div>
+			<div class="scrollbox"><a data-tile="20" href="#recipe-t">T</a></div>
+			<div class="scrollbox"><a data-tile="21" href="#recipe-u">U</a></div>
+			<div class="scrollbox"><a data-tile="22" href="#recipe-v">V</a></div>
+			<div class="scrollbox"><a data-tile="23" href="#recipe-w">W</a></div>
+			<div class="scrollbox"><a data-tile="24" href="#recipe-x">X</a></div>
+			<div class="scrollbox"><a data-tile="25" href="#recipe-y">Y</a></div>
+			<div class="scrollbox"><a data-tile="26" href="#recipe-z">Z</a></div>
 		</div>
 
 		<!-- Main Content -->
@@ -135,6 +135,9 @@
 
 		<!-- Alpha Scrollbar Script -->
 		<script src="assets/js/recipes.scrollbar.js"></script>
+		
+		<!-- Easter Egg Scriot -->
+		<script src="assets/js/easterCombo.js"></script>
 
 	</div> <!-- Wrapper -->
 </body>

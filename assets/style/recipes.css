@@ -26,3 +26,6 @@
 #scollbar-list div a{
 	text-decoration:none;
 }
+.active{
+	background-color: rgba(0, 0, 0, 0.9);
+}

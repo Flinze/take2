@@ -225,3 +225,5 @@ function imageChange() {
 $(document).ready(function() {
     clicks = 0;
 });
+
+});
