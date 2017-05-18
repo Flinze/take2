@@ -64,7 +64,7 @@
 						padding: 0 1.5em;
 						background-color: rgba(255, 255, 255, 0.5);
 						border-radius: 4px;
-						border: 0;
+						border: 2px grey solid;
 						font-size: 0.8em;
 						font-weight: 900;
 						letter-spacing: 0.35em;
@@ -144,7 +144,8 @@
   max-width: 80%;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  background: #585858;
+  /* Background color for the menu*/
+  background: rgb(252,191,109);
   color: #ffffff;
   cursor: default;
   visibility: hidden;
@@ -305,4 +306,11 @@ body.is-menu-visible #menu .close {
 	-ms-transform: scale(1.0) rotate(0deg);
 	transform: scale(1.0) rotate(0deg);
 	opacity: 1;
+}
+
+.swipe-area {
+	position: absolute;
+	width: 50px;
+	right: 0;
+	height: 100%;
 }

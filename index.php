@@ -38,7 +38,7 @@
 						<option id="Tomatoesf" value="tomatoes">Tomatoes</option>
 					</select>
 				</div>
-				
+
 				<!-- Second Ingredient input -->
 				<div class="container">
 					<select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient' data-role="none" onchange="pullValues()">
@@ -61,14 +61,14 @@
 			<!-- How to use collapse box-->
 			<div id='container'>
 				<div class="panel panel-default">
-				
+
 					<!-- How to use header -->
 					<div class="panel-heading">
 						<h4 class="panel-title">
 							<a for='collapseOne' id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
 						</h4>
 					</div>
-					
+
 					 <!-- How to inner box -->
 					<div id="how-to-use-box" class="panel-collapse collapse in container">
 						<div id="how-to-use-inner" class="">
@@ -90,11 +90,84 @@
 			<div class="container" id="dishes">
 			</div>
 
+
+
 		</main>
 
 		<!-- Footer -->
 		<?php include('footer.php'); ?>
 
 	</div> <!-- Wrapper -->
+    <!-- Recipe Modal -->
+    <div id="recipe-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Dish Name</h4>
+                </div>
+								<div class="modal-header">
+                    <div id='ratingModalAverage'></div>
+										<div id='ratingModalCaption'></div>
+                </div>
+                <div class="modal-body">
+                    <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
+
+                        <!-- Recipe Picture -->
+                        <div class="about_photo">
+                            <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
+                        </div>
+								</div>
+
+								<div class="modal-header">
+                    <div id='ratingModalUser'></div>
+                </div>
+								<div class = 'modal-body'>
+
+                        <!-- Ingredients and Prep Time -->
+                        <div class="minor-title-recipe">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    Ingredients
+                                </div>
+                                <div class="col-xs-offset-4 col-xs-4">
+                                    Prep. Time
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ingredient List -->
+                        <div class="row">
+                            <div class="recipe-ingredient-list">
+                            </div>
+                        </div>
+
+                        <!-- Ingredients and Prep Time -->
+                        <div class="minor-title-recipe">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    Directions
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Directions -->
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-xs-10">
+                                <div class="recipe-directions-list">
+                                </div>
+                            </div>
+                        </div>
+                    <!--</main>-->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- Recipe Modal -->
+
 </body>
 </html>
