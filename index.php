@@ -38,7 +38,7 @@
 						<option id="Tomatoesf" value="tomatoes">Tomatoes</option>
 					</select>
 				</div>
-				
+
 				<!-- Second Ingredient input -->
 				<div class="container">
 					<select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient' data-role="none" onchange="pullValues()">
@@ -61,14 +61,14 @@
 			<!-- How to use collapse box-->
 			<div id='container'>
 				<div class="panel panel-default">
-				
+
 					<!-- How to use header -->
 					<div class="panel-heading">
 						<h4 class="panel-title">
 							<a for='collapseOne' id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
 						</h4>
 					</div>
-					
+
 					 <!-- How to inner box -->
 					<div id="how-to-use-box" class="panel-collapse collapse in container">
 						<div id="how-to-use-inner" class="">
@@ -107,6 +107,10 @@
                 <div class="modal-header">
                     <h4 class="modal-title">Dish Name</h4>
                 </div>
+								<div class="modal-header">
+                    <div id='ratingModalAverage'></div>
+										<div id='ratingModalCaption'></div>
+                </div>
                 <div class="modal-body">
                     <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
 
@@ -114,6 +118,12 @@
                         <div class="about_photo">
                             <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
                         </div>
+								</div>
+
+								<div class="modal-header">
+                    <div id='ratingModalUser'></div>
+                </div>
+								<div class = 'modal-body'>
 
                         <!-- Ingredients and Prep Time -->
                         <div class="minor-title-recipe">
@@ -130,17 +140,6 @@
                         <!-- Ingredient List -->
                         <div class="row">
                             <div class="recipe-ingredient-list">
-<!--                                <ul>-->
-<!--                                    <li>-->
-<!--                                        Ingredient 1-->
-<!--                                    </li>-->
-<!--                                    <li>-->
-<!--                                        Ingredient 2-->
-<!--                                    </li>-->
-<!--                                    <li>-->
-<!--                                        Ingredient 3-->
-<!--                                    </li>-->
-<!--                                </ul>-->
                             </div>
                         </div>
 
@@ -157,17 +156,6 @@
                         <div class="row">
                             <div class="col-xs-offset-1 col-xs-10">
                                 <div class="recipe-directions-list">
-<!--                                    <ul>-->
-<!--                                        <li>-->
-<!--                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.-->
-<!--                                        </li>-->
-<!--                                        <li>-->
-<!--                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.-->
-<!--                                        </li>-->
-<!--                                        <li>-->
-<!--                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.-->
-<!--                                        </li>-->
-<!--                                    </ul>-->
                                 </div>
                             </div>
                         </div>

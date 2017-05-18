@@ -8,7 +8,7 @@
 	list-style-type:none;
 	text-align:center;
     overflow: auto;
-}
+}	
 
 /* Style of the A-Z scrollbar */
 .scrollbox {
@@ -19,10 +19,17 @@
 	border-left: 1px solid #337ab7;
 	font-size: 2.3vh;
 	background-color: rgba(255, 255, 255, 0.5);
+	display:block
 }
 .scrollbox:last-child {
 	border-bottom: 1px solid #337ab7;
 }
-#scollbar-list div a{
+.scrollbox a{
 	text-decoration:none;
+	width:100%;
+	height:100%;
+	display:block
+}
+.active{
+	background-color: rgba(255, 255, 0, 0.7);
 }

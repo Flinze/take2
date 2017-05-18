@@ -1,11 +1,15 @@
+//random comment
 //holder to see if ingredient value is null or not
 var holder = '';
 var holder2 = '';
 //boolean placeholder representing user input status
 var firstInput = false;
 var secondInput = false;
+//boolean placeholder for easter egg
+var firstEgg = false;
+var secondEgg= false;
 
-//hard coded array for current available ingredients 
+//hard coded array for current available ingredients
 var arr = ['Avocado', 'Bananas', 'Beef', 'Bread', 'Cheese', 'Chicken', 'Egg',
 'Lettuce', 'Potatoes', 'Tomatoes']
 
@@ -16,6 +20,8 @@ var arr = ['Avocado', 'Bananas', 'Beef', 'Bread', 'Cheese', 'Chicken', 'Egg',
 $('#dropFirst').on('select2:select', function(event) {
   var e = event;
   firstInput = true;
+  var string = e.params.data.text;
+  testFirstIng(string);
   if(holder != e.params.data.text){
     console.log(e.params.data);
     $('#dropSecond').select2('destroy');
@@ -25,6 +31,12 @@ $('#dropFirst').on('select2:select', function(event) {
   }
   hideHowTo();
 });
+
+function testFirstIng(x){
+  if(x == 'Egg'){
+    firstEgg = true;
+  }
+}
 
 //Function to null only selected element (from first
 //dropdown) in the seconnd dropdown list
@@ -40,6 +52,8 @@ function nullSecond(evt){
   //disable specified element
   $('#' + (evt.params.data.text)).attr('disabled', true)
 
+  //EASTER EGG: always enable EGG
+  $('#Egg').attr('disabled', false)
 
 }
 
@@ -47,7 +61,8 @@ function nullSecond(evt){
 $('#dropSecond').on('select2:select', function(event) {
   var e = event;
   secondInput = true;
-
+  var string = e.params.data.text;
+  testSecondIng(string);
   if(holder2 != e.params.data.text){
     console.log(e.params.data);
     //destroy previous list to prevent duplicates
@@ -60,6 +75,12 @@ $('#dropSecond').on('select2:select', function(event) {
   }
   hideHowTo();
 });
+
+function testSecondIng(string){
+  if(string == 'Egg'){
+    secondEgg = true;
+  }
+}
 
 //Function to null only selected element (from second
 //dropdown) in the first dropdown list
@@ -75,6 +96,9 @@ function nullFirst(evt){
 
   //disable specified element
   $('#' + (evt.params.data.text) + 'f').attr('disabled', true)
+
+  //EASTER EGG: always enable EGG
+  $('#Eggf').attr('disabled', false)
 
 
 }

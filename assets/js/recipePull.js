@@ -1,11 +1,11 @@
-// Initialize Firebase and connects to current test database
+// Initialize Firebase and connects to database
 var config = {
-    apiKey: "AIzaSyADQwUkVDPsqWZR6WG8mx0955TBa0Av0rM",
-    authDomain: "testerino-ccc07.firebaseapp.com",
-    databaseURL: "https://testerino-ccc07.firebaseio.com",
-    projectId: "testerino-ccc07",
-    storageBucket: "testerino-ccc07.appspot.com",
-    messagingSenderId: "362691293717"
+    apiKey: "AIzaSyBbrUKY5WuARy-zIlCRSlz3GAP8LPK8wpM",
+    authDomain: "take2-dce1d.firebaseapp.com",
+    databaseURL: "https://take2-dce1d.firebaseio.com",
+    projectId: "take2-dce1d",
+    storageBucket: "take2-dce1d.appspot.com",
+    messagingSenderId: "835789629323"
 };
 firebase.initializeApp(config);
 
@@ -19,11 +19,11 @@ function listDishes(ingx, ingy) {
     // Finds the correct location of the data based off of user input variables
     var recipeRef = firebase.database().ref('ingredients/' + ingx + '/' + ingy);
 
-
     // Pulls a snapshot of all the recipes for the ingredient combination,
     // iterates through each recipe and assigns each to a value in the array
     recipeRef.once('value', function(snapshot){
         var index = 0;
+
         snapshot.forEach(function(childSnapshot){
             dishes[index] = childSnapshot.val();
             dishImages[index] = document.createElement('img');
@@ -33,19 +33,21 @@ function listDishes(ingx, ingy) {
             $(temp).addClass('hidden');
             index++;
         })
+        $('#dishes').find('div').remove();
 
         // Loops through array and creates a div for each dish pulled from database and
         // appends to the document
         for(var i = 0; i < dishes.length; i++) {
             d = document.createElement('div');
             $(d).addClass('dishDivs')
-                .html('<span id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span>')
+                .html('<span class="dishTitles" id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span><div id=rate'+(i+1)+'></div><h4>'+dishes[i].avgRating+'</h4>')
                 .attr("id", i + 1) // SET NUMBERED ID for pulling database recipes
                 .click(function() {
                     recipeContentIndex($(this), ($(this).attr('id') - 1))  // Adds onclick functionality to each dish division
                 })
                 .appendTo($('#dishes')).hide().fadeIn(1500);
             $(window.dishImages[i]).appendTo(d);
+            renderRate(dishes[i].avgRating, (i+1));
         }
     })
 }
@@ -59,15 +61,24 @@ Also calls the listDishes() function to populate the page with recipe suggestion
 function pullValues() {
     ing1 = $("#dropFirst").val();
     ing2 = $("#dropSecond").val();
-    if (ing1 != ing2 && ing1 != "" && ing2 != "") {
+    if (ing1 != "" && ing2 != "") {
 
         // Clears previous divs created from dishes pulled if present
         var d = document.getElementById('dishes')
         while (d.hasChildNodes()) {
             d.removeChild(d.childNodes[0]);
         }
+
         // Calls list dishes function to add new divs to dishes div
-        listDishes(ing1, ing2);
+        var recipeRef = firebase.database().ref('ingredients/' + ing1 + '/' + ing2);
+        recipeRef.once('value', function(snapshot){
+            if(snapshot.val() == null) {
+                listDishes(ing2, ing1);
+            } else {
+                listDishes(ing1, ing2);
+            }
+        })
+
     };
 }
 
@@ -92,7 +103,7 @@ function recipeContentIndex(x, dishNumber) {
         x.find('div').remove();
     }
     // Dynamically adjusts and animates the height of a dish div based on whatever content it contains
-    var autoHeight = x.css('height', 'auto').height() + 1;
+    var autoHeight = x.css('height', 'auto').height() + 10;
     x.height(currentHeight).animate({height: autoHeight}, "slow");
 }
 
@@ -126,6 +137,7 @@ function populateRecipeModal(i1, i2, recipeID) {
             $(d).appendTo($(ingred));
         }
         $(ingred).appendTo($('.recipe-ingredient-list'));
+        renderRateModalAverage(obj.avgRating, obj.ratingCount);
+        renderRateModalUser(i1, i2, recipeID, obj.ratingTotal);
     })
-
 }

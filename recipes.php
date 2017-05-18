@@ -14,32 +14,32 @@
 
 		<!-- Scroll Bar -->
 		<div id="scrollbar-container" class="col-1 col-offset-11">
-			<div class="scrollbox"><a href="#recipe-a">A</a></div>
-			<div class="scrollbox"><a href="#recipe-b">B</a></div>
-			<div class="scrollbox"><a href="#recipe-c">C</a></div>
-			<div class="scrollbox"><a href="#recipe-d">D</a></div>
-			<div class="scrollbox"><a href="#recipe-e">E</a></div>
-			<div class="scrollbox"><a href="#recipe-f">F</a></div>
-			<div class="scrollbox"><a href="#recipe-g">G</a></div>
-			<div class="scrollbox"><a href="#recipe-h">H</a></div>
-			<div class="scrollbox"><a href="#recipe-i">I</a></div>
-			<div class="scrollbox"><a href="#recipe-j">J</a></div>
-			<div class="scrollbox"><a href="#recipe-k">K</a></div>
-			<div class="scrollbox"><a href="#recipe-l">L</a></div>
-			<div class="scrollbox"><a href="#recipe-m">M</a></div>
-			<div class="scrollbox"><a href="#recipe-n">N</a></div>
-			<div class="scrollbox"><a href="#recipe-o">O</a></div>
-			<div class="scrollbox"><a href="#recipe-p">P</a></div>
-			<div class="scrollbox"><a href="#recipe-q">Q</a></div>
-			<div class="scrollbox"><a href="#recipe-r">R</a></div>
-			<div class="scrollbox"><a href="#recipe-s">S</a></div>
-			<div class="scrollbox"><a href="#recipe-t">T</a></div>
-			<div class="scrollbox"><a href="#recipe-u">U</a></div>
-			<div class="scrollbox"><a href="#recipe-v">V</a></div>
-			<div class="scrollbox"><a href="#recipe-w">W</a></div>
-			<div class="scrollbox"><a href="#recipe-x">X</a></div>
-			<div class="scrollbox"><a href="#recipe-y">Y</a></div>
-			<div class="scrollbox"><a href="#recipe-z">Z</a></div>
+			<div class="scrollbox"><a data-tile="1" href="#recipe-a">A</a></div>
+			<div class="scrollbox"><a data-action="start" href="#recipe-b">B</a></div>
+			<div class="scrollbox"><a data-tile="2" href="#recipe-c">C</a></div>
+			<div class="scrollbox"><a data-tile="3" href="#recipe-d">D</a></div>
+			<div class="scrollbox"><a data-tile="4" href="#recipe-e">E</a></div>
+			<div class="scrollbox"><a data-tile="5" href="#recipe-f">F</a></div>
+			<div class="scrollbox"><a data-tile="6" href="#recipe-g">G</a></div>
+			<div class="scrollbox"><a data-tile="7" href="#recipe-h">H</a></div>
+			<div class="scrollbox"><a data-tile="8" href="#recipe-i">I</a></div>
+			<div class="scrollbox"><a data-tile="9" href="#recipe-j">J</a></div>
+			<div class="scrollbox"><a data-tile="10" href="#recipe-k">K</a></div>
+			<div class="scrollbox"><a data-tile="11" href="#recipe-l">L</a></div>
+			<div class="scrollbox"><a data-tile="12" href="#recipe-m">M</a></div>
+			<div class="scrollbox"><a data-tile="13" href="#recipe-n">N</a></div>
+			<div class="scrollbox"><a data-tile="14" href="#recipe-o">O</a></div>
+			<div class="scrollbox"><a data-tile="15" href="#recipe-p">P</a></div>
+			<div class="scrollbox"><a data-tile="16" href="#recipe-q">Q</a></div>
+			<div class="scrollbox"><a data-tile="17" href="#recipe-r">R</a></div>
+			<div class="scrollbox"><a data-tile="18" href="#recipe-s">S</a></div>
+			<div class="scrollbox"><a data-tile="19" href="#recipe-t">T</a></div>
+			<div class="scrollbox"><a data-tile="20" href="#recipe-u">U</a></div>
+			<div class="scrollbox"><a data-tile="21" href="#recipe-v">V</a></div>
+			<div class="scrollbox"><a data-tile="22" href="#recipe-w">W</a></div>
+			<div class="scrollbox"><a data-tile="23" href="#recipe-x">X</a></div>
+			<div class="scrollbox"><a data-tile="24" href="#recipe-y">Y</a></div>
+			<div class="scrollbox"><a data-tile="25" href="#recipe-z">Z</a></div>
 		</div>
 
 		<!-- Main Content -->
@@ -48,12 +48,41 @@
 			<div class="major-title" id="recipe-title">
 				Recipes <i class="fa fa-spoon"></i>
 			</div>
+            <div class="minor-title">
+                <br>
+                <button type="button" id="filter-button" class="btn btn-block btn-primary" data-toggle="collapse" data-target="#filtering">
+                    Dietary Filters <span class="glyphicon glyphicon-filter"></span>
+                </button>
+                <br>
+                <div id="filtering" class ="collapse text-center">
+                    <div onclick="recipeFilter()" class="pretty o-info">
+                        <input type="checkbox" name="gluten-free"/>
+                        <label><i class="glyphicon glyphicon-ok"></i> Gluten-Free</label>
+                    </div>
+                    <div onclick="recipeFilter()" class="pretty o-info">
+                        <input type="checkbox" name="vegetarian"/>
+                        <label><i class="glyphicon glyphicon-ok"></i> Vegetarian</label>
+                    </div>
+                    <div onclick="recipeFilter()" class="pretty o-info">
+                        <input type="checkbox" name="dairy-free"/>
+                        <label><i class="glyphicon glyphicon-ok"></i> Dairy-Free</label>
+                    </div>
+
+                </div>
+            </div>
+
 
 			<div id="recipe-a" class="minor-title">
 			A
+                <div id="avocado-bananas2" class="recList gluten-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado and Banana Yogurt</h5></div>
+                <div id="avocado-bananas1" class="recList vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Banana Pudding</h5></div>
+                <div id="avocado-bananas4" class="recList gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Smoothie</h5></div>
+
+
 			</div>
 			<div id="recipe-b" class="minor-title">
 			B
+                <div id="avocado-bananas3" class="recList gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Avocado Bread</h5></div>
 			</div>
 			<div id="recipe-c" class="minor-title">
 			C
@@ -135,7 +164,70 @@
 
 		<!-- Alpha Scrollbar Script -->
 		<script src="assets/js/recipes.scrollbar.js"></script>
+		
+		<!-- Easter Egg Scriot -->
+		<script src="assets/js/easterCombo.js"></script>
 
 	</div> <!-- Wrapper -->
+
+    <!-- Recipe Modal -->
+    <div id="recipe-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Dish Name</h4>
+                </div>
+                <div class="modal-body">
+
+                    <!-- Recipe Picture -->
+                    <div class="about_photo">
+                        <img src="" alt="Group Photo" class="img-responsive">
+                    </div>
+
+                    <!-- Ingredients and Prep Time -->
+                    <div class="minor-title-recipe">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                Ingredients
+                            </div>
+                            <div class="col-xs-offset-4 col-xs-4">
+                                Prep. Time
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ingredient List -->
+                    <div class="row">
+                        <div class="recipe-ingredient-list">
+                        </div>
+                    </div>
+
+                    <!-- Ingredients and Prep Time -->
+                    <div class="minor-title-recipe">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                Directions
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Directions -->
+                    <div class="row">
+                        <div class="col-xs-offset-1 col-xs-10">
+                            <div class="recipe-directions-list">
+                            </div>
+                        </div>
+                    </div>
+                    <!--</main>-->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div><!-- Recipe Modal -->
 </body>
 </html>
