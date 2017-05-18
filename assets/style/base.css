@@ -35,6 +35,8 @@ html, body{
 #wrapper {
 	min-height: 100%;
 	position:relative;
+	background: url("../../img/take2-logo-translucent2.png") no-repeat center fixed;
+    background-size: 75%;
 }
 main {
 	height: 100%;
@@ -44,7 +46,6 @@ main {
 }
 
 .major-title {
-
 	margin: 4% 0 4% 0;
 	border-bottom: 1px black solid;
 	font-family: "Helvetica Neue", Helvetica, Arial;
