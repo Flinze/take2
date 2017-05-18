@@ -21,6 +21,7 @@
 
 <!-- Header -->
 <header class="container" id="header">
+  <div class="swipe-area"></div>
   <div class="inner">
     <!-- Logo -->
     <div id="take2-logo">
@@ -44,6 +45,7 @@
     <div id="nav-logo-container">
       <img class="nav-logo" src="img/take2-logo-1.png" alt="take2 logo">
     </div>
+    
     <h2>Menu</h2>
       <ul>
         <li><a href="index.php">Home</a></li>
@@ -51,5 +53,6 @@
         <li><a href="about.php">About</a></li>
         <li><a href="affiliated-apps.php">Affiliated Apps</a></li>
       </ul>
+      <img class="nav-logo" src="img/take2-logo-1.png" alt="take2 logo">
    </nav>
 </nav>
