@@ -25,7 +25,6 @@
             for (var i = 0; i < restr.length; i++){
                 sift += "." + restr[i].name;
             }
-            console.log(sift);
             $('.recList').hide();
             if (restr.length == 0) {
                 $('.recList').show();
@@ -38,14 +37,14 @@
     </script>
     <style>
         .recList {
-            border: 3px solid black;
+            border: 3px solid #FC4A1A;
             text-align: center;
             width: 85%;
             margin: auto;
-            margin-top: 5px;
-            margin-bottom: 5px;
-            border-radius: 8px;
-
+            margin-top: 6px;
+            margin-bottom: 6px;
+            border-radius: 5px;
+            /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 12px 0 rgba(0,0,0,0.19);*/
         }
     </style>
 </head>
@@ -95,27 +94,29 @@
 			<div class="major-title" id="recipe-title">
 				Recipes <i class="fa fa-spoon"></i>
 			</div>
-            <div>
-                <h4>Filter</h4>
-                <div class="btn-group btn-group-justified" onclick="recipeFilter()">
-<!--                    <a onclick="filter($(this).text())" class="btn btn-primary">Gluten-Free</a>-->
-<!--                    <a onclick="filter($(this).text())" class="btn btn-primary">Vegetarian</a>-->
-<!--                    <a onclick="filter($(this).text())" class="btn btn-primary">Recipe Restriction #3</a>-->
-                    <label class="btn btn-default">
-                        <input type="checkbox" name="gluten-free" value="">
-                        <h5>Gluten-Free</h5>
-                    </label>
-                    <label class="btn btn-default">
-                        <input type="checkbox" name="vegetarian" value="">
-                        <h5>Vegetarian</h5>
-                    </label>
-                    <label class="btn btn-default">
-                        <input type="checkbox" name="lactose" value="">
-                        <h5>Lactose Intolerant</h5>
-                    </label>
+            <div class="minor-title">
+                <br>
+                <button type="button" class="btn btn-block" data-toggle="collapse" data-target="#filtering">
+                    <span class="glyphicon glyphicon-filter"></span>Dietary Filters
+                </button>
+                <br>
+                <div id="filtering" class ="collapse text-center">
+                    <div onclick="recipeFilter()" class="pretty o-info">
+                        <input type="checkbox" name="gluten-free"/>
+                        <label><i class="glyphicon glyphicon-ok"></i> Gluten-Free</label>
+                    </div>
+                    <div onclick="recipeFilter()" class="pretty o-info">
+                        <input type="checkbox" name="vegetarian"/>
+                        <label><i class="glyphicon glyphicon-ok"></i> Vegetarian</label>
+                    </div>
+                    <div onclick="recipeFilter()" class="pretty o-info">
+                        <input type="checkbox" name="dairy-free"/>
+                        <label><i class="glyphicon glyphicon-ok"></i> Dairy-Free</label>
+                    </div>
+
                 </div>
-                <hr>
             </div>
+
 
 			<div id="recipe-a" class="minor-title">
 			A
@@ -222,11 +223,10 @@
                     <h4 class="modal-title">Dish Name</h4>
                 </div>
                 <div class="modal-body">
-                    <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
-
+                    
                     <!-- Recipe Picture -->
                     <div class="about_photo">
-                        <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
+                        <img src="" alt="Group Photo" class="img-responsive">
                     </div>
 
                     <!-- Ingredients and Prep Time -->
