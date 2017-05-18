@@ -213,7 +213,7 @@
 
 })(jQuery)
 
-
+/* Secret game page - linking to games page after 3 click of nav icon */
 var presses;
 
 function switchSecretPage() {
@@ -243,3 +243,8 @@ function switchSecretPage() {
 	$(document).ready(function() {
 	    clicks = 0;
 	});
+
+	/* About page - showing video after a period of time */
+	setTimeout(function(){
+		$(".vid-title-container").css("display", "inline");
+	}, 3000);

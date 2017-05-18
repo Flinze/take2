@@ -3,31 +3,6 @@
 <head>
     <title>Take2 - About</title>
     <meta charset="utf-8" />
-		<style>
-		.vid-title-container {
-			display: none;
-		}
-		.vid-container {
-    position: relative;
-    padding-bottom: 50%;
-    padding-top: 35px;
-		height: 0;
-		overflow: hidden;
-		padding-left: 0px;
-		padding-right: 0px;
-}
-
-.vid-container iframe,
-.vid-container object,
-.vid-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-</style>
 </head>
 
 <body>
@@ -78,6 +53,5 @@
     <?php include('footer.php'); ?>
 
 	</div> <!-- Wrapper -->
-	
 </body>
 </html>
