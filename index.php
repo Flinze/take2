@@ -38,7 +38,7 @@
 						<option id="Tomatoesf" value="tomatoes">Tomatoes</option>
 					</select>
 				</div>
-				
+
 				<!-- Second Ingredient input -->
 				<div class="container">
 					<select class='form-control' id='dropSecond' data-placeholder='Enter second ingredient' data-role="none" onchange="pullValues()">
@@ -61,14 +61,14 @@
 			<!-- How to use collapse box-->
 			<div id='container'>
 				<div class="panel panel-default">
-				
+
 					<!-- How to use header -->
 					<div class="panel-heading">
 						<h4 class="panel-title">
 							<a for='collapseOne' id="how-to-use-toggle" data-toggle="collapse" href="#how-to-use-box">How To Use Take2</a>
 						</h4>
 					</div>
-					
+
 					 <!-- How to inner box -->
 					<div id="how-to-use-box" class="panel-collapse collapse in container">
 						<div id="how-to-use-inner" class="">
@@ -107,6 +107,10 @@
                 <div class="modal-header">
                     <h4 class="modal-title">Dish Name</h4>
                 </div>
+								<div class="modal-header">
+                    <div id='ratingModalAverage'></div>
+										<div id='ratingModalCaption'></div>
+                </div>
                 <div class="modal-body">
                     <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
 
@@ -114,6 +118,12 @@
                         <div class="about_photo">
                             <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
                         </div>
+								</div>
+
+								<div class="modal-header">
+                    <div id='ratingModalUser'></div>
+                </div>
+								<div class = 'modal-body'>
 
                         <!-- Ingredients and Prep Time -->
                         <div class="minor-title-recipe">
