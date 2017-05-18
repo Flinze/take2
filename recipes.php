@@ -31,22 +31,8 @@
             } else {
                 $('.recList').filter(sift).show();
             }
-
-
         }
     </script>
-    <style>
-        .recList {
-            border: 3px solid #FC4A1A;
-            text-align: center;
-            width: 85%;
-            margin: auto;
-            margin-top: 6px;
-            margin-bottom: 6px;
-            border-radius: 5px;
-            /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 12px 0 rgba(0,0,0,0.19);*/
-        }
-    </style>
 </head>
 
 <body>
@@ -94,8 +80,8 @@
 			</div>
             <div class="minor-title">
                 <br>
-                <button type="button" class="btn btn-block" data-toggle="collapse" data-target="#filtering">
-                    <span class="glyphicon glyphicon-filter"></span>Dietary Filters
+                <button type="button" id="filter-button" class="btn btn-block btn-primary" data-toggle="collapse" data-target="#filtering">
+                    Dietary Filters <span class="glyphicon glyphicon-filter"></span>
                 </button>
                 <br>
                 <div id="filtering" class ="collapse text-center">
