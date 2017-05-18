@@ -12,7 +12,7 @@
 		$('[data-action=start]').on('click', easterCombo);
 	}
 	function easterCombo() {
-		sequence = [9,18,4];
+		sequence = [8,17,3];
 		copy = [];
 		copy = sequence.slice(0);
 		$('[data-action=start]').addClass('active');
@@ -20,8 +20,15 @@
 	}
 
 function easterWin() {
-	window.location.href = "https://www.google.ca/"
-	}
+	var elem = document.createElement('img');
+	
+	elem.src = "img/seagull-egg.jpg";
+	elem.setAttribute('height', '100%');
+	elem.setAttribute('width', '100%');
+	elem.setAttribute('alt', 'Seagull-egg');
+	
+	document.getElementById('recipe-title').appendChild(elem);
+}
 
 	function easterActive(){
 		$('#scrollbar-container')
@@ -36,11 +43,13 @@ function easterWin() {
 	function easterDeactive() {
 		$('#scrollbar-container')
 			.off('click', '[data-tile]')
-			.off('mousedown', '[data-tile]')
+			.off('mousedown', '[data-tile]');
 			
-			$('[data-action=start]').removeClass('active');
+		$('[data-action=start]').removeClass('active');
 			
-		}
+		$('[data-tile]').removeClass('active');
+			
+	}
 
 	function registerClick(e) {
 		var desiredResponse = copy.shift();
