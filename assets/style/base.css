@@ -209,12 +209,17 @@ fieldset {
 .text-field {
 	border: 1px solid #d3d3d3;
 	border-radius: 5px;
+	float: right;
 }
 #comment {
 	width: 100%;
 }
 .error {
 	color: red;
+}
+
+textarea.form-control {
+    height:100px !important;
 }
 
 /* Secret Game Page */
