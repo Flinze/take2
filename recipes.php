@@ -223,7 +223,7 @@
                     <h4 class="modal-title">Dish Name</h4>
                 </div>
                 <div class="modal-body">
-                    
+
                     <!-- Recipe Picture -->
                     <div class="about_photo">
                         <img src="" alt="Group Photo" class="img-responsive">
