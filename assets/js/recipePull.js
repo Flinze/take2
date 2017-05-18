@@ -23,7 +23,8 @@ function listDishes(ingx, ingy) {
     // iterates through each recipe and assigns each to a value in the array
     recipeRef.once('value', function(snapshot){
         var index = 0;
-
+        dishes = [];
+        dishImages = [];
         snapshot.forEach(function(childSnapshot){
             dishes[index] = childSnapshot.val();
             dishImages[index] = document.createElement('img');
