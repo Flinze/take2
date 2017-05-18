@@ -236,7 +236,7 @@ function switchSecretPage() {
 	function imageChange() {
 		clicks++;
 	  	if (clicks >= 10) {
-	      $("#team-photo").attr("src", "img/easteregg.jpg");
+	      $("#team-photo").attr("src", "img/about/fun.jpg");
 	  	}
 	 }
 
