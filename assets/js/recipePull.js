@@ -23,6 +23,7 @@ function listDishes(ingx, ingy) {
     // iterates through each recipe and assigns each to a value in the array
     recipeRef.once('value', function(snapshot){
         var index = 0;
+
         snapshot.forEach(function(childSnapshot){
             dishes[index] = childSnapshot.val();
             dishImages[index] = document.createElement('img');
@@ -32,19 +33,21 @@ function listDishes(ingx, ingy) {
             $(temp).addClass('hidden');
             index++;
         })
+        $('#dishes').find('div').remove();
 
         // Loops through array and creates a div for each dish pulled from database and
         // appends to the document
         for(var i = 0; i < dishes.length; i++) {
             d = document.createElement('div');
             $(d).addClass('dishDivs')
-                .html('<span class="dishTitles" id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span>')
+                .html('<span class="dishTitles" id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span><div id=rate'+(i+1)+'></div><h4>'+dishes[i].avgRating+'</h4>')
                 .attr("id", i + 1) // SET NUMBERED ID for pulling database recipes
                 .click(function() {
                     recipeContentIndex($(this), ($(this).attr('id') - 1))  // Adds onclick functionality to each dish division
                 })
                 .appendTo($('#dishes')).hide().fadeIn(1500);
             $(window.dishImages[i]).appendTo(d);
+            renderRate(dishes[i].avgRating, (i+1));
         }
     })
 }
@@ -58,7 +61,7 @@ Also calls the listDishes() function to populate the page with recipe suggestion
 function pullValues() {
     ing1 = $("#dropFirst").val();
     ing2 = $("#dropSecond").val();
-    if (ing1 != ing2 && ing1 != "" && ing2 != "") {
+    if (ing1 != "" && ing2 != "") {
 
         // Clears previous divs created from dishes pulled if present
         var d = document.getElementById('dishes')
@@ -134,6 +137,7 @@ function populateRecipeModal(i1, i2, recipeID) {
             $(d).appendTo($(ingred));
         }
         $(ingred).appendTo($('.recipe-ingredient-list'));
+        renderRateModalAverage(obj.avgRating, obj.ratingCount);
+        renderRateModalUser(i1, i2, recipeID, obj.ratingTotal);
     })
-
 }
