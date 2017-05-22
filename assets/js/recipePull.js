@@ -112,8 +112,18 @@ function populateRecipeModal(i1, i2, recipeID) {
     var dblocation = i1 + "-" + i2 + recipeID
     var recipeRef = firebase.database().ref('ingredients/' + i1 + '/' + i2 + '/' + dblocation);
 
+    // TODO: if statement here if snapshot.val()
+
+
+
     recipeRef.once('value', function(snapshot){
         var obj = snapshot.val();
+
+        if(obj == null) {
+            populateRecipeModal(i2, i1, recipeID);
+            return;
+        }
+
         $('.modal-title').text(obj.title);
         $(".about_photo > img").attr("src", obj.img);
 
