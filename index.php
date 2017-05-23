@@ -162,7 +162,7 @@
                     <!--</main>-->
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal" onclick="cleanURL()">Close</button>
                 </div>
             </div>
 

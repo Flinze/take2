@@ -40,11 +40,13 @@ function listDishes(ingx, ingy) {
         // appends to the document
         for(var i = 0; i < dishes.length; i++) {
             d = document.createElement('div');
+            dishID = ingx + "-" + ingy + (i+1);
             $(d).addClass('dishDivs')
-                .html('<span class="dishTitles" id="dishTitle' + (i + 1) + '"><h2>' + dishes[i].title + '</h2></span><div id=rate'+(i+1)+'></div><h4>'+dishes[i].avgRating+'</h4>')
+                .html('<span class="dishTitles" id=' + dishID + '><h2>' + dishes[i].title + '</h2></span><div id=rate'+(i+1)+'></div><h4>'+dishes[i].avgRating+'</h4>')
                 .attr("id", i + 1) // SET NUMBERED ID for pulling database recipes
                 .click(function() {
-                    recipeContentIndex($(this), ($(this).attr('id') - 1))  // Adds onclick functionality to each dish division
+                    var dishNum = $(this).find('span').attr('id');
+                    recipeContentIndex($(this), ($(this).attr('id') - 1), dishID);  // Adds onclick functionality to each dish division
                 })
                 .appendTo($('#dishes')).hide().fadeIn(1500);
             $(window.dishImages[i]).appendTo(d);
@@ -84,7 +86,7 @@ function pullValues() {
 }
 
 
-function recipeContentIndex(x, dishNumber) {
+function recipeContentIndex(x, dishNumber, dishID) {
     var currentHeight = x.height()
     if (!(x.has('p').length)){ // Checks whether dishes have already been loaded onto the page
         // Appends dish picture, dish description and button directing to recipe page to each dish division on click
@@ -108,12 +110,23 @@ function recipeContentIndex(x, dishNumber) {
     x.height(currentHeight).animate({height: autoHeight}, "slow");
 }
 
+
+window.onpopstate = function(e){
+    if(e.state){
+        document.getElementById("content").innerHTML = e.state.html;
+        document.title = e.state.pageTitle;
+    }
+};
+
+function cleanURL(){
+    window.history.replaceState(null, null, window.location.pathname);
+}
+
+
+
 function populateRecipeModal(i1, i2, recipeID) {
-    var dblocation = i1 + "-" + i2 + recipeID
+    var dblocation = i1 + "-" + i2 + recipeID;
     var recipeRef = firebase.database().ref('ingredients/' + i1 + '/' + i2 + '/' + dblocation);
-
-    // TODO: if statement here if snapshot.val()
-
 
 
     recipeRef.once('value', function(snapshot){
@@ -123,7 +136,7 @@ function populateRecipeModal(i1, i2, recipeID) {
             populateRecipeModal(i2, i1, recipeID);
             return;
         }
-
+        window.history.pushState({},"", '?id=' + dblocation);
         $('.modal-title').text(obj.title);
         $(".about_photo > img").attr("src", obj.img);
 
