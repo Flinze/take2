@@ -83,7 +83,7 @@
 							<p class="app-description">
 							F2E is a food-sharing app that allows users to connect to one another using Facebook. Users can post any excess food such as ingredients, or meals to share with others.</p>
 							<h6 class="group-names">Alex Campbell - Mike Dumycz - Eugene Myroniuk - Justin Pancho - Remy Truong</h6>
-							<a class="btn btn-info" href="http://students.bcitdev.com/A01005177/eugene/main.html">Visit Page</a>
+							<a class="btn btn-info" href="http://f2e.ca/">Visit Page</a>
 						</div>
 					</div>
 				</div>
