@@ -125,27 +125,42 @@
 								<div class="modal-header">
                     <div id='ratingModalUser'></div>
                 </div>
-								<div class = 'modal-body'>
+				<div class = 'modal-body'>
 
-                        <!-- Ingredients and Prep Time -->
+                        <!-- Prep Time -->
+                        <div class="minor-title-recipe">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Prep. Time <span class="glyphicon glyphicon-time"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="prep-time">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ingredients -->
                         <div class="minor-title-recipe">
                             <div class="row">
                                 <div class="col-xs-4">
                                     Ingredients
-                                </div>
-                                <div class="col-xs-offset-4 col-xs-4">
-                                    Prep. Time
                                 </div>
                             </div>
                         </div>
 
                         <!-- Ingredient List -->
                         <div class="row">
-                            <div class="recipe-ingredient-list">
+                            <div class="col-xs-11">
+                                <div class="recipe-ingredient-list">
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Ingredients and Prep Time -->
+                        <!-- Direction Title -->
                         <div class="minor-title-recipe">
                             <div class="row">
                                 <div class="col-xs-4">
@@ -156,11 +171,20 @@
 
                         <!-- Directions -->
                         <div class="row">
-                            <div class="col-xs-offset-1 col-xs-10">
+                            <div class="col-xs-10">
                                 <div class="recipe-directions-list">
                                 </div>
                             </div>
                         </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="source">
+                                <br>
+                                <a>Source</a>
+                            </div>
+                        </div>
+                    </div>
                     <!--</main>-->
                 </div>
                 <div class="modal-footer">

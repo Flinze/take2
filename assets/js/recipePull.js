@@ -126,6 +126,7 @@ function populateRecipeModal(i1, i2, recipeID) {
         window.history.pushState({},"", '?' + key + "=" + value);
         $('.modal-title').text(obj.title);
         $(".about_photo > img").attr("src", obj.img);
+        $(".prep-time").text(obj.preptime);
 
         var dir = document.createElement('ul');
         if($('.recipe-directions-list').has('ul').length){
@@ -150,6 +151,8 @@ function populateRecipeModal(i1, i2, recipeID) {
         $(ingred).appendTo($('.recipe-ingredient-list'));
         renderRateModalAverage(obj.avgRating, obj.ratingCount);
         renderRateModalUser(i1, i2, recipeID, obj.ratingTotal);
+
+        $('.source > a').attr('href', obj.source);
     })
 }
 
