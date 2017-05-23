@@ -110,24 +110,11 @@ function recipeContentIndex(x, dishNumber, dishID) {
     x.height(currentHeight).animate({height: autoHeight}, "slow");
 }
 
-
-window.onpopstate = function(e){
-    if(e.state){
-        document.getElementById("content").innerHTML = e.state.html;
-        document.title = e.state.pageTitle;
-    }
-};
-
-function cleanURL(){
-    window.history.replaceState(null, null, window.location.pathname);
-}
-
-
-
 function populateRecipeModal(i1, i2, recipeID) {
     var dblocation = i1 + "-" + i2 + recipeID;
     var recipeRef = firebase.database().ref('ingredients/' + i1 + '/' + i2 + '/' + dblocation);
-
+    var value = encodeURI(dblocation);
+    var key = encodeURI("id");
 
     recipeRef.once('value', function(snapshot){
         var obj = snapshot.val();
@@ -136,7 +123,7 @@ function populateRecipeModal(i1, i2, recipeID) {
             populateRecipeModal(i2, i1, recipeID);
             return;
         }
-        window.history.pushState({},"", '?id=' + dblocation);
+        window.history.pushState({},"", '?' + key + "=" + value);
         $('.modal-title').text(obj.title);
         $(".about_photo > img").attr("src", obj.img);
 
@@ -164,4 +151,15 @@ function populateRecipeModal(i1, i2, recipeID) {
         renderRateModalAverage(obj.avgRating, obj.ratingCount);
         renderRateModalUser(i1, i2, recipeID, obj.ratingTotal);
     })
+}
+
+window.onpopstate = function(e){
+    if(e.state){
+        document.getElementById("content").innerHTML = e.state.html;
+        document.title = e.state.pageTitle;
+    }
+};
+
+function cleanURL(){
+    window.history.replaceState(null, null, window.location.pathname);
 }

@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Take2 - Home</title>
+
+
 </head>
 
 <body>
@@ -116,7 +118,7 @@
 
                         <!-- Recipe Picture -->
                         <div class="about_photo">
-                            <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
+                            <img src="" alt="Recipe Photo" class="img-responsive">
                         </div>
 								</div>
 
@@ -169,5 +171,6 @@
         </div>
     </div><!-- Recipe Modal -->
 
+    <script src="assets/js/directLink.js"></script> <!-- Javascript for index page ONLY.  Links coming from social media will redirect to the modal with the corresponding recipe. -->
 </body>
 </html>
