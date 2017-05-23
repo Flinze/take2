@@ -3,6 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Take2 - Home</title>
+	
+	<!-- Title bar icon -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 
 </head>

@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Remove up to here -->
+	
+	<!-- Title bar icon -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
   </head>
 
