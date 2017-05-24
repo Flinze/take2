@@ -12,17 +12,17 @@
 
 /* Style of the A-Z scrollbar */
 .scrollbox {
-	width: 3.2vh;
-	height: 3.2vh;
-	border-top: 0.2px solid #337ab7;
-	border-right: 1px solid #337ab7;
-	border-left: 1px solid #337ab7;
+	width: 3.1vh;
+	height: 3.1vh;
+	border-bottom: 0.2px solid #337ab7;
+	/*border-right: 1px solid #337ab7;
+	border-left: 1px solid #337ab7;*/
 	font-size: 2.3vh;
 	background-color: rgba(255, 255, 255, 0.5);
 	display:block
 }
 .scrollbox:last-child {
-	border-bottom: 1px solid #337ab7;
+	border-bottom: 0;
 }
 .scrollbox a{
 	text-decoration:none;
