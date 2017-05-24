@@ -149,8 +149,11 @@ function populateRecipeModal(i1, i2, recipeID) {
             $(d).appendTo($(ingred));
         }
         $(ingred).appendTo($('.recipe-ingredient-list'));
+        console.log(obj);
         renderRateModalAverage(obj.avgRating, obj.ratingCount);
-        renderRateModalUser(i1, i2, recipeID, obj.ratingTotal);
+
+        renderRateModalUser(i1, i2, recipeID, obj.ratingCount, obj.ratingTotal, obj.avgRating);
+
 
         $('.source > a').attr('href', obj.source);
     })

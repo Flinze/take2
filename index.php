@@ -144,8 +144,10 @@
                         </div>
 								</div>
 
+								<!-- Modal Rating User -->
 								<div class="modal-header">
                     <div id='ratingModalUser'></div>
+										<div id='ratingModalUserCaption'></div>
                 </div>
 				<div class = 'modal-body'>
 
