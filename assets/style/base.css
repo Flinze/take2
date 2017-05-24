@@ -221,8 +221,9 @@ a#how-to-use-toggle {
 }
 
 /* Social Media Sharing Button */
-.product-social-links {
-	line-height: 10px;
+.fb_iframe_widget span
+{
+  vertical-align: baseline !important;
 }
 /* Recipe List */
 .recList {
