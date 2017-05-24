@@ -16,7 +16,7 @@
 
 	<!-- Footer Text-->
 	<div class="footer-info">
-	Take2 | Designed by TEAM
+	Take2 | Designed by Team 24
 	</div>
 </footer>
 

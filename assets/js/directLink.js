@@ -10,7 +10,6 @@ $.urlParam = function(name){
 
 $(document).ready(function(){
     var x = $.urlParam('id');
-    console.log(x);
     if (x === null) {
         return;
     } else {
