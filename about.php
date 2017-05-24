@@ -29,17 +29,12 @@
 		</div>
 
 		<div class="major-title">
-			<i class="fa fa-male"></i><i class="fa fa-male">The Flock Project
-			</i><i class="fa fa-female"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
+			<i class="fa fa-male"></i><i class="fa fa-female">The Flock Project
+			</i><i class="fa fa-male"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
 		</div>
 
 		<p>
-		One Two Three
-		One Two Three
-		One Two Three
-		One Two Three
-		One Two Three
-		One Two Three
+		
 		</p>
 		<div class="vid-title-container">
 			<div class="major-title">
