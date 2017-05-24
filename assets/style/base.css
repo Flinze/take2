@@ -341,7 +341,16 @@ height: 100%;
 	font-size: 40px;
 	color: #4abdac;
 }
-
+#flock-intro {
+	font-size: large;
+	margin: 1em 0;
+}
+#flock-bio {
+	text-align: left;
+}
+#bio-challenges {
+	text-align: left;
+}
 /* Footer */
 ul.footer-links {
 	list-style-type: none;
