@@ -44,7 +44,7 @@ main {
 	text-align: center;
 	height: 100%;
 	min-height: 100%;
-	margin-bottom: 100px; 
+	margin-bottom: 100px;
 }
 .major-title {
 	margin: 4% 0 4% 0;
@@ -220,8 +220,10 @@ a#how-to-use-toggle {
 	border-top: 1px solid #4abdac;
 }
 
-
-
+/* Social Media Sharing Button */
+.product-social-links {
+	line-height: 10px;
+}
 /* Recipe List */
 .recList {
 	border: 3px solid #FC4A1A;
