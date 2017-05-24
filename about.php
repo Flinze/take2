@@ -27,14 +27,20 @@
 		<div class="about_photo">
 			<img id="team-photo" src="img/about/group.jpg" alt="Group Photo" onclick="imageChange()">
 		</div>
+		
+		<blockquote>
+			Segal Au - Jenny Ly - Jeff Choy - Andrew Le - Felix Lin
+			<br>
+			<br>
+			<i>"Must have fun"</i>
+		</blockquote>
 
 		<div class="major-title">
-			<i class="fa fa-male"></i><i class="fa fa-female">The Flock Project
-			</i><i class="fa fa-male"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
+			<i class="fa fa-male"></i><i class="fa fa-female"></i>The Flock<i class="fa fa-male"></i><i class="fa fa-male"></i><i class="fa fa-male"></i>
 		</div>
 
 		<p>
-		
+		There was an idea, called the Flock Initiative. The idea was to bring together of remarkable people, see if they could become something more, see if they can work together when we needed them to. To fight the battles that we never could.
 		</p>
 		<div class="vid-title-container">
 			<div class="major-title">
