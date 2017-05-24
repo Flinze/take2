@@ -11,9 +11,9 @@
 	<!-- Facebook open graphic meta tags -->
 	<meta property="og:url"  				  content="" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="Your Website Title" />
-  <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+  <meta property="og:title"         content="Take2" />
+  <meta property="og:description"   content="A recipe generating site which suggests simple, easy recipes for ingredient pairs." />
+  <meta property="og:image"         content="img/take2-logo-1.png" />
 
 </head>
 
@@ -122,17 +122,18 @@
 								<div class="modal-header">
                     <div id='ratingModalAverage'></div>
 										<div id='ratingModalCaption'></div>
+										<div class="product-social-links">
+										<!-- Facebook sharing widget -->
+											<div class="fb-share-button" data-href="" data-layout="button" data-size="small" data-mobile-iframe="true">
+												<a class="fb-xfbml-parse-ignore" target="_blank" >Share</a></div>
 
-										<!-- Twitter sharing widget -->
-										<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
-										<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+											<!-- Twitter sharing widget -->
+											<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
+											<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-										<!-- Google Plus sharing widget -->
-										<!-- Place this tag in your head or just before your close body tag. -->
-										<script src="https://apis.google.com/js/platform.js" async defer></script>
-
-										<!-- Place this tag where you want the share button to render. -->
-										<div class="g-plus" data-action="share" style="width:100px;"></div>
+											<!-- Google+ button -->
+										<div class="g-plus" data-action="share" style="width:150px"></div>
+									</div>
 								</div>
 
                 <div class="modal-body">
