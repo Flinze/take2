@@ -3,6 +3,10 @@
 <head>
     <title>Take2 - Game</title>
     <meta charset="utf-8" />
+	
+	<!-- Title bar icon -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>

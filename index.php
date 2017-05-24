@@ -3,6 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Take2 - Home</title>
+	
+	<!-- Title bar icon -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
 </head>
 
 <body>
@@ -116,7 +122,7 @@
 
                         <!-- Recipe Picture -->
                         <div class="about_photo">
-                            <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
+                            <img src="" alt="Recipe Photo" class="img-responsive">
                         </div>
 								</div>
 
@@ -125,27 +131,42 @@
                     <div id='ratingModalUser'></div>
 										<div id='ratingModalUserCaption'></div>
                 </div>
-								<div class = 'modal-body'>
+				<div class = 'modal-body'>
 
-                        <!-- Ingredients and Prep Time -->
+                        <!-- Prep Time -->
+                        <div class="minor-title-recipe">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Prep. Time <span class="glyphicon glyphicon-time"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="prep-time">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ingredients -->
                         <div class="minor-title-recipe">
                             <div class="row">
                                 <div class="col-xs-4">
                                     Ingredients
-                                </div>
-                                <div class="col-xs-offset-4 col-xs-4">
-                                    Prep. Time
                                 </div>
                             </div>
                         </div>
 
                         <!-- Ingredient List -->
                         <div class="row">
-                            <div class="recipe-ingredient-list">
+                            <div class="col-xs-11">
+                                <div class="recipe-ingredient-list">
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Ingredients and Prep Time -->
+                        <!-- Direction Title -->
                         <div class="minor-title-recipe">
                             <div class="row">
                                 <div class="col-xs-4">
@@ -156,20 +177,30 @@
 
                         <!-- Directions -->
                         <div class="row">
-                            <div class="col-xs-offset-1 col-xs-10">
+                            <div class="col-xs-10">
                                 <div class="recipe-directions-list">
                                 </div>
                             </div>
                         </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="source">
+                                <br>
+                                <a>Source</a>
+                            </div>
+                        </div>
+                    </div>
                     <!--</main>-->
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal" onclick="cleanURL()">Close</button>
                 </div>
             </div>
 
         </div>
     </div><!-- Recipe Modal -->
 
+    <script src="assets/js/directLink.js"></script> <!-- Javascript for index page ONLY.  Links coming from social media will redirect to the modal with the corresponding recipe. -->
 </body>
 </html>
