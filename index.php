@@ -8,7 +8,7 @@
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-	<!-- Facebook open graphic meta tags -->
+	<!-- Social media open graphic meta tags -->
 	<meta property="og:url"  				  content="" />
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="Take2" />
@@ -122,7 +122,7 @@
 								<div class="modal-header">
                     <div id='ratingModalAverage'></div>
 										<div id='ratingModalCaption'></div>
-										<div class="product-social-links">
+
 										<!-- Facebook sharing widget -->
 											<div class="fb-share-button" data-href="" data-layout="button" data-size="small" data-mobile-iframe="true">
 												<a class="fb-xfbml-parse-ignore" target="_blank" >Share</a></div>
@@ -133,8 +133,9 @@
 
 											<!-- Google+ button -->
 										<div class="g-plus" data-action="share" style="width:150px"></div>
-									</div>
+
 								</div>
+
 
                 <div class="modal-body">
                     <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
