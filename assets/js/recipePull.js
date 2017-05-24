@@ -42,6 +42,7 @@ function listDishes(ingx, ingy) {
             d = document.createElement('div');
             dishID = ingx + "-" + ingy + (i+1);
             $(d).addClass('dishDivs')
+                //Displays title and 5 star rating (rounded to 2 decimals) 
                 .html('<span class="dishTitles" id=' + dishID + '><h2>' + dishes[i].title + '</h2></span><div id=rate'+(i+1)+'></div><h4>'+dishes[i].avgRating.toFixed(2)+'</h4>')
                 .attr("id", i + 1) // SET NUMBERED ID for pulling database recipes
                 .click(function() {
