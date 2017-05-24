@@ -41,10 +41,8 @@
 		</div>
 
 		<p id="flock-bio">
-		&emsp;&emsp;The Flock is made up of level one students in BCIT's Computer System Technology program.
-		</p>
-		
-		<br>
+		&emsp;&emsp;The Flock is made up of level one students enrolled in BCIT's Computer System Technology program. Take2 is the product of COMP 2910, focused on developing teamwork, and project management skills. The course was created to help students understand the development lifestyle, and simulate a working environment.
+		</p><br>
 		
 		<!-- 30s pitch easter egg -->
 		<div class="vid-title-container">
