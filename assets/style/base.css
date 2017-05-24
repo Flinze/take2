@@ -311,6 +311,9 @@ height: 100%;
 #flock-bio {
 	text-align: left;
 }
+#bio-challenges {
+	text-align: left;
+}
 /* Footer */
 ul.footer-links {
 	list-style-type: none;

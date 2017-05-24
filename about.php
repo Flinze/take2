@@ -41,7 +41,20 @@
 		</div>
 
 		<p id="flock-bio">
-		&emsp;&emsp;The Flock is made up of level one students enrolled in BCIT's Computer System Technology program. Take2 is the product of COMP 2910, focused on developing teamwork, and project management skills. The course was created to help students understand the development lifestyle, and simulate a working environment.
+		&emsp;&emsp;The Flock is made of 5 level-1 students enrolled in BCIT's Computer System Technology program. Take2 is the product of their COMP 2910 project.
+		<br><br>
+		&emsp;&emsp;COMP 2910 is a course focused on developing teamwork, and project management skills. The course was created to help students understand a software development lifestyle, and simulate a working environment with labs 5 days a week.
+		<br><br>
+		&emsp;&emsp;In colaboration with Metro Vancouver, this year's COMP 2910 theme is 'Zero food waste'. The goal of this theme is to educate, to raise awareness, and to cause a behavioral change.
+		<br><br>
+		The three sprint challenges are:
+		<dl id="bio-challenges">
+			<dt>1. Affiliated Apps Page</dt>
+				<dd>Take2 is Affiliated with Fuber, Grocery Buddy, and F2E. These apps are complementary to Take2.</dd>
+			<dt>2. Easter Egg</dt>
+				<dd>There are a total of 5 Easter Eggs on Take2. Try to find them all!</dd>
+			<dt>3. Social Media Integration</dt>
+				<dd>Users are able to share our recipes using Twitter, or Facebook!</dd>
 		</p><br>
 		
 		<!-- 30s pitch easter egg -->
