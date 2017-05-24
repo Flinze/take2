@@ -19,7 +19,7 @@
 		<!-- Scroll Bar -->
 		<div id="scrollbar-container" class="col-1 col-offset-11">
 			<div class="scrollbox"><a data-tile="1" href="#recipe-a">A</a></div>
-			<div class="scrollbox"><a data-action="start" href="#recipe-b">B</a></div>
+			<div class="scrollbox"><a data-action="start" href="#recipe-b">B</a></div> <!-- The start of an Easter Egg -->
 			<div class="scrollbox"><a data-tile="2" href="#recipe-c">C</a></div>
 			<div class="scrollbox"><a data-tile="3" href="#recipe-d">D</a></div>
 			<div class="scrollbox"><a data-tile="4" href="#recipe-e">E</a></div>
@@ -52,6 +52,8 @@
 			<div class="major-title" id="recipe-title">
 				Recipes <i class="fa fa-spoon"></i>
 			</div>
+			
+			<!-- Filters -->
             <div class="minor-title">
                 <br>
                 <button type="button" id="filter-button" class="btn btn-block btn-primary" data-toggle="collapse" data-target="#filtering">
