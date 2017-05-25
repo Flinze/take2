@@ -73,6 +73,10 @@
                         <input type="checkbox" name="dairy-free"/>
                         <label><i class="glyphicon glyphicon-ok"></i> Dairy-Free</label>
                     </div>
+                    <div onclick="recipeFilter()" class="pretty o-info">
+                        <input type="checkbox" name="nut-free"/>
+                        <label><i class="glyphicon glyphicon-ok"></i> Peanut-Free</label>
+                    </div>
 
                 </div>
             </div>
@@ -80,15 +84,26 @@
 
 			<div id="recipe-a" class="minor-title">
 			A
-                <div id="avocado-bananas2" class="recList gluten-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado and Banana Yogurt</h5></div>
-                <div id="avocado-bananas1" class="recList vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Banana Pudding</h5></div>
+                <div id="beef-lettuce2" class="recList gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Asian Crispy Beef</h5></div>
+                <div id="cheese-potatoes3" class="recList vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Au Gratin Potato</h5></div>
+                <div id="avocado-beef2" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado and Beef Fajitas</h5></div>
+                <div id="avocado-cheese2" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado and Cheese Dip</h5></div>
+                <div id="avocado-potatoes3" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado and Potato Salad</h5></div>
+                <div id="avocado-bananas3" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Banana Bread</h5></div>
+                <div id="avocado-bananas1" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Banana Pudding</h5></div>
+                <div id="avocado-bananas2" class="recList gluten-free vegetarian nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Banana Yogurt</h5></div>
+                <div id="avocado-cheese1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Cheese Toast</h5></div>
+                <div id="avocado-lettuce3" class="recList dairy-free nut-free gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Chicken Lettuce Wrap</h5></div>
+                <div id="avocado-lettuce1" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado, Lettuce and Tomato Pita</h5></div>
+                <div id="avocado-potatoes2" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Mashed Potatoes</h5></div>
+                <div id="avocado-lettuce2" class="recList vegetarian gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Salad</h5></div>
+                <div id="avocado-chicken2" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Stuffed Chicken Breast Rolls</h5></div>
                 <div id="avocado-bananas4" class="recList gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Smoothie</h5></div>
-
+                <div id="avocado-bread1" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Toast</h5></div>
 
 			</div>
 			<div id="recipe-b" class="minor-title">
 			B
-                <div id="avocado-bananas3" class="recList gluten-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Avocado Bread</h5></div>
 			</div>
 			<div id="recipe-c" class="minor-title">
 			C
@@ -168,6 +183,7 @@
 			</div>
 			<div id="recipe-t" class="minor-title">
 			T
+                <div id="avocado-egg3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato, Cheese and Avocado Omelette</h5></div>
 			</div>
 			<div id="recipe-u" class="minor-title">
 			U
@@ -210,32 +226,74 @@
                 <div class="modal-header">
                     <h4 class="modal-title">Dish Name</h4>
                 </div>
+                <div class="modal-header">
+                    <div id='ratingModalAverage'></div>
+                    <div id='ratingModalCaption'></div>
+
+                    <!-- Facebook sharing widget -->
+                    <div class="fb-share-button" data-href="" data-layout="button" data-size="small" data-mobile-iframe="true">
+                        <a class="fb-xfbml-parse-ignore" target="_blank" >Share</a></div>
+
+                    <!-- Twitter sharing widget -->
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                    <!-- Google+ button -->
+                    <div class="g-plus" data-action="share" style="width:150px"></div>
+
+                </div>
+
+
                 <div class="modal-body">
+                    <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
 
                     <!-- Recipe Picture -->
                     <div class="about_photo">
-                        <img src="" alt="Group Photo" class="img-responsive">
+                        <img src="" alt="Recipe Photo" class="img-responsive">
+                    </div>
+                </div>
+
+                <!-- Modal Rating User -->
+                <div class="modal-header">
+                    <div id='ratingModalUser'></div>
+                    <div id='ratingModalUserCaption'></div>
+                </div>
+                <div class = 'modal-body'>
+
+                    <!-- Prep Time -->
+                    <div class="minor-title-recipe">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                Prep. Time <span class="glyphicon glyphicon-time"></span>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Ingredients and Prep Time -->
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="prep-time">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ingredients -->
                     <div class="minor-title-recipe">
                         <div class="row">
                             <div class="col-xs-4">
                                 Ingredients
-                            </div>
-                            <div class="col-xs-offset-4 col-xs-4">
-                                Prep. Time
                             </div>
                         </div>
                     </div>
 
                     <!-- Ingredient List -->
                     <div class="row">
-                        <div class="recipe-ingredient-list">
+                        <div class="col-xs-11">
+                            <div class="recipe-ingredient-list">
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Ingredients and Prep Time -->
+                    <!-- Direction Title -->
                     <div class="minor-title-recipe">
                         <div class="row">
                             <div class="col-xs-4">
@@ -246,15 +304,24 @@
 
                     <!-- Directions -->
                     <div class="row">
-                        <div class="col-xs-offset-1 col-xs-10">
+                        <div class="col-xs-10">
                             <div class="recipe-directions-list">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="source">
+                                <br>
+                                <a>Source</a>
                             </div>
                         </div>
                     </div>
                     <!--</main>-->
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal" onclick="cleanURL()">Close</button>
                 </div>
             </div>
 
