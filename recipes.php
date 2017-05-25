@@ -3,7 +3,7 @@
 <head>
 	<title>Take2 - Recipe List</title>
 	<meta charset="utf-8">
-	
+
 	<!-- Title bar icon -->
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -52,7 +52,7 @@
 			<div class="major-title" id="recipe-title">
 				Recipes <i class="fa fa-spoon"></i>
 			</div>
-			
+
 			<!-- Filters -->
             <div class="minor-title">
                 <br>
@@ -89,9 +89,18 @@
 			<div id="recipe-b" class="minor-title">
 			B
                 <div id="avocado-bananas3" class="recList gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Avocado Bread</h5></div>
+				<div id="bread-cheese2" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bacon'n Cheddar Bubble Bread</h5></div>
 			</div>
 			<div id="recipe-c" class="minor-title">
 			C
+				<div id="cheese-lettuce1" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Cheese and Salad Sandwich</h5></div>
+				<div id="cheese-tomatoes2" class="recList nut-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Cheese Tomato Melt</h5></div>
+				<div id="cheese-potatoes1" class="recList nut-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Cheesy Potato Bake</h5></div>
+				<div id="chicken-egg1" class="recList nut-free gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Chicken and Egg Fried Rice</h5></div>
+				<div id="chicken-egg3" class="recList nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Chicken and Egg Stir Fry</h5></div>
+				<div id="chicken-lettuce2" class="recList gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Chicken Lettuce Salad</h5></div>
+				<div id="chicken-lettuce1" class="recList nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Chicken Tomato Lettuce Sandwich</h5></div>
+				<div id="lettuce-tomatoes1" class="recList nut-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Classic Lettuce, Tomato, Cheese Sandwich</h5></div>
 			</div>
 			<div id="recipe-d" class="minor-title">
 			D
@@ -151,6 +160,7 @@
 			V
 			</div>
 			<div id="recipe-w" class="minor-title">
+	 			<div id="bread-cheese3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Warm'n Toasty Cheddar Bread</h5></div>
 			W
 			</div>
 			<div id="recipe-x" class="minor-title">
@@ -170,7 +180,7 @@
 
 		<!-- Alpha Scrollbar Script -->
 		<script src="assets/js/recipes.scrollbar.js"></script>
-		
+
 		<!-- Easter Egg Scriot -->
 		<script src="assets/js/easterCombo.js"></script>
 
