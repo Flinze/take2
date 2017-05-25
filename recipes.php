@@ -191,7 +191,7 @@
 				<div id="cheese-tomatoes1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Cheese Tomato Sandwich</h5></div>
 				<div id="chicken-tomatoes2" class="recList gluten-free nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Chicken with Tomato Salad</h5></div>
 				<div id="cheese-chicken1" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Stuffed Chicken Breast</h5></div>
-				<div id="beef-bread1" class="recList nut-free	" onclick="recipeListModal($(this).attr('id'))"><h5>Ground Beef Mummy Bread</h5></div>
+				<div id="beef-bread3" class="recList nut-free	" onclick="recipeListModal($(this).attr('id'))"><h5>Ground Beef Mummy Bread</h5></div>
 				<div id="avocado-potatoes1" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Guacamole Potato Salad</h5></div>
 			</div>
 			<div id="recipe-h" class="minor-title">
