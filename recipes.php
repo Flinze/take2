@@ -101,7 +101,7 @@
                 <div id="avocado-bananas4" class="recList gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Smoothie</h5></div>
                 <div id="avocado-bread1" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Avocado Toast</h5></div>
 			</div>
-      
+
 			<div id="recipe-b" class="minor-title">
 			B
                 <div id="bread-cheese2" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bacon'n Cheddar Bubble Bread</h5></div>
@@ -261,11 +261,11 @@
                 <div id="egg-tomatoes2" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Stir-fried Egg and Tomato</h5></div>
                 <div id="bread-potatoes2" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Stuffed Bread Rolls</h5></div>
                 <div id="beef-bread2" class="recList dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Stuffed French Bread</h5></div>
-                <div id="avocado-tomatoes1" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato Avocado Sandwich</h5></div>
-                <div id="bananas-tomatoes2" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato and Banana Sambal</h5></div>
 			</div>
 			<div id="recipe-t" class="minor-title">
 			T
+								<div id="avocado-tomatoes1" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato Avocado Sandwich</h5></div>
+								<div id="bananas-tomatoes2" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato and Banana Sambal</h5></div>
                 <div id="avocado-egg3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato, Cheese and Avocado Omelette</h5></div>
 			</div>
 			<div id="recipe-u" class="minor-title">
@@ -411,5 +411,6 @@
 
         </div>
     </div><!-- Recipe Modal -->
+		<script src="assets/js/socialMediaSharing.js"> </script>
 </body>
 </html>
