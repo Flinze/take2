@@ -56,9 +56,11 @@
 			<dt>3. Social Media Integration</dt>
 				<dd>Users are able to share our recipes using Twitter, or Facebook!</dd>
 		</dl>
-		
-		<a href="https://github.com/Flinze/take2"><img class="icon" src="" alt="GitHub"></a>
-		</p><br>
+		</p>
+		<div class="major-title">
+		Checkout our Github Repo!
+		</div>
+		<a href="https://github.com/Flinze/take2"><img class="icon" src="img/github-logo.png" alt="GitHub"></a><br>
 		
 		<!-- 30s pitch easter egg -->
 		<div class="vid-title-container">
