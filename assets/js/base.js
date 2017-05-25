@@ -247,4 +247,4 @@ function switchSecretPage() {
 	/* About page - showing video after a period of time */
 	setTimeout(function(){
 		$(".vid-title-container").css("display", "inline");
-	}, 3000);
+	}, 30000);

@@ -3,6 +3,10 @@
 <head>
 	<title>Take2 - Affiliated Apps</title>
 	<meta charset="utf-8">
+	
+	<!-- Title bar icon -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -58,7 +62,7 @@
 							<p class="app-description">
 							Grocery Buddy is your new best friend when planning your next grocery trip. Users can create shopping lists, and check off items as they shop. The expiration dates of items are monitored in a virtual fridge.</p>
 							<h6 class="group-names">Patrick Charles-Lundaahl - Kevin Chow - Toni He - Carlo Mendoza - Raly Tan</h6>
-							<a class="btn btn-info" href="https://grocerybuddy-fe337.firebaseapp.com/">Visit Page</a>
+							<a class="btn btn-info" href="https://ecoders-grocerybuddy.firebaseapp.com/">Visit Page</a>
 						</div>
 					</div>
 				</div>
@@ -79,7 +83,7 @@
 							<p class="app-description">
 							F2E is a food-sharing app that allows users to connect to one another using Facebook. Users can post any excess food such as ingredients, or meals to share with others.</p>
 							<h6 class="group-names">Alex Campbell - Mike Dumycz - Eugene Myroniuk - Justin Pancho - Remy Truong</h6>
-							<a class="btn btn-info" href="http://students.bcitdev.com/A01005177/eugene/main.html">Visit Page</a>
+							<a class="btn btn-info" href="http://f2e.ca/">Visit Page</a>
 						</div>
 					</div>
 				</div>

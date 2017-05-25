@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Check Boxes -->
-<link rel="stylesheet" href="assets/style/pretty.css">
+  <link rel="stylesheet" href="assets/style/pretty.css">
 
 
 <!-- Header -->
@@ -54,7 +54,7 @@
       <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="recipes.php">Recipes</a></li>
-        <li><a href="about.php">About</a></li>
+        <li><a href="about.php">About Us</a></li>
         <li><a href="contact.php">Contact Us</a></li>
         <li><a href="affiliated-apps.php">Affiliated Apps</a></li>
       </ul>

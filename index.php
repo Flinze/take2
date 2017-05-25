@@ -3,6 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<title>Take2 - Home</title>
+
+	<!-- Title bar icon -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<!-- Social media open graphic meta tags -->
+	<meta property="og:url"  				  content="" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Take2" />
+  <meta property="og:description"   content="A recipe generating site which suggests simple, easy recipes for ingredient pairs." />
+  <meta property="og:image"         content="img/take2-logo-1.png" />
+
 </head>
 
 <body>
@@ -110,40 +122,71 @@
 								<div class="modal-header">
                     <div id='ratingModalAverage'></div>
 										<div id='ratingModalCaption'></div>
-                </div>
+
+										<!-- Facebook sharing widget -->
+											<div class="fb-share-button" data-href="" data-layout="button" data-size="small" data-mobile-iframe="true">
+												<a class="fb-xfbml-parse-ignore" target="_blank" >Share</a></div>
+
+											<!-- Twitter sharing widget -->
+											<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a>
+											<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+											<!-- Google+ button -->
+										<div class="g-plus" data-action="share" style="width:150px"></div>
+
+								</div>
+
+
                 <div class="modal-body">
                     <!--<main class="col-xs-12 col-lg-8 col-lg-offset-2">-->
 
                         <!-- Recipe Picture -->
                         <div class="about_photo">
-                            <img src="img/placeholder/friedchicken.jpg" alt="Group Photo" class="img-responsive">
+                            <img src="" alt="Recipe Photo" class="img-responsive">
                         </div>
 								</div>
 
+								<!-- Modal Rating User -->
 								<div class="modal-header">
                     <div id='ratingModalUser'></div>
+										<div id='ratingModalUserCaption'></div>
                 </div>
-								<div class = 'modal-body'>
+				<div class = 'modal-body'>
 
-                        <!-- Ingredients and Prep Time -->
+                        <!-- Prep Time -->
+                        <div class="minor-title-recipe">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Prep. Time <span class="glyphicon glyphicon-time"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="prep-time">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ingredients -->
                         <div class="minor-title-recipe">
                             <div class="row">
                                 <div class="col-xs-4">
                                     Ingredients
-                                </div>
-                                <div class="col-xs-offset-4 col-xs-4">
-                                    Prep. Time
                                 </div>
                             </div>
                         </div>
 
                         <!-- Ingredient List -->
                         <div class="row">
-                            <div class="recipe-ingredient-list">
+                            <div class="col-xs-11">
+                                <div class="recipe-ingredient-list">
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Ingredients and Prep Time -->
+                        <!-- Direction Title -->
                         <div class="minor-title-recipe">
                             <div class="row">
                                 <div class="col-xs-4">
@@ -154,20 +197,31 @@
 
                         <!-- Directions -->
                         <div class="row">
-                            <div class="col-xs-offset-1 col-xs-10">
+                            <div class="col-xs-10">
                                 <div class="recipe-directions-list">
                                 </div>
                             </div>
                         </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="source">
+                                <br>
+                                <a>Source</a>
+                            </div>
+                        </div>
+                    </div>
                     <!--</main>-->
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default center-block" data-dismiss="modal" onclick="cleanURL()">Close</button>
                 </div>
             </div>
 
         </div>
     </div><!-- Recipe Modal -->
 
+    <script src="assets/js/directLink.js"></script> <!-- Javascript for index page ONLY.  Links coming from social media will redirect to the modal with the corresponding recipe. -->
+		<script src="assets/js/socialMediaSharing.js"></script> <!-- JS for facebook sharing -->
 </body>
 </html>
