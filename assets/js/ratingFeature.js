@@ -9,7 +9,7 @@ function renderRate(x, y){
 }
 
 
-//Read only rating on recipe modal to display dish's average rating
+//Read only rating on recipe modal to display dish's average rating with caption
 function renderRateModalAverage(x, y){
   var scoreAverage = x;
   $('#ratingModalAverage').raty({
@@ -20,7 +20,7 @@ function renderRateModalAverage(x, y){
 
 
   });
-  //Displays Average 5 star rating (rounded to 2 decimals) 
+  //Displays Average 5 star rating (rounded to 2 decimals)
   $('#ratingModalCaption').html('<h6>Average Score: ' + scoreAverage.toFixed(2) + ' | Ratings (' + y + ')</h6>')
 }
 
