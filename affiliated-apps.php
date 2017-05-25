@@ -62,7 +62,7 @@
 							<p class="app-description">
 							Grocery Buddy is your new best friend when planning your next grocery trip. Users can create shopping lists, and check off items as they shop. The expiration dates of items are monitored in a virtual fridge.</p>
 							<h6 class="group-names">Patrick Charles-Lundaahl - Kevin Chow - Toni He - Carlo Mendoza - Raly Tan</h6>
-							<a class="btn btn-info" href="https://grocerybuddy-fe337.firebaseapp.com/">Visit Page</a>
+							<a class="btn btn-info" href="https://ecoders-grocerybuddy.firebaseapp.com/">Visit Page</a>
 						</div>
 					</div>
 				</div>
