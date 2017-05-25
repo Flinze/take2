@@ -105,40 +105,40 @@
 			<div id="recipe-b" class="minor-title">
 			B
                 <div id="bread-cheese2" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bacon'n Cheddar Bubble Bread</h5></div>
-								<div id="lettuce-tomatoes3" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bacon, Lettuce, and Tomato Sandwich</h5></div>
-								<div id="cheese-lettuce2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bacon, Lettuce, and Tomato Grill Cheese Sandwich</h5></div>
-								<div id="avocado-beef3" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baja Beef Avocado Bowls Recipe</h5></div>
-								<div id="avocado-bread2" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Avocado Fries</h5></div>
-								<div id="egg-potatoes2" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Cheddar Egg and Potatoes</h5></div>
-								<div id="avocado-egg2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Eggs in Avocado </h5></div>
-								<div id="egg-tomatoes3" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Eggs in Tomato Cups</h5></div>
-								<div id="bread-tomatoes3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Tomatoes with Crusty Bread</h5></div>
-								<div id="bananas-beef3" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana and Beef Bar (Pets)</h5></div>
-								<div id="bananas-bread3" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana and Cinnamon Toast</h5></div>
-								<div id="bananas-chicken1" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Chicken</h5></div>
-								<div id="bananas-bread1" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana French Toast</h5></div>
-								<div id="bananas-potatoes1" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bananas Mashed Potatoes</h5></div>
-								<div id="bananas-potatoes2" class="recList egetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Potato Salad</h5></div>
-								<div id="bananas-tomatoes3" class="recList gluten-free vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Salsa</h5></div>
-								<div id="bananas-tomatoes1" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Tomato Salad</h5></div>
-								<div id="beef-chicken1" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Chicken Fondue</h5></div>
-								<div id="beef-chicken3" class="recList dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Chicken Stirfry</h5></div>
-								<div id="beef-lettuce3" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Shredded Lettuce Fry Rice</h5></div>
-								<div id="beef-egg3" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef Breakfast Burrito</h5></div>
-								<div id="beef-bread1" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef Dip</h5></div>
-								<div id="beef-egg2" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef Fried Rice</h5></div>
-								<div id="beef-potatoes1" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Mashed Potatoes</h5></div>
-								<div id="bananas-tomatoes1" class="recList dairy-free " onclick="recipeListModal($(this).attr('id'))"><h5>Beef Tomato Stirfry</h5></div>
-								<div id="bread-potatoes3" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bread Cutlet</h5></div>
-								<div id="bread-chicken3" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Breaded Chicken Fingers</h5></div>
-								<div id="bread-tomatoes2" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bruschetta</h5></div>
+				<div id="lettuce-tomatoes3" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bacon, Lettuce, and Tomato Sandwich</h5></div>
+				<div id="cheese-lettuce2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bacon, Lettuce, and Tomato Grill Cheese Sandwich</h5></div>
+				<div id="avocado-beef3" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baja Beef Avocado Bowls Recipe</h5></div>
+				<div id="avocado-bread2" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Avocado Fries</h5></div>
+				<div id="egg-potatoes2" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Cheddar Egg and Potatoes</h5></div>
+				<div id="avocado-egg2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Eggs in Avocado </h5></div>
+				<div id="egg-tomatoes3" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Eggs in Tomato Cups</h5></div>
+				<div id="bread-tomatoes3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Baked Tomatoes with Crusty Bread</h5></div>
+				<div id="bananas-beef3" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana and Beef Bar (Pets)</h5></div>
+				<div id="bananas-bread3" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana and Cinnamon Toast</h5></div>
+				<div id="bananas-chicken1" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Chicken</h5></div>
+				<div id="bananas-bread1" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana French Toast</h5></div>
+				<div id="bananas-potatoes1" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bananas Mashed Potatoes</h5></div>
+				<div id="bananas-potatoes2" class="recList egetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Potato Salad</h5></div>
+				<div id="bananas-tomatoes3" class="recList gluten-free vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Salsa</h5></div>
+				<div id="bananas-tomatoes1" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Banana Tomato Salad</h5></div>
+				<div id="beef-chicken1" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Chicken Fondue</h5></div>
+				<div id="beef-chicken3" class="recList dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Chicken Stirfry</h5></div>
+				<div id="beef-lettuce3" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Shredded Lettuce Fry Rice</h5></div>
+				<div id="beef-egg3" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef Breakfast Burrito</h5></div>
+				<div id="beef-bread1" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef Dip</h5></div>
+				<div id="beef-egg2" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef Fried Rice</h5></div>
+				<div id="beef-potatoes1" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Beef and Mashed Potatoes</h5></div>
+				<div id="bananas-tomatoes1" class="recList dairy-free " onclick="recipeListModal($(this).attr('id'))"><h5>Beef Tomato Stirfry</h5></div>
+				<div id="bread-potatoes3" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bread Cutlet</h5></div>
+				<div id="bread-chicken3" class="recList dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Breaded Chicken Fingers</h5></div>
+				<div id="bread-tomatoes2" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Bruschetta</h5></div>
 			</div>
 
 			<div id="recipe-c" class="minor-title">
 			C
 				<div id="beef-tomatoes2" class="recList nut-free gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Carne Bistec - Colombian Steak with Onions and Tomatoes </h5></div>
 				<div id="cheese-lettuce1" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Cheese and Salad Sandwich</h5></div>
-        <div id="cheese-tomatoes3" class="recList vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Cheese and Tomato Quesadilla</h5></div>
+				<div id="cheese-tomatoes3" class="recList vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Cheese and Tomato Quesadilla</h5></div>
 				<div id="cheese-tomatoes2" class="recList nut-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Cheese Tomato Melt</h5></div>
 				<div id="cheese-potatoes1" class="recList nut-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Cheesy Baked Potato</h5></div>
 				<div id="chicken-egg1" class="recList nut-free gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Chicken and Egg Fried Rice</h5></div>
@@ -158,7 +158,7 @@
 				<div id="potatoes-tomatoes3" class="recList vegetarian gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Chunky Tomato Potato Soup</h5></div>
 				<div id="avocado-chicken3" class="recList nut-free dairy-free gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Cilantro-Lime Chicken with Avocado Salsa</h5></div>
 				<div id="lettuce-tomatoes1" class="recList nut-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Classic Lettuce, Tomato, Cheese Sandwich</h5></div>
-        <div id="lettuce-tomatoes2" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Classic TLC Salad</h5></div>
+				<div id="lettuce-tomatoes2" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Classic TLC Salad</h5></div>
 				<div id="cheese-potatoes2" class="recList nut-free vegetarian gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Creamy Cheese and Potato Bake</h5></div>
 				<div id="bananas-beef1" class="recList nut-free gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Curried Banana Beef Stew</h5></div>
 			</div>
@@ -167,39 +167,40 @@
 			</div>
 			<div id="recipe-e" class="minor-title">
 			E
-								<div id="bread-lettuce2" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Lettuce Roll</h5></div>
-								<div id="egg-lettuce3" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Lettuce Sandwich</h5></div>
-								<div id="egg-potatoes3" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Potato Breakfast Scramble</h5></div>
-   	      			<div id="egg-tomatoes1" class="recList nut-free vegetarian gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Tomato Sandwich</h5></div>
-								<div id="bread-egg1" class="recList vegetarian nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg Salad Sandwich</h5></div>
-								<div id="egg-lettuce2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg Salad Wrap</h5></div>
-								<div id="bread-egg3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg-in-a-hole</h5></div>
+				<div id="bread-lettuce2" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Lettuce Roll</h5></div>
+				<div id="egg-lettuce3" class="recList vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Lettuce Sandwich</h5></div>
+				<div id="egg-potatoes3" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Potato Breakfast Scramble</h5></div>
+				<div id="egg-tomatoes1" class="recList nut-free vegetarian gluten-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg and Tomato Sandwich</h5></div>
+				<div id="bread-egg1" class="recList vegetarian nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg Salad Sandwich</h5></div>
+				<div id="egg-lettuce2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg Salad Wrap</h5></div>
+				<div id="bread-egg3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Egg-in-a-hole</h5></div>
 			</div>
 			<div id="recipe-f" class="minor-title">
 			F
-								<div id="bananas-cheese1" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Fig Banana Cheese Frittata</h5></div>
-								<div id="bananas-egg2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Flourless Egg and Banana Cupcake</h5></div>
-								<div id="bananas-egg1" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Flourless Egg and Banana Pancakes</h5></div>
-								<div id="bread-egg2" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>French Toast</h5></div>
+				<div id="bananas-cheese1" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Fig Banana Cheese Frittata</h5></div>
+				<div id="bananas-egg2" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Flourless Egg and Banana Cupcake</h5></div>
+				<div id="bananas-egg1" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Flourless Egg and Banana Pancakes</h5></div>
+				<div id="bread-egg2" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>French Toast</h5></div>
+			</div>
 			<div id="recipe-g" class="minor-title">
 			G
-								<div id="bread-chicken2" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Garlic Cheddar Chicken</h5></div>
-								<div id="chicken-potatoes2" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Garlic Chicken with Potatoes</h5></div>
-								<div id="bread-cheese1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Cheese</h5></div>
-								<div id="cheese-egg3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Cheese Eggsplosion</h5></div>
-								<div id="cheese-tomatoes1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Cheese Tomato Sandwich</h5></div>
-								<div id="chicken-tomatoes2" class="recList gluten-free nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Chicken with Tomato Salad</h5></div>
-								<div id="cheese-chicken1" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Stuffed Chicken Breast</h5></div>
-								<div id="beef-bread1" class="recList nut-free	" onclick="recipeListModal($(this).attr('id'))"><h5>Ground Beef Mummy Bread</h5></div>
-								<div id="avocado-potatoes1" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Guacamole Potato Salad</h5></div>
+				<div id="bread-chicken2" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Garlic Cheddar Chicken</h5></div>
+				<div id="chicken-potatoes2" class="recList gluten-free dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Garlic Chicken with Potatoes</h5></div>
+				<div id="bread-cheese1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Cheese</h5></div>
+				<div id="cheese-egg3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Cheese Eggsplosion</h5></div>
+				<div id="cheese-tomatoes1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Cheese Tomato Sandwich</h5></div>
+				<div id="chicken-tomatoes2" class="recList gluten-free nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Chicken with Tomato Salad</h5></div>
+				<div id="cheese-chicken1" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Grilled Stuffed Chicken Breast</h5></div>
+				<div id="beef-bread3" class="recList nut-free	" onclick="recipeListModal($(this).attr('id'))"><h5>Ground Beef Mummy Bread</h5></div>
+				<div id="avocado-potatoes1" class="recList gluten-free vegetarian dairy-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Guacamole Potato Salad</h5></div>
 			</div>
 			<div id="recipe-h" class="minor-title">
 			H
-								<div id="bananas-egg3" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Honey and Banana Omlette</h5></div>
+				<div id="bananas-egg3" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Honey and Banana Omlette</h5></div>
 			</div>
 			<div id="recipe-i" class="minor-title">
 			I
-								<div id="cheese-lettuce3" class="recList gluten-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Iceberg Lettuce with Cheese</h5></div>
+				<div id="cheese-lettuce3" class="recList gluten-free vegetarian" onclick="recipeListModal($(this).attr('id'))"><h5>Iceberg Lettuce with Cheese</h5></div>
 			</div>
 			<div id="recipe-j" class="minor-title">
 			J
@@ -209,18 +210,18 @@
 			</div>
 			<div id="recipe-l" class="minor-title">
 			L
-								<div id="bananas-lettuce2" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce and Banana Smoothie</h5></div>
-								<div id="bread-lettuce1" class="recList vegetarian nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce and Olive Oil Bread Salad</h5></div>
-								<div id="bananas-lettuce1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce Banana Salad</h5></div>
-								<div id="beef-lettuce1" class="recList dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce Wraps</h5></div>
-								<div id="beef-cheese2" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Low Carb Beef Taco</h5></div>
-								<div id="cheese-chicken2" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Low Carb Chicken Taco</h5></div>
+				<div id="bananas-lettuce2" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce and Banana Smoothie</h5></div>
+				<div id="bread-lettuce1" class="recList vegetarian nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce and Olive Oil Bread Salad</h5></div>
+				<div id="bananas-lettuce1" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce Banana Salad</h5></div>
+				<div id="beef-lettuce1" class="recList dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Lettuce Wraps</h5></div>
+				<div id="beef-cheese2" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Low Carb Beef Taco</h5></div>
+				<div id="cheese-chicken2" class="recList gluten-free nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Low Carb Chicken Taco</h5></div>
 			</div>
 			<div id="recipe-m" class="minor-title">
 			M
-								<div id="beef-cheese1" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Mac n Cheese + Beef</h5></div>
-								<div id="egg-lettuce1" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Mixed Greens Salad with Eggs</h5></div>
-								<div id="lettuce-potatoes1" class="recList gluten-free vegetarian nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Mixed Salad</h5></div>
+				<div id="beef-cheese1" class="recList nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Mac n Cheese + Beef</h5></div>
+				<div id="egg-lettuce1" class="recList gluten-free vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Mixed Greens Salad with Eggs</h5></div>
+				<div id="lettuce-potatoes1" class="recList gluten-free vegetarian nut-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Mixed Salad</h5></div>
 			</div>
 			<div id="recipe-n" class="minor-title">
 			N
