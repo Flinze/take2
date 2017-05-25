@@ -60,7 +60,7 @@
 		<div class="major-title">
 		Checkout our Github Repo!
 		</div>
-		<a href="https://github.com/Flinze/take2"><img class="icon" src="img/github-logo.png" alt="GitHub"></a><br>
+		<a href="https://github.com/Flinze/take2"><img id="github-logo" class="icon" src="img/github-logo.png" alt="GitHub"></a><br>
 		
 		<!-- 30s pitch easter egg -->
 		<div class="vid-title-container">

@@ -357,7 +357,6 @@ height: 100%;
 
 #ratingModalUserCaption{
 	text-align: center;
-
 }
 
 
@@ -370,6 +369,12 @@ height: 100%;
 }
 #bio-challenges {
 	text-align: left;
+}
+#github-logo {
+	background-color: white;
+	opacity: 0.9;
+	border: 1px black solid;
+	
 }
 
 /* Footer */
