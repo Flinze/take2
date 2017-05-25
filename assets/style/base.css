@@ -134,9 +134,8 @@ a#how-to-use-toggle {
 	min-height: 0px;
 
 	/* Option 1 */
-    background-color: #Ff8f00;
-
-    color: #666666;
+    background-color: #ffa000;
+    color: white;
     border-radius: 5px;
     text-align: center;
     margin-top: 15px;
@@ -159,6 +158,7 @@ a#how-to-use-toggle {
 	border-radius: 5px;
 	margin: 5px auto;
 	padding: 10px;
+	color: #666666;
 
 }
 
@@ -230,8 +230,8 @@ a#how-to-use-toggle {
 }
 /* Recipe List */
 .recList {
-	border: 3px solid #Ff8f00;
-	background-color: #Ff8f00;
+	border: 3px solid ##ffa000;
+	background-color: ##ffa000;
 	text-align: center;
 	width: 90%;
 	margin: auto;
