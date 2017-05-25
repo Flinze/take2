@@ -230,21 +230,25 @@ a#how-to-use-toggle {
 }
 /* Recipe List */
 .recList {
-	border: 3px solid #FC4A1A;
-	background-color: #FC4A1A;
+	border: 3px solid #Ff8f00;
+	background-color: #Ff8f00;
 	text-align: center;
-	width: 85%;
+	width: 90%;
 	margin: auto;
-	margin-top: 6px;
-	margin-bottom: 6px;
-	border-radius: 5px;
+	margin-top: .7em;
+	margin-bottom: .7em;
+	border-radius: 3px;
 	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
 	color: white;
 	font-weight: bold;
 }
+.recList:hover{
+	cursor: pointer;
+}
 
 #filter-button {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 90% !important;
 }
 
 /* Contact */
