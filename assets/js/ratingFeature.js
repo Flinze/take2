@@ -20,6 +20,7 @@ function renderRateModalAverage(x, y){
 
 
   });
+  //Displays Average 5 star rating (rounded to 2 decimals) 
   $('#ratingModalCaption').html('<h6>Average Score: ' + scoreAverage.toFixed(2) + ' | Ratings (' + y + ')</h6>')
 }
 
