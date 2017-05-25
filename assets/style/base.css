@@ -131,11 +131,13 @@ a#how-to-use-toggle {
 
 .dishDivs {
     display: block;
-    border-width: 3px solid #f7b733;
-	color: #666666;
 	min-height: 0px;
-    background-color: #f7b733;
-    border-radius: 12px;
+
+	/* Option 1 */
+    background-color: #Ff8f00;
+
+    color: #666666;
+    border-radius: 5px;
     text-align: center;
     margin-top: 15px;
 	margin-bottom: 15px;
@@ -143,7 +145,7 @@ a#how-to-use-toggle {
     margin-right: auto;
     cursor: pointer;
 	padding: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 14px 28px 0 rgba(0,0,0,0.25), 0 10px 10px 0 rgba(0,0,0,0.22);
 }
 
 .dishDivs img {
@@ -153,8 +155,8 @@ a#how-to-use-toggle {
 
 .innerDish {
 	width: 97%;
-	background-color: #fad385;
-	border-radius: 12px;
+	background-color: #ffc046;
+	border-radius: 5px;
 	margin: 5px auto;
 	padding: 10px;
 
@@ -176,6 +178,7 @@ a#how-to-use-toggle {
 	display: block;
 	text-align:left;
 	padding-left: 1.25em;
+	font-size:1.2em;
 }
 .recipe-directions-list {
 	display: block;
@@ -221,8 +224,9 @@ a#how-to-use-toggle {
 }
 
 /* Social Media Sharing Button */
-.product-social-links {
-	line-height: 10px;
+.fb_iframe_widget span
+{
+  vertical-align: baseline !important;
 }
 /* Recipe List */
 .recList {
@@ -372,7 +376,7 @@ ul.footer-links {
 
 footer {
 	bottom:0;
-	background-color: rgb(254,165,99);
+	background-color: rgb(252,191,109);
 	clear: both;
 	color: #666666;
     position: absolute;
