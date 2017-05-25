@@ -265,8 +265,8 @@
 			</div>
 			<div id="recipe-t" class="minor-title">
 			T
-								<div id="avocado-tomatoes1" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato Avocado Sandwich</h5></div>
-								<div id="bananas-tomatoes2" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato and Banana Sambal</h5></div>
+				<div id="avocado-tomatoes1" class="recList vegetarian dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato Avocado Sandwich</h5></div>
+				<div id="bananas-tomatoes2" class="recList vegetarian gluten-free dairy-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato and Banana Sambal</h5></div>
                 <div id="avocado-egg3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Tomato, Cheese and Avocado Omelette</h5></div>
 			</div>
 			<div id="recipe-u" class="minor-title">
@@ -276,8 +276,8 @@
 			V
 			</div>
 			<div id="recipe-w" class="minor-title">
-	 			<div id="bread-cheese3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Warm'n Toasty Cheddar Bread</h5></div>
 			W
+	 			<div id="bread-cheese3" class="recList vegetarian nut-free" onclick="recipeListModal($(this).attr('id'))"><h5>Warm'n Toasty Cheddar Bread</h5></div>
 			</div>
 			<div id="recipe-x" class="minor-title">
 			X
